@@ -1,5 +1,5 @@
 # Awesome-Personalized-Generation
-This repository collects the latest research progress on personalized large language models (LLMs) and large multimodal models (LMMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
+This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
 
 ## Preference Alignment
 
@@ -7,12 +7,14 @@ This repository collects the latest research progress on personalized large lang
 
 ### Benchmark/Dataset
 
+### RLHF/SFT/DPO-based Methods
+
 ## User-customized Generation
 
 ### Survey/Tutorial/Framework
 
 ### Benchmark/Dataset
 
-### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based
+### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
-### Parameter-Efficient-Fine-Tuning (PEFT)
+### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods

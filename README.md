@@ -42,12 +42,14 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783)
 
-+ \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models ([paper](https://arxiv.org/pdf/2310.20081))
++ \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([paper](https://arxiv.org/pdf/2310.20081))
 
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
 + \[2024 Arxiv-2409\] LLMs + Persona-Plug = Personalized LLMs. ([paper](https://arxiv.org/pdf/2409.11901))
+
++ \[2024 Arxiv-2408\] StyleRemix: Interpretable Authorship Obfuscation via Distillation and Perturbation of Style Elements. ([paper](https://arxiv.org/pdf/2408.15666), [code](https://github.com/jfisher52/StyleRemix))
 
 + \[2024 EMNLP\] Can LLM be a Personalized Judge? ([paper]([link](https://arxiv.org/pdf/2406.11657)), [code]([link](https://github.com/dong-river/Personalized-Judge)))
 

@@ -7,7 +7,11 @@ This repository collects the latest research progress on personalized large lang
 
 ## Preference Alignment
 
+
+
 ### Survey/Tutorial/Framework
+
+
 
 ### Benchmark/Dataset
 
@@ -23,6 +27,8 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 EMNLP\] Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
+  
+
 ### Benchmark/Dataset
 
 + \[2024 ACL\] LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
@@ -31,7 +37,13 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 NeurIPS\] PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
 
+
 ### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
+
++ \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783)
+
++ \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models ([paper](https://arxiv.org/pdf/2310.20081))
+
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
@@ -48,3 +60,6 @@ This repository collects the latest research progress on personalized large lang
 + \[2024 EMNLP\] Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts. ([paper](https://arxiv.org/pdf/2406.10471), [code](https://github.com/TamSiuhin/Per-Pcs))
 
 + \[2024 NeurIPS\] HYDRA: Model Factorization Framework for Black-Box LLM Personalization. ([paper](https://arxiv.org/pdf/2406.02888v1), [code](https://arxiv.org/pdf/2406.02888v1))
+
+
+

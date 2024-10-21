@@ -40,7 +40,7 @@ This repository collects the latest research progress on personalized large lang
 
 ### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
-+ \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783)
++ \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 + \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([paper](https://arxiv.org/pdf/2310.20081))
 

@@ -13,7 +13,7 @@ This repository collects the latest research progress on personalized large lang
 
 \[2024 NeurIPS\] The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
 
-### RLHF/SFT/DPO-based Methods
+### SFT/RLHF/DPO-based Methods
 
 ## User-customized Generation
 
@@ -32,3 +32,5 @@ This repository collects the latest research progress on personalized large lang
 ### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ \[2024 Arxiv-2409\] LLMs + Persona-Plug = Personalized LLMs ([paper](https://arxiv.org/pdf/2409.11901))

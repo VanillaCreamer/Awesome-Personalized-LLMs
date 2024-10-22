@@ -17,7 +17,13 @@ This repository collects the latest research progress on personalized large lang
 
 \[2024 NeurIPS\] The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
 
+\[2024 GitHub\] Personalized LMs: Aligning Language Models with Diverse Human Preference ([Link](https://github.com/allenai/compred))
+
 ### SFT/RLHF/DPO-based Methods
+
++ \[2024 Arxiv-2410\] COMPO: Community Preferences for Language Model Personalization ([paper](https://arxiv.org/pdf/2410.16027))
++ 
++ \[2024 NeurIPS\] Panacea: Pareto Alignment via Preference Adaptation for LLMs ([paper](https://arxiv.org/pdf/2402.02030))
 
 ### Traning-free Methods
 

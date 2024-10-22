@@ -22,7 +22,7 @@ This repository collects the latest research progress on personalized large lang
 ### SFT/RLHF/DPO-based Methods
 
 + \[2024 Arxiv-2410\] COMPO: Community Preferences for Language Model Personalization ([paper](https://arxiv.org/pdf/2410.16027))
-+ 
+
 + \[2024 NeurIPS\] Panacea: Pareto Alignment via Preference Adaptation for LLMs ([paper](https://arxiv.org/pdf/2402.02030))
 
 ### Traning-free Methods

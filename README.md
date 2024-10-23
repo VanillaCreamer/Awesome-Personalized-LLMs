@@ -69,9 +69,11 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 Arxiv-2404\] Dynamic Generation of Personalities with Large Language Models. ([paper](https://arxiv.org/pdf/2404.07084v1), )
 
-+ \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
-
 + \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([paper](https://arxiv.org/pdf/2310.20081))
+
++ \[2024 EMNLP\] Guided Profile Generation Improves Personalization with LLMs. ([paper](https://arxiv.org/pdf/2409.13093))
+
++ \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods

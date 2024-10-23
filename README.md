@@ -64,9 +64,7 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 NeurIPS\] PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
 
-+ \[2024 PERSONALIZE\]Personalized Text Generation with Fine-Grained Linguistic Control. ([paper](https://aclanthology.org/2024.personalize-1.8.pdf), [code](https://github.com/balhafni/personalized-gen 
-)![Uploading image.png…]()
-)
++ \[2024 PERSONALIZE\]Personalized Text Generation with Fine-Grained Linguistic Control. ([paper](https://aclanthology.org/2024.personalize-1.8.pdf), [code](https://github.com/balhafni/personalized-gen))
 
 
 ### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods

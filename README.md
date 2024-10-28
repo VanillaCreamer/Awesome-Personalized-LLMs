@@ -1,4 +1,4 @@
-# Awesome Personalized Large Language Model
+# Awesome Personalized Large Language Models
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
 
 > The contributions are expected to be submitted as follows:

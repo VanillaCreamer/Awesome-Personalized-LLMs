@@ -58,9 +58,11 @@ This repository collects the latest research progress on personalized large lang
 
 ### Benchmark/Dataset
 
-+ \[2024 ACL\] LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
++ \[2024 Arxiv-2410\] Large Language Models Empowered Personalized Web Agents. ([paper](https://arxiv.org/pdf/2410.17236), [code](https://hongrucai.github.io/PersonalWAB/))
 
 + \[2024 Arxiv-2407\] LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([paper](https://arxiv.org/pdf/2407.11016), [code](https://longlamp-benchmark.github.io/papers))
+
++ \[2024 ACL\] LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
 
 + \[2024 NeurIPS\] PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
 
@@ -79,6 +81,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ \[2024 Arxiv-2410\] LMLPA: Language Model Linguistic Personality Assessment. ([paper](https://arxiv.org/pdf/2410.17632))
 
 + \[2024 Arxiv-2409\] LLMs + Persona-Plug = Personalized LLMs. ([paper](https://arxiv.org/pdf/2409.11901))
 

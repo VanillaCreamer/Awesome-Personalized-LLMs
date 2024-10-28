@@ -42,7 +42,7 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 Arxiv-2410\] Neuron-based Personality Trait Induction in Large Language Models. ([paper](https://arxiv.org/pdf/2410.12327), [code](https://github.com/RUCAIBox/NPTI))
 
-+ \[2024 ICLR Workshop\]Prompt Optimization with Logged Bandit Data. ([paper](https://openreview.net/pdf?id=Byj8MMJmoL))
++ \[2024 ICLR Workshop\] Prompt Optimization with Logged Bandit Data. ([paper](https://openreview.net/pdf?id=Byj8MMJmoL))
 
 + \[2024 NeurIPS\] Decoding-Time Language Model Alignment with Multiple Objectives. ([paper](https://openreview.net/pdf?id=RmGvEmttB7))
 

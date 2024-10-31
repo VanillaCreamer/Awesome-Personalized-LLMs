@@ -58,6 +58,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### Benchmark/Dataset
 
++ \[2024 Arxiv-2410\] Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
+
 + \[2024 Arxiv-2410\] Large Language Models Empowered Personalized Web Agents. ([paper](https://arxiv.org/pdf/2410.17236), [code](https://hongrucai.github.io/PersonalWAB/))
 
 + \[2024 Arxiv-2407\] LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([paper](https://arxiv.org/pdf/2407.11016), [code](https://longlamp-benchmark.github.io/papers))

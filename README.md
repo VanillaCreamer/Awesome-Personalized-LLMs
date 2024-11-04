@@ -5,12 +5,13 @@ This repository collects the latest research progress on personalized large lang
 > 
 > `+ \[Year Conference/Jounal\] Title. ([paper](link), [code](link))`  (if accessible).
 
++ \[2024 Arxiv-2411\] Personalization of Large Language Models: A Survey. ([paper](https://arxiv.org/pdf/2411.00027))
+
 ## Preference Alignment
 
 
 
 ### Survey/Tutorial/Framework
-
 
 
 ### Benchmark/Dataset
@@ -58,7 +59,7 @@ This repository collects the latest research progress on personalized large lang
 
 ### Benchmark/Dataset
 
-+ \[2024 Arxiv-2410\] Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
++ \[2024 WI-IAT\] Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
 
 + \[2024 Arxiv-2410\] Large Language Models Empowered Personalized Web Agents. ([paper](https://arxiv.org/pdf/2410.17236), [code](https://hongrucai.github.io/PersonalWAB/))
 

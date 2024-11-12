@@ -74,6 +74,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ \[2024 Arxiv-2411\] The Dark Patterns of Personalized Persuasion in Large Language Models: Exposing Persuasive Linguistic Features for Big Five Personality Traits in LLMs Responses. ([paper](https://arxiv.org/pdf/2411.06008))
+
 + \[2024 Arxiv-2404\] Dynamic Generation of Personalities with Large Language Models. ([paper](https://arxiv.org/pdf/2404.07084v1), )
 
 + \[2023 CIKM\] Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([paper](https://arxiv.org/pdf/2310.20081))

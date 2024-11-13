@@ -65,6 +65,8 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 Arxiv-2407\] LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([paper](https://arxiv.org/pdf/2407.11016), [code](https://longlamp-benchmark.github.io/papers))
 
++ \[2024 Arxiv-2406\] STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([paper](https://arxiv.org/pdf/2406.14275), [code](https://github.com/gersteinlab/step-back-profiling))
+
 + \[2024 ACL\] LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
 
 + \[2024 NeurIPS\] PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
@@ -77,7 +79,6 @@ This repository collects the latest research progress on personalized large lang
 + \[2024 Arxiv-2411\] The Dark Patterns of Personalized Persuasion in Large Language Models: Exposing Persuasive Linguistic Features for Big Five Personality Traits in LLMs Responses. ([paper](https://arxiv.org/pdf/2411.06008))
 
 + \[2024 Arxiv-2410\] Using Prompts to Guide Large Language Models in Imitating a Real Person's Language Style. ([paper](https://arxiv.org/pdf/2410.03848))
-
 
 + \[2024 Arxiv-2404\] Dynamic Generation of Personalities with Large Language Models. ([paper](https://arxiv.org/pdf/2404.07084v1), )
 

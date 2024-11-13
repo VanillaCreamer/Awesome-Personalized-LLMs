@@ -91,6 +91,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
++ \[2024 Arxiv-2410\] PAD: Personalized Alignment of LLMs at Decoding-Time. ([paper](https://arxiv.org/pdf/2410.04070))
+
 + \[2024 Arxiv-2410\] LMLPA: Language Model Linguistic Personality Assessment. ([paper](https://arxiv.org/pdf/2410.17632))
 
 + \[2024 Arxiv-2409\] LLMs + Persona-Plug = Personalized LLMs. ([paper](https://arxiv.org/pdf/2409.11901))

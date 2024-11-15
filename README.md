@@ -7,14 +7,12 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 Arxiv-2411\] Personalization of Large Language Models: A Survey. ([paper](https://arxiv.org/pdf/2411.00027))
 
-## Preference Alignment
+## 1. Preference Alignment
+
+### 1.1 Survey/Tutorial/Framework
 
 
-
-### Survey/Tutorial/Framework
-
-
-### Benchmark/Dataset
+### 1.2 Benchmark/Dataset
 
 + \[2024 NeurIPS\] The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
 
@@ -22,7 +20,7 @@ This repository collects the latest research progress on personalized large lang
 
 + \[2024 Arxiv-2408\]Personality Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2408.11779), [code](https://github.com/zhu-minjun/PAlign))
 
-### SFT/RLHF/DPO-based Methods
+### 1.3 SFT/RLHF/DPO-based Methods
 
 + \[2024 Arxiv-2410\] COMPO: Community Preferences for Language Model Personalization. ([paper](https://arxiv.org/pdf/2410.16027))
 
@@ -39,7 +37,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-### Traning-free Methods
+### 1.4 Traning-free Methods
 
 + \[2024 Arxiv-2410\] Neuron-based Personality Trait Induction in Large Language Models. ([paper](https://arxiv.org/pdf/2410.12327), [code](https://github.com/RUCAIBox/NPTI))
 
@@ -49,15 +47,15 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-## User-customized Generation
+## 2 User-customized Generation
 
-### Survey/Tutorial/Framework
+### 2.1 Survey/Tutorial/Framework
 
 + \[2024 EMNLP\] Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
   
 
-### Benchmark/Dataset
+### 2.2 Benchmark/Dataset
 
 + \[2024 WI-IAT\] Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
 
@@ -74,7 +72,7 @@ This repository collects the latest research progress on personalized large lang
 + \[2024 PERSONALIZE\]Personalized Text Generation with Fine-Grained Linguistic Control. ([paper](https://aclanthology.org/2024.personalize-1.8.pdf), [code](https://github.com/balhafni/personalized-gen))
 
 
-### Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
+### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
 + \[2024 Arxiv-2411\] The Dark Patterns of Personalized Persuasion in Large Language Models: Exposing Persuasive Linguistic Features for Big Five Personality Traits in LLMs Responses. ([paper](https://arxiv.org/pdf/2411.06008))
 
@@ -89,7 +87,7 @@ This repository collects the latest research progress on personalized large lang
 + \[2024 SIGIR\] Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
-### Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
 + \[2024 Arxiv-2410\] PAD: Personalized Alignment of LLMs at Decoding-Time. ([paper](https://arxiv.org/pdf/2410.04070))
 

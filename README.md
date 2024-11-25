@@ -30,6 +30,8 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 EMNLP\]** On Diversified Preferences of Large Language Model Alignment. ([paper](https://arxiv.org/pdf/2312.07401), [code](https://github.com/dunzeng/MORE))
 
++ **\[2024 EMNLP\]** Learning Personalized Alignment for Evaluating Open-ended Text Generation. ([paper](https://aclanthology.org/2024.emnlp-main.737.pdf))
+
 + **\[2024 NeurIPS\]** Panacea: Pareto Alignment via Preference Adaptation for LLMs. ([paper](https://arxiv.org/pdf/2402.02030))
 
 + **\[2023 NeurIPS\]** Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards. ([paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/e12a3b98b67e8395f639fde4c2b03168-Paper-Conference.pdf), [code](https://github.com/alexrame/rewardedsoups))

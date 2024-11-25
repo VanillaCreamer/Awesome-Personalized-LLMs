@@ -51,7 +51,7 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.1 Survey/Tutorial/Framework
 
-+ \[2024 EMNLP\] Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
++ \[**2024 EMNLP**\] Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
   
 

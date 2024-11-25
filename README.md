@@ -51,25 +51,25 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.1 Survey/Tutorial/Framework
 
-+ \[**2024 EMNLP**\] Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
++ **\[2024 EMNLP\]** Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
   
 
 ### 2.2 Benchmark/Dataset
 
-+ \[2024 WI-IAT\] Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
++ **\[2024 WI-IAT\]** Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([paper](https://arxiv.org/pdf/2410.22182))
 
-+ \[2024 Arxiv-2410\] Large Language Models Empowered Personalized Web Agents. ([paper](https://arxiv.org/pdf/2410.17236), [code](https://hongrucai.github.io/PersonalWAB/))
++ **\[2024 Arxiv-2410\]** Large Language Models Empowered Personalized Web Agents. ([paper](https://arxiv.org/pdf/2410.17236), [code](https://hongrucai.github.io/PersonalWAB/))
 
-+ \[2024 Arxiv-2407\] LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([paper](https://arxiv.org/pdf/2407.11016), [code](https://longlamp-benchmark.github.io/papers))
++ **\[2024 Arxiv-2407\]** LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([paper](https://arxiv.org/pdf/2407.11016), [code](https://longlamp-benchmark.github.io/papers))
 
-+ \[2024 Arxiv-2406\] STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([paper](https://arxiv.org/pdf/2406.14275), [code](https://github.com/gersteinlab/step-back-profiling))
++ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([paper](https://arxiv.org/pdf/2406.14275), [code](https://github.com/gersteinlab/step-back-profiling))
 
-+ \[2024 ACL\] LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
++ **\[2024 ACL\]** LaMP: When Large Language Models Meet Personalization. ([paper](https://aclanthology.org/2024.acl-long.399.pdf), [code](https://lamp-benchmark.github.io/))
 
-+ \[2024 NeurIPS\] PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
++ **\[2024 NeurIPS\]** PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([paper](https://arxiv.org/pdf/2410.03905), [code](https://github.com/SmartmediaAI/PersonalSum))
 
-+ \[2024 PERSONALIZE\]Personalized Text Generation with Fine-Grained Linguistic Control. ([paper](https://aclanthology.org/2024.personalize-1.8.pdf), [code](https://github.com/balhafni/personalized-gen))
++ **\[2024 PERSONALIZE\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([paper](https://aclanthology.org/2024.personalize-1.8.pdf), [code](https://github.com/balhafni/personalized-gen))
 
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods

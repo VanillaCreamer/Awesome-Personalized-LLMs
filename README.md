@@ -93,6 +93,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
++ **\[2024 Arxiv-2411\]** On the Way to LLM Personalization: Learning to Remember User Conversations. ([paper](https://arxiv.org/pdf/2411.13405))
+
++ **\[2024 Arxiv-2411\]** MC-LLaVA: Multi-Concept Personalized Vision-Language Model. ([paper](https://arxiv.org/pdf/2411.11706), [code](https://github.com/arctanxarc/MC-LLaVA))
+
 + **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([paper](https://arxiv.org/pdf/2410.04070))
 
 + **\[2024 Arxiv-2410\]** LMLPA: Language Model Linguistic Personality Assessment. ([paper](https://arxiv.org/pdf/2410.17632))
@@ -114,6 +118,8 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 EMNLP\]** HEART-felt Narratives: Tracing Empathy and Narrative Style in Personal Stories with LLMs. ([paper](https://arxiv.org/pdf/2405.17633), [code](https://github.com/mitmedialab/heartfelt-narratives-emnlp))
 
 + **\[2024 EMNLP\]** Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts. ([paper](https://arxiv.org/pdf/2406.10471), [code](https://github.com/TamSiuhin/Per-Pcs))
+
++ **\[2024 EMNLP\]** PersonalizedVideoCommentGeneration. ([paper](https://aclanthology.org/2024.findings-emnlp.979.pdf))
 
 + **\[2024 NeurIPS\]** HYDRA: Model Factorization Framework for Black-Box LLM Personalization. ([paper](https://arxiv.org/pdf/2406.02888v1), [code](https://arxiv.org/pdf/2406.02888v1))
 

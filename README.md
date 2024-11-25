@@ -74,6 +74,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ \[2024 Arxiv-2411\] PIORS: Personalized Intelligent Outpatient Reception based on Large Language Model with Multi-Agents Medical Scenario Simulation. ([paper](https://arxiv.org/pdf/2411.13902))
+
 + \[2024 Arxiv-2411\] Orca: Enhancing Role-Playing Abilities of Large Language Models by Integrating Personality Traits. ([paper](https://arxiv.org/pdf/2411.10006)) 
 
 + \[2024 Arxiv-2411\] The Dark Patterns of Personalized Persuasion in Large Language Models: Exposing Persuasive Linguistic Features for Big Five Personality Traits in LLMs Responses. ([paper](https://arxiv.org/pdf/2411.06008))

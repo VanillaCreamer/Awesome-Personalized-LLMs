@@ -95,6 +95,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
++ **\[2024 Arxiv-2411\]** When Large Vision-Language Models Meet Person Re-Identification. ([paper](https://arxiv.org/pdf/2411.18111))
+
 + **\[2024 Arxiv-2411\]** On the Way to LLM Personalization: Learning to Remember User Conversations. ([paper](https://arxiv.org/pdf/2411.13405))
 
 + **\[2024 Arxiv-2411\]** MC-LLaVA: Multi-Concept Personalized Vision-Language Model. ([paper](https://arxiv.org/pdf/2411.11706), [code](https://github.com/arctanxarc/MC-LLaVA))

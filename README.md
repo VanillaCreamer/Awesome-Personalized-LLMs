@@ -14,15 +14,27 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.2 Benchmark/Dataset
 
-+ **\[2024 NeurIPS\]** The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
-
 + **\[2024 GitHub\]** Personalized LMs: Aligning Language Models with Diverse Human Preference. ([Link](https://github.com/allenai/compred))
 
-+ **\[2024 Arxiv-2408\]** Personality Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2408.11779), [code](https://github.com/zhu-minjun/PAlign))
++ **\[2024 NeurIPS\]** The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
+
++ **\[2024 NeurIPS\]** Aligning to Thousands of Preferences via System Message Generalization. ([paper](https://arxiv.org/pdf/2405.17977), [website](https://arxiv.org/pdf/2405.17977))
+
++ **\[2024 NeurIPS\]** Improving Context-Aware Preference Modeling for Language Models. ([paper](https://arxiv.org/pdf/2407.14916))
+
++ **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([paper](https://arxiv.org/pdf/2310.11564), [code](https://github.com/joeljang/RLPHF))
 
 ### 1.3 SFT/RLHF/DPO-based Methods
 
 + **\[2024 Arxiv-2410\]** COMPO: Community Preferences for Language Model Personalization. ([paper](https://arxiv.org/pdf/2410.16027))
+
++ + **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([paper](https://arxiv.org/pdf/2410.04070))
+
++ **\[2024 Arxiv-2408\]** Personality Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2408.11779), [code](https://github.com/zhu-minjun/PAlign))
+
++ **\[2024 Arxiv-2407\]** Orchestrating LLMs with Different Personalizations. ([paper](https://arxiv.org/pdf/2407.04181))
+
++ **\[2024 Arxiv-2405\]** Multi-Reference Preference Optimization for Large Language Models. ([paper](https://arxiv.org/pdf/2405.16388))
 
 + **\[2024 Arxiv-2402\]** Personalized Language Modeling from Personalized Human Feedback. ([paper](https://openreview.net/pdf?id=bqUsdBeRjQ))
 
@@ -32,7 +44,19 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 EMNLP\]** Learning Personalized Alignment for Evaluating Open-ended Text Generation. ([paper](https://aclanthology.org/2024.emnlp-main.737.pdf))
 
++ **\[2024 EMNLP\]** BAPO: Base-Anchored Preference Optimization for Personalized Alignment in Large Language Models. ([paper](https://aclanthology.org/2024.findings-emnlp.398.pdf))
+
++ **\[2024 EMNLP\]** Dynamic Multi-Reward Weighting for Multi-Style Controllable Generation. ([paper](https://aclanthology.org/2024.emnlp-main.386.pdf), [code](https://aclanthology.org/2024.emnlp-main.386.pdf))
+
++ **\[2024 ICML\]** MaxMin-RLHF: Alignment with Diverse Human Preferences. ([paper](https://openreview.net/forum?id=8tzjEMF0Vq))
+
 + **\[2024 NeurIPS\]** Panacea: Pareto Alignment via Preference Adaptation for LLMs. ([paper](https://arxiv.org/pdf/2402.02030))
+
++ **\[2024 NeurIPS\]** Personalized Steering of Large Language Models: Versatile Steering Vectors Through Bi-directional Preference Optimization. ([paper](https://openreview.net/pdf?id=7qJFkuZdYo), [code](https://github.com/CaoYuanpu/BiPO))
+
++ **\[2024 NeurIPS Workshop\]** Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning. ([paper](https://openreview.net/pdf?id=zsXKtupv2I), [code](https://github.com/WEIRDLabUW/vpl_llm), [website](https://weirdlabuw.github.io/vpl/))
+
++ **\[2024 PMLR\]** Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustment. ([paper](https://openreview.net/pdf?id=QLcBzRI3V3))
 
 + **\[2023 NeurIPS\]** Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards. ([paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/e12a3b98b67e8395f639fde4c2b03168-Paper-Conference.pdf), [code](https://github.com/alexrame/rewardedsoups))
 
@@ -42,6 +66,14 @@ This repository collects the latest research progress on personalized large lang
 ### 1.4 Traning-free Methods
 
 + **\[2024 Arxiv-2410\]** Neuron-based Personality Trait Induction in Large Language Models. ([paper](https://arxiv.org/pdf/2410.12327), [code](https://github.com/RUCAIBox/NPTI))
+
++ **\[2024 Arxiv-2408\]** Unlocking Decoding-time Controllability: Gradient-Free Multi-Objective Alignment with Contrastive Prompts. ([paper](https://arxiv.org/pdf/2408.05094))
+
++ **\[2024 ACL\]** Conditioned Language Policy: A General Framework for Steerable Multi-Objective Finetuning. ([paper](https://aclanthology.org/2024.findings-emnlp.118.pdf))
+
++ **\[2024 EMNLP\]** Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration. ([paper](https://aclanthology.org/2024.emnlp-main.240.pdf), [code](https://github.com/BunsenFeng/modular_pluralism/tree/main))
+
++ **\[2024 EMNLP\]** Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment. ([paper](https://aclanthology.org/2024.emnlp-main.85.pdf))
 
 + **\[2024 ICLR Workshop\]** Prompt Optimization with Logged Bandit Data. ([paper](https://openreview.net/pdf?id=Byj8MMJmoL))
 
@@ -55,7 +87,6 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 EMNLP\]** Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
-  
 
 ### 2.2 Benchmark/Dataset
 
@@ -100,8 +131,6 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 Arxiv-2411\]** On the Way to LLM Personalization: Learning to Remember User Conversations. ([paper](https://arxiv.org/pdf/2411.13405))
 
 + **\[2024 Arxiv-2411\]** MC-LLaVA: Multi-Concept Personalized Vision-Language Model. ([paper](https://arxiv.org/pdf/2411.11706), [code](https://github.com/arctanxarc/MC-LLaVA))
-
-+ **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([paper](https://arxiv.org/pdf/2410.04070))
 
 + **\[2024 Arxiv-2410\]** LMLPA: Language Model Linguistic Personality Assessment. ([paper](https://arxiv.org/pdf/2410.17632))
 

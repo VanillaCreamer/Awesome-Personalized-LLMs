@@ -11,10 +11,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.1 Survey/Tutorial/Framework
 
++ **\[2024 GitHub\]** Personalized LMs: Aligning Language Models with Diverse Human Preference. ([Link](https://github.com/allenai/compred))
+
 
 ### 1.2 Benchmark/Dataset
-
-+ **\[2024 GitHub\]** Personalized LMs: Aligning Language Models with Diverse Human Preference. ([Link](https://github.com/allenai/compred))
 
 + **\[2024 NeurIPS\]** The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([paper](https://arxiv.org/pdf/2404.16019), [code](https://hannahkirk.github.io/prism-alignment/))
 
@@ -87,6 +87,8 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 EMNLP\]** Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([paper](https://arxiv.org/pdf/2406.01171), [code](https://github.com/MiuLab/PersonaLLM-Survey))
 
++ **\[2024 Arxiv-2412\]** Personalized Multimodal Large Language Models: A Survey. ([paper](https://arxiv.org/pdf/2412.02142))
+
 
 ### 2.2 Benchmark/Dataset
 
@@ -125,6 +127,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ **\[2024 Arxiv-2412\]** Personalizing Multimodal Large Language Models for Image Captioning: An Experimental Analysis. ([paper](https://arxiv.org/pdf/2412.03665))
 
 + **\[2024 Arxiv-2411\]** When Large Vision-Language Models Meet Person Re-Identification. ([paper](https://arxiv.org/pdf/2411.18111))
 

@@ -94,7 +94,7 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
 
-+ **\[2024 WI-IAT\]** Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([Paper](https://arxiv.org/pdf/2410.22182))
++ **\[2024 Arxiv-2412\]** Can Large Language Models Understand You Better? An MBTI Personality Detection Dataset Aligned with Population Traits. ([Paper](https://arxiv.org/pdf/2412.12510), [Code](https://github.com/Personality-NLP/MbtiBench))
 
 + **\[2024 Arxiv-2410\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://hongrucai.github.io/PersonalWAB/))
 
@@ -107,6 +107,9 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 NeurIPS\]** PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models. ([Paper](https://arxiv.org/pdf/2410.03905), [Code](https://github.com/SmartmediaAI/PersonalSum))
 
 + **\[2024 PERSONALIZE\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([Paper](https://aclanthology.org/2024.personalize-1.8.pdf), [Code](https://github.com/balhafni/personalized-gen))
+
++ **\[2024 WI-IAT\]** Synthetic Data Generation with Large Language Models for Personalized Community Question Answering. ([Paper](https://arxiv.org/pdf/2410.22182))
+
 
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods

@@ -92,6 +92,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.2 Benchmark/Dataset
 
++ **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
+
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
 
 + **\[2024 Arxiv-2412\]** Can Large Language Models Understand You Better? An MBTI Personality Detection Dataset Aligned with Population Traits. ([Paper](https://arxiv.org/pdf/2412.12510), [Code](https://github.com/Personality-NLP/MbtiBench))
@@ -114,6 +116,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 Arxiv-2501\]** Investigating Large Language Models in Inferring Personality Traits from User Conversations. ([Paper](https://arxiv.org/pdf/2501.07532))
+
 + **\[2024 Arxiv-2411\]** PIORS: Personalized Intelligent Outpatient Reception based on Large Language Model with Multi-Agents Medical Scenario Simulation. ([Paper](https://arxiv.org/pdf/2411.13902))
 
 + **\[2024 Arxiv-2411\]** Orca: Enhancing Role-Playing Abilities of Large Language Models by Integrating Personality Traits. ([Paper](https://arxiv.org/pdf/2411.10006)) 
@@ -132,6 +136,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ **\[2025 Arxiv-2501\]** Personalized Language Model Learning on Text Data Without User Identifiers. ([Paper](https://arxiv.org/pdf/2501.06062), [Code](https://github.com/sjtu-yc/IDfree-Personalized-Learning))
 
 + **\[2024 Arxiv-2412\]** Personalizing Multimodal Large Language Models for Image Captioning: An Experimental Analysis. ([Paper](https://arxiv.org/pdf/2412.03665))
 

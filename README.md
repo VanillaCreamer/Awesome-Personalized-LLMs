@@ -89,6 +89,9 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2412\]** Personalized Multimodal Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2412.02142))
 
++ **\[2024 Arxiv-2502\]** A Survey of Personalized Large Language Models: Progress and Future Directions. ([paper](https://arxiv.org/pdf/2502.11528))
+
+
 
 ### 2.2 Benchmark/Dataset
 

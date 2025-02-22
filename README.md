@@ -65,6 +65,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.4 Traning-free Methods
 
++ **\[2025 Arxiv-2502\]** Drift: Decoding-time Personalized Alignments with Implicit User Preferences. ([paper](https://arxiv.org/pdf/2502.14289))
+
 + **\[2024 Arxiv-2410\]** Neuron-based Personality Trait Induction in Large Language Models. ([Paper](https://arxiv.org/pdf/2410.12327), [Code](https://github.com/RUCAIBox/NPTI))
 
 + **\[2024 Arxiv-2408\]** Unlocking Decoding-time Controllability: Gradient-Free Multi-Objective Alignment with Contrastive Prompts. ([Paper](https://arxiv.org/pdf/2408.05094))

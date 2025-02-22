@@ -28,7 +28,7 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2410\]** COMPO: Community Preferences for Language Model Personalization. ([Paper](https://arxiv.org/pdf/2410.16027))
 
-+ + **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
++ **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
 
 + **\[2024 Arxiv-2408\]** Personality Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2408.11779), [Code](https://github.com/zhu-minjun/PAlign))
 

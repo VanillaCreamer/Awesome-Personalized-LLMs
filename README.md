@@ -5,6 +5,8 @@ This repository collects the latest research progress on personalized large lang
 > 
 > `+ **\[Year Conference/Jounal\]** Title. ([Paper](link), [Code](link))`  (if accessible).
 
++ **\[2025 Arxiv-2503\]** Personalized Generation In Large Model Era: A Survey. ([Paper](https://arxiv.org/pdf/2503.02614))
+
 + **\[2024 Arxiv-2411\]** Personalization of Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2411.00027))
 
 ## 1. Preference Alignment
@@ -25,6 +27,8 @@ This repository collects the latest research progress on personalized large lang
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
 ### 1.3 SFT/RLHF/DPO-based Methods
+
++ **\[2025 Arxiv-2503\]** Language Model Personalization via Reward Factorization. ([Paper](https://arxiv.org/pdf/2503.06358), [Code](https://idanshen.github.io/PReF/))
 
 + **\[2024 Arxiv-2410\]** COMPO: Community Preferences for Language Model Personalization. ([Paper](https://arxiv.org/pdf/2410.16027))
 

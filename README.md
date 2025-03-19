@@ -125,6 +125,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 Arxiv-2503\]** Personalized Text Generation with Contrastive Activation Steering. (Paper)
+
 + **\[2025 Arxiv-2501\]** Investigating Large Language Models in Inferring Personality Traits from User Conversations. ([Paper](https://arxiv.org/pdf/2501.07532))
 
 + **\[2024 Arxiv-2411\]** PIORS: Personalized Intelligent Outpatient Reception based on Large Language Model with Multi-Agents Medical Scenario Simulation. ([Paper](https://arxiv.org/pdf/2411.13902))

@@ -97,6 +97,8 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2502\]** A Survey of Personalized Large Language Models: Progress and Future Directions. ([paper](https://arxiv.org/pdf/2502.11528))
 
++ **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([paper](https://arxiv.org/pdf/2503.17003))
+
 
 
 ### 2.2 Benchmark/Dataset
@@ -125,6 +127,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 Arxiv-2503\]** Personalized Language Models via Privacy-Preserving Evolutionary Model Merging. ([Paper](https://arxiv.org/pdf/2503.18008))
+
 + **\[2025 Arxiv-2503\]** Personalized Text Generation with Contrastive Activation Steering. (Paper)
 
 + **\[2025 Arxiv-2501\]** Investigating Large Language Models in Inferring Personality Traits from User Conversations. ([Paper](https://arxiv.org/pdf/2501.07532))
@@ -147,6 +151,10 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ **\[2025 Arxiv-2503\]** DiffPO: Diffusion-styled Preference Optimization for Efficient Inference-Time Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2503.04240), [Code](https://github.com/arctanxarc/MC-LLaVA))
+
++ **\[2025 Arxiv-2503\]** MC-LLaVA: Multi-Concept Personalized Vision-Language Model. ([Paper](https://arxiv.org/pdf/2503.18854), [Code](https://github.com/arctanxarc/MC-LLaVA))
 
 + **\[2025 Arxiv-2501\]** Personalized Language Model Learning on Text Data Without User Identifiers. ([Paper](https://arxiv.org/pdf/2501.06062), [Code](https://github.com/sjtu-yc/IDfree-Personalized-Learning))
 

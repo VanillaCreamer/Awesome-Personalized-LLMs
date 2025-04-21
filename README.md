@@ -9,7 +9,7 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2411\]** Personalization of Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2411.00027))
 
-## 1. Preference Alignment
+## 1. Human Value Alignment
 
 ### 1.1 Survey/Tutorial/Framework
 
@@ -27,6 +27,8 @@ This repository collects the latest research progress on personalized large lang
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
 ### 1.3 SFT/RLHF/DPO-based Methods
+
++ **\[2025 Arxiv-2504\]** Persona-judge: Personalized Alignment of Large Language Models via Token-level Self-judgment
 
 + **\[2025 Arxiv-2503\]** Language Model Personalization via Reward Factorization. ([Paper](https://arxiv.org/pdf/2503.06358), [Code](https://idanshen.github.io/PReF/))
 
@@ -87,9 +89,11 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-## 2 User-customized Generation
+## 2 Preference Alignment
 
 ### 2.1 Survey/Tutorial/Framework
+
++ **\[2025 Arxiv-2504\]** A Survey on Personalized and Pluralistic Preference Alignment in Large Language Models. ([Paper](https://arxiv.org/pdf/2504.07070))
 
 + **\[2024 EMNLP\]** Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([Paper](https://arxiv.org/pdf/2406.01171), [Code](https://github.com/MiuLab/PersonaLLM-Survey))
 
@@ -127,11 +131,14 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
+
 + **\[2025 Arxiv-2503\]** Personalized Language Models via Privacy-Preserving Evolutionary Model Merging. ([Paper](https://arxiv.org/pdf/2503.18008))
 
 + **\[2025 Arxiv-2503\]** Personalized Text Generation with Contrastive Activation Steering. (Paper)
 
 + **\[2025 Arxiv-2501\]** Investigating Large Language Models in Inferring Personality Traits from User Conversations. ([Paper](https://arxiv.org/pdf/2501.07532))
+
++ **\[2024 Arxiv-2411\]** Unims-rag A unified multi-source retrieval-augmented generation for personalized dialogue systems. ([Paper](https://arxiv.org/pdf/2401.13256))
 
 + **\[2024 Arxiv-2411\]** PIORS: Personalized Intelligent Outpatient Reception based on Large Language Model with Multi-Agents Medical Scenario Simulation. ([Paper](https://arxiv.org/pdf/2411.13902))
 
@@ -143,6 +150,8 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2404\]** Dynamic Generation of Personalities with Large Language Models. ([Paper](https://arxiv.org/pdf/2404.07084v1), )
 
++ **\[2024 WWW\]** Learning to Rewrite Prompts for Personalized Text Generation. ([Paper](https://arxiv.org/pdf/2310.00152))
+
 + **\[2023 CIKM\]** Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([Paper](https://arxiv.org/pdf/2310.20081))
 
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
@@ -151,6 +160,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ **\[2025 Arxiv-2504\]** Energy-Based Reward Models for Robust Language Model Alignment.
 
 + **\[2025 Arxiv-2503\]** DiffPO: Diffusion-styled Preference Optimization for Efficient Inference-Time Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2503.04240), [Code](https://github.com/arctanxarc/MC-LLaVA))
 

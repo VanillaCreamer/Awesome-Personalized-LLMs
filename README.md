@@ -18,6 +18,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.2 Benchmark/Dataset
 
++ **\[2025 ICLR\]** DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation. ([Paper](https://openreview.net/forum?id=4GSOESJrk6))
+
++ **\[2025 ICLR\]** DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life. ([Paper](https://openreview.net/forum?id=PGhiPGBf47))
+
 + **\[2024 NeurIPS\]** The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2404.16019), [Code](https://hannahkirk.github.io/prism-alignment/))
 
 + **\[2024 NeurIPS\]** Aligning to Thousands of Preferences via System Message Generalization. ([Paper](https://arxiv.org/pdf/2405.17977), [website](https://arxiv.org/pdf/2405.17977))
@@ -26,15 +30,18 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
-### 1.3 SFT/RLHF/DPO-based Methods
+### 1.3 Fine-tuning-based Methods
+
++ **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
+
+
++ **\[2025 ICLR\]** MAP: Multi-Human-Value Alignment Palette. ([Paper](https://openreview.net/forum?id=NN6QHwgRrQ))
 
 + **\[2025 Arxiv-2504\]** Persona-judge: Personalized Alignment of Large Language Models via Token-level Self-judgment
 
 + **\[2025 Arxiv-2503\]** Language Model Personalization via Reward Factorization. ([Paper](https://arxiv.org/pdf/2503.06358), [Code](https://idanshen.github.io/PReF/))
 
 + **\[2024 Arxiv-2410\]** COMPO: Community Preferences for Language Model Personalization. ([Paper](https://arxiv.org/pdf/2410.16027))
-
-+ **\[2024 Arxiv-2410\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
 
 + **\[2024 Arxiv-2408\]** Personality Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2408.11779), [Code](https://github.com/zhu-minjun/PAlign))
 
@@ -69,7 +76,11 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-### 1.4 Traning-free Methods
+### 1.4 Training-free Methods
+
++ **\[2025 ICLR\]** On-the-fly Preference Alignment via Principle-Guided Decoding. ([Paper](https://openreview.net/forum?id=cfn2O1qvxp))
+
++ **\[2025 ICLR\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
 
 + **\[2025 Arxiv-2502\]** Drift: Decoding-time Personalized Alignments with Implicit User Preferences. ([paper](https://arxiv.org/pdf/2502.14289))
 
@@ -107,6 +118,14 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.2 Benchmark/Dataset
 
++ **\[2025 ICLR\]** Neuron-based Personality Trait Induction in Large Language Models. ([Paper](https://openreview.net/forum?id=LYHEY783Np))
+
++ **\[2025 ICLR\]** Personality Alignment of Large Language Models. ([Paper](https://openreview.net/forum?id=0DZEs8NpUH))
+
++ **\[2025 ICLR\]** PersonalLLM: Tailoring LLMs to Individual Preferences. ([Paper](https://openreview.net/forum?id=2R7498e2Tx))
+
++ **\[2025 ICLR\]** Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs. ([Paper](https://openreview.net/forum?id=QWunLKbBGF))
+
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
 
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
@@ -131,10 +150,15 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
+
++ **\[2025 ICLR\]** Amulet: ReAlignment During Test Time for Personalized Preference Adaptation of LLMs. ([Paper](https://openreview.net/forum?id=f9w89OY2cp))
+
++ **\[2025 ICLR\]** Context Steering: Controllable Personalization at Inference Time. ([Paper](https://openreview.net/forum?id=xQCXInDq0m))
 
 + **\[2025 Arxiv-2503\]** Personalized Language Models via Privacy-Preserving Evolutionary Model Merging. ([Paper](https://arxiv.org/pdf/2503.18008))
 
-+ **\[2025 Arxiv-2503\]** Personalized Text Generation with Contrastive Activation Steering. (Paper)
++ **\[2025 Arxiv-2503\]** Personalized Text Generation with Contrastive Activation Steering. ([Paper](https://arxiv.org/pdf/2503.05213))
 
 + **\[2025 Arxiv-2501\]** Investigating Large Language Models in Inferring Personality Traits from User Conversations. ([Paper](https://arxiv.org/pdf/2501.07532))
 
@@ -160,6 +184,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+
++ **\[2025 ICLR\]** Generative Adapter: Contextualizing Language Models in Parameters with A Single Forward Pass. ([Paper](https://openreview.net/forum?id=bc3sUsS6ck))
 
 + **\[2025 Arxiv-2504\]** Energy-Based Reward Models for Robust Language Model Alignment.
 

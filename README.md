@@ -150,6 +150,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 Arxiv-2506\]** PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time. ([Paper](https://arxiv.org/pdf/2506.06254))
+
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
 
 + **\[2025 ICLR\]** Amulet: ReAlignment During Test Time for Personalized Preference Adaptation of LLMs. ([Paper](https://openreview.net/forum?id=f9w89OY2cp))

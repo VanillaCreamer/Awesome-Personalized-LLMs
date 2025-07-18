@@ -126,13 +126,19 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2025 ICLR\]** Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs. ([Paper](https://openreview.net/forum?id=QWunLKbBGF))
 
++ **\[2025 Arxiv-2505\]** LaMP-QA: A Benchmark for Personalized Long-form Question Answering. ([Paper](https://arxiv.org/pdf/2506.00137), [Code](https://github.com/LaMP-Benchmark/LaMP-QA))
+
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
+
++ **\[2025 WWW\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://github.com/HongruCai/PersonalWAB))
 
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
 
 + **\[2024 Arxiv-2412\]** Can Large Language Models Understand You Better? An MBTI Personality Detection Dataset Aligned with Population Traits. ([Paper](https://arxiv.org/pdf/2412.12510), [Code](https://github.com/Personality-NLP/MbtiBench))
 
 + **\[2024 Arxiv-2410\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://hongrucai.github.io/PersonalWAB/))
+
++ **\[2024 Arxiv-2407\]** PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization. ([Paper](https://arxiv.org/pdf/2407.18078), [Code](https://github.com/ChrisIsKing/Parameter-Efficient-Personalization))
 
 + **\[2024 Arxiv-2407\]** LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([Paper](https://arxiv.org/pdf/2407.11016), [Code](https://longlamp-benchmark.github.io/Papers))
 

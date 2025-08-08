@@ -193,6 +193,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
++ **\[2025 Arxiv-2508\]** CAP-LLM: Context-Augmented Personalized Large Language Models for News Headline Generation. ([Paper](https://arxiv.org/pdf/2508.03935))
+
++ **\[2025 Arxiv-2507\]** Persona Vectors: Monitoring and Controlling Character Traits in Language Models. ([Paper](https://arxiv.org/pdf/2507.21509))
+
 + **\[2025 Arxiv-2506\]** Personalized LLM Decoding via Contrasting Personal Preference. ([Paper](https://arxiv.org/pdf/2506.12109v1))
 
 + **\[2025 ICLR\]** Generative Adapter: Contextualizing Language Models in Parameters with A Single Forward Pass. ([Paper](https://openreview.net/forum?id=bc3sUsS6ck))

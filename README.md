@@ -193,6 +193,9 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
 
++ **\[2025 Arxiv-2508\]** End-to-End Personalization: Unifying Recommender Systems with Large Language Models. ([Paper](https://arxiv.org/pdf/2508.01514))
+
+
 + **\[2025 Arxiv-2508\]** CAP-LLM: Context-Augmented Personalized Large Language Models for News Headline Generation. ([Paper](https://arxiv.org/pdf/2508.03935))
 
 + **\[2025 Arxiv-2507\]** Persona Vectors: Monitoring and Controlling Character Traits in Language Models. ([Paper](https://arxiv.org/pdf/2507.21509))

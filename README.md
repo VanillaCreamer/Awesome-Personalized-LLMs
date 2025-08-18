@@ -191,10 +191,13 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [Code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
-### 2.4 Parameter-Efficient-Fine-Tuning (PEFT)-based Methods
+### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
+
++ **\[2025 Arxiv-2508\]** Learning from Natural Language Feedback for Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2508.10695))
+
++ **\[2025 Arxiv-2508\]** MM-R1: Unleashing the Power of Unified Multimodal Large Language Models for Personalized Image Generation. ([Paper](https://arxiv.org/pdf/2508.11433))
 
 + **\[2025 Arxiv-2508\]** End-to-End Personalization: Unifying Recommender Systems with Large Language Models. ([Paper](https://arxiv.org/pdf/2508.01514))
-
 
 + **\[2025 Arxiv-2508\]** CAP-LLM: Context-Augmented Personalized Large Language Models for News Headline Generation. ([Paper](https://arxiv.org/pdf/2508.03935))
 

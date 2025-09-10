@@ -118,6 +118,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.2 Benchmark/Dataset
 
++ **\[2025 Arxiv-2508\]** CAPE: Context-Aware Personality Evaluation Framework for Large Language Models. ([Paper](https://arxiv.org/pdf/2508.20385))
+
 + **\[2025 ICLR\]** Neuron-based Personality Trait Induction in Large Language Models. ([Paper](https://openreview.net/forum?id=LYHEY783Np))
 
 + **\[2025 ICLR\]** Personality Alignment of Large Language Models. ([Paper](https://openreview.net/forum?id=0DZEs8NpUH))
@@ -192,6 +194,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
+
++ 
 
 + **\[2025 Arxiv-2508\]** Learning from Natural Language Feedback for Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2508.10695))
 

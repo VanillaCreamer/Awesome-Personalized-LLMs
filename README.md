@@ -32,8 +32,9 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.3 Fine-tuning-based Methods
 
-+ **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
++ **\[2025 Arxiv-2509\]**  LifeAlign: Lifelong Alignment for Large Language Models with Memory-Augmented Focalized Preference Optimization([Paper](https://arxiv.org/pdf/2509.17183))
 
++ **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
 
 + **\[2025 ICLR\]** MAP: Multi-Human-Value Alignment Palette. ([Paper](https://openreview.net/forum?id=NN6QHwgRrQ))
 

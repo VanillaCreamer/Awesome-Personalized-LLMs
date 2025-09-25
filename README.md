@@ -196,7 +196,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
 
-+ 
++ **\[2025 Arxiv-2509\]** CBP-Tuning: Efficient Local Customization for Black-box Large Language Models. ([Paper](https://arxiv.org/pdf/2509.12112))
+
 
 + **\[2025 Arxiv-2508\]** Learning from Natural Language Feedback for Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2508.10695))
 

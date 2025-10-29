@@ -32,6 +32,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.3 Fine-tuning-based Methods
 
++ **\[2025 Arxiv-2509\]** Aligning Large Vision-Language Models by Deep Reinforcement Learning and Direct Preference Optimization. ([Paper](https://arxiv.org/pdf/2509.06759))
+
 + **\[2025 Arxiv-2509\]**  LifeAlign: Lifelong Alignment for Large Language Models with Memory-Augmented Focalized Preference Optimization([Paper](https://arxiv.org/pdf/2509.17183))
 
 + **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
@@ -79,6 +81,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.4 Training-free Methods
 
++ **\[2025 Arxiv-2509\]** Fisher Random Walk: Automatic Debiasing Contextual Preference Inference for Large Language Model Evaluation. ([Paper](https://arxiv.org/pdf/2509.05852))
+
++ **\[2025 Arxiv-2509\]** Icon2: Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation. ([Paper](https://arxiv.org/pdf/2509.05605))
+
 + **\[2025 ICLR\]** On-the-fly Preference Alignment via Principle-Guided Decoding. ([Paper](https://openreview.net/forum?id=cfn2O1qvxp))
 
 + **\[2025 ICLR\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
@@ -118,6 +124,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
+
++ **\[2025 Arxiv-2509\]** PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations? ([Paper](https://arxiv.org/pdf/2509.08829))
 
 + **\[2025 Arxiv-2508\]** CAPE: Context-Aware Personality Evaluation Framework for Large Language Models. ([Paper](https://arxiv.org/pdf/2508.20385))
 
@@ -159,6 +167,10 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
+
+
++ **\[2025 Arxiv-2509\]** Benchmarking Large Language Models for Personalized Guidance in AI-Enhanced Learning. ([Paper](https://arxiv.org/pdf/2509.05346))
+
 + **\[2025 Arxiv-2506\]** PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time. ([Paper](https://arxiv.org/pdf/2506.06254))
 
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
@@ -196,8 +208,11 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
 
++ **\[2025 Arxiv-2509\]** Personas within Parameters: Fine-Tuning Small Language Models with Low-Rank Adapters to Mimic User Behaviors. ([Paper](https://arxiv.org/pdf/2509.09689))
+
 + **\[2025 Arxiv-2509\]** CBP-Tuning: Efficient Local Customization for Black-box Large Language Models. ([Paper](https://arxiv.org/pdf/2509.12112))
 
++ **\[2025 Arxiv-2508\]** Towards On-Device Personalization: Cloud-device Collaborative Data Augmentation for Efficient On-device Language Model. ([Paper](https://arxiv.org/pdf/2508.21313))
 
 + **\[2025 Arxiv-2508\]** Learning from Natural Language Feedback for Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2508.10695))
 

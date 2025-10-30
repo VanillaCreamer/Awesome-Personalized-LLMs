@@ -30,11 +30,17 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
-### 1.3 Fine-tuning-based Methods
+### 1.3 Training-based Methods
+
+VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arxiv.org/pdf/2510.01700))
+
+
+
++ **\[2025 Arxiv-2510\]** Syntax-Guided Diffusion Language Models with User-Integrated Personalization. ([Paper](https://arxiv.org/pdf/2510.01028))
 
 + **\[2025 Arxiv-2509\]** Aligning Large Vision-Language Models by Deep Reinforcement Learning and Direct Preference Optimization. ([Paper](https://arxiv.org/pdf/2509.06759))
 
-+ **\[2025 Arxiv-2509\]**  LifeAlign: Lifelong Alignment for Large Language Models with Memory-Augmented Focalized Preference Optimization([Paper](https://arxiv.org/pdf/2509.17183))
++ **\[2025 Arxiv-2509\]** LifeAlign: Lifelong Alignment for Large Language Models with Memory-Augmented Focalized Preference Optimization([Paper](https://arxiv.org/pdf/2509.17183))
 
 + **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
 
@@ -81,6 +87,14 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.4 Training-free Methods
 
++ **\[2025 Arxiv-2509\]** Meta-Router: Bridging Gold-standard and Preference-based Evaluations in Large Language Model Routing. ([Paper](https://arxiv.org/pdf/2509.25535))
+
++ **\[2025 Arxiv-2509\]** SeaPO: Strategic Error Amplification for Robust Preference Optimization of Large Language Models. ([Paper](https://arxiv.org/pdf/2509.24781))
+
++ **\[2025 Arxiv-2509\]** Toward Preference-aligned Large Language Models via Residual-based Model Steering. ([Paper](https://arxiv.org/pdf/2509.23982))
+
++ **\[2025 Arxiv-2509\]** Personality Vector: Modulating Personality of Large Language Models by Model Merging. ([Paper](https://arxiv.org/pdf/2509.19727))
+
 + **\[2025 Arxiv-2509\]** Fisher Random Walk: Automatic Debiasing Contextual Preference Inference for Large Language Model Evaluation. ([Paper](https://arxiv.org/pdf/2509.05852))
 
 + **\[2025 Arxiv-2509\]** Icon2: Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation. ([Paper](https://arxiv.org/pdf/2509.05605))
@@ -125,6 +139,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.2 Benchmark/Dataset
 
++ **\[2025 Arxiv-2509\]** BESPOKE: Benchmark for Search-Augmented Large Language Model Personalization via Diagnostic Feedback. ([Paper](https://arxiv.org/pdf/2509.21106), [Code](https://augustinlib.github.io/BESPOKE/))
+
 + **\[2025 Arxiv-2509\]** PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations? ([Paper](https://arxiv.org/pdf/2509.08829))
 
 + **\[2025 Arxiv-2508\]** CAPE: Context-Aware Personality Evaluation Framework for Large Language Models. ([Paper](https://arxiv.org/pdf/2508.20385))
@@ -167,7 +183,11 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
 
++ **\[2025 Arxiv-2509\]** Harnessing Multimodal Large Language Models for Personalized Product Search with Query-aware Refinement. ([Paper](https://arxiv.org/pdf/2509.18682))
 
++ **\[2025 Arxiv-2509\]** Learning in Context: Personalizing Educational Content with Large Language Models to Enhance Student Learning. ([Paper](https://arxiv.org/pdf/2509.15068))
+
++ **\[2025 Arxiv-2509\]** Reasoning with Preference Constraints: A Benchmark for Language Models in Many-to-One Matching Markets. ([Paper](https://arxiv.org/pdf/2509.13131))
 
 + **\[2025 Arxiv-2509\]** Benchmarking Large Language Models for Personalized Guidance in AI-Enhanced Learning. ([Paper](https://arxiv.org/pdf/2509.05346))
 

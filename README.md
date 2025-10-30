@@ -32,9 +32,7 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.3 Training-based Methods
 
-VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arxiv.org/pdf/2510.01700))
-
-
++ **\[2025 Arxiv-2510\]** VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arxiv.org/pdf/2510.01700))
 
 + **\[2025 Arxiv-2510\]** Syntax-Guided Diffusion Language Models with User-Integrated Personalization. ([Paper](https://arxiv.org/pdf/2510.01028))
 
@@ -86,6 +84,12 @@ VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arx
 
 
 ### 1.4 Training-free Methods
+
++ **\[2025 Arxiv-2510\]** BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation. ([Paper](https://arxiv.org/pdf/2510.10157))
+
++ **\[2025 Arxiv-2510\]** Humanoid Artificial Consciousness Designed with Large Language Model Based on Psychoanalysis and Personality Theory. ([Paper](https://arxiv.org/pdf/2510.09043)) 
+
++ **\[2025 Arxiv-2510\]** Language, Culture, and Ideology: Personalizing Offensiveness Detection in Political Tweets with Reasoning LLMs. ([Paper](https://arxiv.org/pdf/2510.02351))
 
 + **\[2025 Arxiv-2509\]** Meta-Router: Bridging Gold-standard and Preference-based Evaluations in Large Language Model Routing. ([Paper](https://arxiv.org/pdf/2509.25535))
 
@@ -227,6 +231,10 @@ VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arx
 
 
 ### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
+
++ **\[2025 Arxiv-2510\]** POPI: Personalizing LLMs via Optimized Natural Language Preference Inference. ([Paper](https://arxiv.org/pdf/2510.17881))
+
++ **\[2025 Arxiv-2510\]** Asking Clarifying Questions for Preference Elicitation With Large Language Models. ([Paper](https://arxiv.org/pdf/2510.12015))
 
 + **\[2025 Arxiv-2509\]** Personas within Parameters: Fine-Tuning Small Language Models with Low-Rank Adapters to Mimic User Behaviors. ([Paper](https://arxiv.org/pdf/2509.09689))
 

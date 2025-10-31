@@ -18,6 +18,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.2 Benchmark/Dataset
 
++ **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
+
 + **\[2025 ICLR\]** DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation. ([Paper](https://openreview.net/forum?id=4GSOESJrk6))
 
 + **\[2025 ICLR\]** DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life. ([Paper](https://openreview.net/forum?id=PGhiPGBf47))
@@ -31,6 +33,10 @@ This repository collects the latest research progress on personalized large lang
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
 ### 1.3 Training-based Methods
+
++ **\[2025 Arxiv-2510\]** Aligning Diffusion Language Models via Unpaired Preference Optimization. ([Paper](https://arxiv.org/pdf/2510.23658))
+
++ **\[2025 Arxiv-2510\]** Towards Understanding Valuable Preference Data for Large Language Model Alignment. ([Paper](https://arxiv.org/pdf/2510.13212))
 
 + **\[2025 Arxiv-2510\]** VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arxiv.org/pdf/2510.01700))
 
@@ -231,6 +237,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
+
++ **\[2025 Arxiv-2510\]** Instant Personalized Large Language Model Adaptation via Hypernetwork. ([Paper](https://arxiv.org/pdf/2510.16282))
 
 + **\[2025 Arxiv-2510\]** POPI: Personalizing LLMs via Optimized Natural Language Preference Inference. ([Paper](https://arxiv.org/pdf/2510.17881))
 

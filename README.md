@@ -32,7 +32,14 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
 
+
 ### 1.3 Training-based Methods
+
++ **\[2025 Arxiv-2512\]** Semiparametric Preference Optimization: Your Language Model is Secretly a Single-Index Model. ([Paper](https://arxiv.org/pdf/2512.21917))
+
++ **\[2025 Arxiv-2511\]** Using Large Language Models to Create Personalized Networks From Therapy Sessions. ([Paper](https://arxiv.org/pdf/2512.05836))
+
++ **\[2025 Arxiv-2511\]** Preference Orchestrator: Prompt-Aware Multi-Objective Alignment for Large Language Models. ([Paper](https://arxiv.org/pdf/2511.10656))
 
 + **\[2025 Arxiv-2510\]** Aligning Diffusion Language Models via Unpaired Preference Optimization. ([Paper](https://arxiv.org/pdf/2510.23658))
 
@@ -90,6 +97,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.4 Training-free Methods
+
++ **\[2025 Arxiv-2512\]** ProSocialAlign: Preference Conditioned Test Time Alignment in Language Models. ([Paper](https://arxiv.org/pdf/2512.06515))
 
 + **\[2025 Arxiv-2510\]** BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation. ([Paper](https://arxiv.org/pdf/2510.10157))
 
@@ -149,6 +158,8 @@ This repository collects the latest research progress on personalized large lang
 
 ### 2.2 Benchmark/Dataset
 
++ **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
+
 + **\[2025 Arxiv-2509\]** BESPOKE: Benchmark for Search-Augmented Large Language Model Personalization via Diagnostic Feedback. ([Paper](https://arxiv.org/pdf/2509.21106), [Code](https://augustinlib.github.io/BESPOKE/))
 
 + **\[2025 Arxiv-2509\]** PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations? ([Paper](https://arxiv.org/pdf/2509.08829))
@@ -191,7 +202,13 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-### 2.3 Retrieval-Augmented Generation / Profile-Augmented Generation (RAG/PAG)-based Methods
+### 2.3 Prompt/Vector-based Methods
+
++ **\[2025 Arxiv-2512\]** Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting. ([Paper](https://arxiv.org/pdf/2512.20014))
+
++ **\[2025 Arxiv-2512\]** The Geometry of Persona: Disentangling Personality from Reasoning in Large Language Models. ([Paper](https://arxiv.org/pdf/2512.07092))
+
++ **\[2025 Arxiv-2511\]** Moral Susceptibility and Robustness under Persona Role-Play in Large Language Models. ([Paper](https://arxiv.org/pdf/2511.08565))
 
 + **\[2025 Arxiv-2509\]** Harnessing Multimodal Large Language Models for Personalized Product Search with Query-aware Refinement. ([Paper](https://arxiv.org/pdf/2509.18682))
 
@@ -236,7 +253,17 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [Code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
-### 2.4 Fine-Tuning-based / Reinforcement Learning (RL) Methods
+### 2.4 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
+
++ **\[2025 Arxiv-2512\]** LLM-based Personalized Portfolio Recommender: Integrating Large Language Models and Reinforcement Learning for Intelligent Investment Strategy Optimization. ([Paper](https://arxiv.org/pdf/2512.12922))
+
++ **\[2025 Arxiv-2511\]** MTA: A Merge-then-Adapt Framework for Personalized Large Language Model. ([Paper](https://arxiv.org/pdf/2511.20072))
+
++ **\[2025 Arxiv-2511\]** Multimodal Large Language Models with Adaptive Preference Optimization for Sequential Recommendation. ([Paper](https://arxiv.org/pdf/2511.18740))
+
++ **\[2025 Arxiv-2511\]** ExplainRec: Towards Explainable Multi-Modal Zero-Shot Recommendation with Preference Attribution and Large Language Models. ([Paper](https://arxiv.org/pdf/2511.14770))
+
++ **\[2025 Arxiv-2511\]** Reflective Personalization Optimization: A Post-hoc Rewriting Framework for Black-Box Large Language Models. ([Paper](https://arxiv.org/pdf/2511.05286))
 
 + **\[2025 Arxiv-2510\]** Instant Personalized Large Language Model Adaptation via Hypernetwork. ([Paper](https://arxiv.org/pdf/2510.16282))
 

@@ -34,6 +34,12 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.3 Training-based Methods
++ **[2026 Arxiv-2603]** AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes. ([Paper](https://arxiv.org/pdf/2603.21551v1))
++ **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
++ **[2026 Arxiv-2603]** Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos. ([Paper](https://arxiv.org/pdf/2603.21309v1))
++ **[2026 Arxiv-2603]** AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes. ([Paper](https://arxiv.org/pdf/2603.21551v1))
++ **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
++ **[2026 Arxiv-2603]** Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos. ([Paper](https://arxiv.org/pdf/2603.21309v1))
 
 + **\[2025 Arxiv-2512\]** Semiparametric Preference Optimization: Your Language Model is Secretly a Single-Index Model. ([Paper](https://arxiv.org/pdf/2512.21917))
 
@@ -97,6 +103,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.4 Training-free Methods
++ **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
++ **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
 
 + **\[2025 Arxiv-2512\]** ProSocialAlign: Preference Conditioned Test Time Alignment in Language Models. ([Paper](https://arxiv.org/pdf/2512.06515))
 
@@ -157,6 +165,12 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** Multiperspectivity as a Resource for Narrative Similarity Prediction. ([Paper](https://arxiv.org/pdf/2603.22103v1))
++ **[2026 Arxiv-2603]** Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos. ([Paper](https://arxiv.org/pdf/2603.21309v1))
++ **[2026 Arxiv-2603]** LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation. ([Paper](https://arxiv.org/pdf/2603.21243v1))
++ **[2026 Arxiv-2603]** Multiperspectivity as a Resource for Narrative Similarity Prediction. ([Paper](https://arxiv.org/pdf/2603.22103v1))
++ **[2026 Arxiv-2603]** Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos. ([Paper](https://arxiv.org/pdf/2603.21309v1))
++ **[2026 Arxiv-2603]** LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation. ([Paper](https://arxiv.org/pdf/2603.21243v1))
 
 + **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
 
@@ -203,6 +217,14 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.3 Prompt/Vector-based Methods
++ **[2026 Arxiv-2603]** Optimizing Feature Extraction for On-device Model Inference with User Behavior Sequences. ([Paper](https://arxiv.org/pdf/2603.21508v1))
++ **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
++ **[2026 Arxiv-2603]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398v1))
++ **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
++ **[2026 Arxiv-2603]** Optimizing Feature Extraction for On-device Model Inference with User Behavior Sequences. ([Paper](https://arxiv.org/pdf/2603.21508v1))
++ **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
++ **[2026 Arxiv-2603]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398v1))
++ **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
 
 + **\[2025 Arxiv-2512\]** Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting. ([Paper](https://arxiv.org/pdf/2512.20014))
 
@@ -334,3 +356,14 @@ This repository collects the latest research progress on personalized large lang
 
 
 
+
+
+### 2.4 SFT/RL Methods
++ **[2026 Arxiv-2603]** Riding Brainwaves in LLM Space: Understanding Activation Patterns Using Individual Neural Signatures. ([Paper](https://arxiv.org/pdf/2603.21847v1))
++ **[2026 Arxiv-2603]** Topology, noise, and parallel updates in circular opinion dynamics. ([Paper](https://arxiv.org/pdf/2603.21838v1))
++ **[2026 Arxiv-2603]** AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes. ([Paper](https://arxiv.org/pdf/2603.21551v1))
++ **[2026 Arxiv-2603]** Image-Based Structural Analysis Using Computer Vision and LLMs: PhotoBeamSolver. ([Paper](https://arxiv.org/pdf/2603.21432v1))
++ **[2026 Arxiv-2603]** Riding Brainwaves in LLM Space: Understanding Activation Patterns Using Individual Neural Signatures. ([Paper](https://arxiv.org/pdf/2603.21847v1))
++ **[2026 Arxiv-2603]** Topology, noise, and parallel updates in circular opinion dynamics. ([Paper](https://arxiv.org/pdf/2603.21838v1))
++ **[2026 Arxiv-2603]** AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes. ([Paper](https://arxiv.org/pdf/2603.21551v1))
++ **[2026 Arxiv-2603]** Image-Based Structural Analysis Using Computer Vision and LLMs: PhotoBeamSolver. ([Paper](https://arxiv.org/pdf/2603.21432v1))

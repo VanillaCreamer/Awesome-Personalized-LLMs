@@ -182,6 +182,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** When AI Meets Early Childhood Education: Large Language Models as Assessment Teammates in Chinese Preschools. ([Paper](https://arxiv.org/pdf/2603.24389v1))
@@ -396,6 +397,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 SFT/RL Methods
++ **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
++ **[2026 Arxiv-2603]** From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs. ([Paper](https://arxiv.org/pdf/2603.24034v1))
 + **[2026 Arxiv-2603]** Efficient Controller Learning from Human Preferences and Numerical Data Via Multi-Modal Surrogate Models. ([Paper](https://arxiv.org/pdf/2603.24138v1))
 + **[2026 Arxiv-2603]** From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs. ([Paper](https://arxiv.org/pdf/2603.24034v1))
 + **[2026 Arxiv-2603]** From Untamed Black Box to Interpretable Pedagogical Orchestration: The Ensemble of Specialized LLMs Architecture for Adaptive Tutoring. ([Paper](https://arxiv.org/pdf/2603.23990v1))

@@ -19,6 +19,7 @@ This repository collects the latest research progress on personalized large lang
 ### 1.2 Benchmark/Dataset
 + **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 + **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
++ **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 
 + **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
 
@@ -36,6 +37,10 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.3 Training-based Methods
++ **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
++ **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
++ **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v1))
++ **[2026 Arxiv-2603]** Steering LLMs for Culturally Localized Generation. ([Paper](https://arxiv.org/pdf/2603.23301v1))
 + **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
 + **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v1))
@@ -129,6 +134,8 @@ This repository collects the latest research progress on personalized large lang
 ### 1.4 Training-free Methods
 + **[2026 Arxiv-2603]** Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22094v2))
 + **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
++ **[2026 Arxiv-2603]** Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22094v2))
++ **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
 + **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
 + **[2026 Arxiv-2603]** Efficiency for Experts, Visibility for Newcomers: A Case Study of Label-Code Alignment in Kubernetes. ([Paper](https://arxiv.org/pdf/2603.24501v1))
 + **[2026 Arxiv-2603]** On a Co-evolving Opinion-Leadership Model in Social Networks. ([Paper](https://arxiv.org/pdf/2603.24381v1))
@@ -196,6 +203,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
++ **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
 + **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
@@ -268,6 +277,9 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.3 Prompt/Vector-based Methods
++ **[2026 Arxiv-2603]** Analysing LLM Persona Generation and Fairness Interpretation in Polarised Geopolitical Contexts. ([Paper](https://arxiv.org/pdf/2603.22837v1))
++ **[2026 Arxiv-2603]** Language Models Can Explain Visual Features via Steering. ([Paper](https://arxiv.org/pdf/2603.22593v2))
++ **[2026 Arxiv-2603]** Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22042v2))
 + **[2026 Arxiv-2603]** Analysing LLM Persona Generation and Fairness Interpretation in Polarised Geopolitical Contexts. ([Paper](https://arxiv.org/pdf/2603.22837v1))
 + **[2026 Arxiv-2603]** Language Models Can Explain Visual Features via Steering. ([Paper](https://arxiv.org/pdf/2603.22593v2))
 + **[2026 Arxiv-2603]** Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22042v2))
@@ -424,6 +436,29 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 SFT/RL Methods
++ **[2026 Arxiv-2603]** SumRank: Aligning Summarization Models for Long-Document Listwise Reranking. ([Paper](https://arxiv.org/pdf/2603.24204v1))
++ **[2026 Arxiv-2603]** RefReward-SR: LR-Conditioned Reward Modeling for Preference-Aligned Super-Resolution. ([Paper](https://arxiv.org/pdf/2603.24198v1))
++ **[2026 Arxiv-2603]** Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection. ([Paper](https://arxiv.org/pdf/2603.24030v1))
++ **[2026 Arxiv-2603]** Language-Grounded Multi-Agent Planning for Personalized and Fair Participatory Urban Sensing. ([Paper](https://arxiv.org/pdf/2603.24014v1))
++ **[2026 Arxiv-2603]** Probabilistic Geometric Alignment via Bayesian Latent Transport for Domain-Adaptive Foundation Models. ([Paper](https://arxiv.org/pdf/2603.23783v1))
++ **[2026 Arxiv-2603]** Steering Code LLMs with Activation Directions for Language and Library Control. ([Paper](https://arxiv.org/pdf/2603.23629v1))
++ **[2026 Arxiv-2603]** LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops. ([Paper](https://arxiv.org/pdf/2603.23613v1))
++ **[2026 Arxiv-2603]** Off-Policy Value-Based Reinforcement Learning for Large Language Models. ([Paper](https://arxiv.org/pdf/2603.23355v1))
++ **[2026 Arxiv-2603]** Is AI Catching Up to Human Expression? Exploring Emotion, Personality, Authorship, and Linguistic Style in English and Arabic with Six Large Language Models. ([Paper](https://arxiv.org/pdf/2603.23251v1))
++ **[2026 Arxiv-2603]** ImplicitRM: Unbiased Reward Modeling from Implicit Preference Data for LLM alignment. ([Paper](https://arxiv.org/pdf/2603.23184v1))
++ **[2026 Arxiv-2603]** Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models. ([Paper](https://arxiv.org/pdf/2603.23149v1))
++ **[2026 Arxiv-2603]** Generative Event Pretraining with Foundation Model Alignment. ([Paper](https://arxiv.org/pdf/2603.23032v1))
++ **[2026 Arxiv-2603]** VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.22991v1))
++ **[2026 Arxiv-2603]** Set-Valued Prediction for Large Language Models with Feasibility-Aware Coverage Guarantees. ([Paper](https://arxiv.org/pdf/2603.22966v1))
++ **[2026 Arxiv-2603]** PersonalQ: Select, Quantize, and Serve Personalized Diffusion Models for Efficient Inference. ([Paper](https://arxiv.org/pdf/2603.22943v1))
++ **[2026 Arxiv-2603]** Improving Safety Alignment via Balanced Direct Preference Optimization. ([Paper](https://arxiv.org/pdf/2603.22829v1))
++ **[2026 Arxiv-2603]** KARMA: Knowledge-Action Regularized Multimodal Alignment for Personalized Search at Taobao. ([Paper](https://arxiv.org/pdf/2603.22779v1))
++ **[2026 Arxiv-2603]** DALDALL: Data Augmentation for Lexical and Semantic Diverse in Legal Domain by leveraging LLM-Persona. ([Paper](https://arxiv.org/pdf/2603.22765v1))
++ **[2026 Arxiv-2603]** SpatialReward: Verifiable Spatial Reward Modeling for Fine-Grained Spatial Consistency in Text-to-Image Generation. ([Paper](https://arxiv.org/pdf/2603.22228v1))
++ **[2026 Arxiv-2603]** ACPO: Counteracting Likelihood Displacement in Vision-Language Alignment with Asymmetric Constraints. ([Paper](https://arxiv.org/pdf/2603.22165v1))
++ **[2026 Arxiv-2603]** Riding Brainwaves in LLM Space: Understanding Activation Patterns Using Individual Neural Signatures. ([Paper](https://arxiv.org/pdf/2603.21847v1))
++ **[2026 Arxiv-2603]** TAMTRL: Teacher-Aligned Reward Reshaping for Multi-Turn Reinforcement Learning in Long-Context Compression. ([Paper](https://arxiv.org/pdf/2603.21663v1))
++ **[2026 Arxiv-2603]** SSAM: Singular Subspace Alignment for Merging Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21584v1))
 + **[2026 Arxiv-2603]** Large Language Model Guided Incentive Aware Reward Design for Cooperative Multi-Agent Reinforcement Learning. ([Paper](https://arxiv.org/pdf/2603.24324v1))
 + **[2026 Arxiv-2603]** HEART-PFL: Stable Personalized Federated Learning under Heterogeneity with Hierarchical Directional Alignment and Adversarial Knowledge Transfer. ([Paper](https://arxiv.org/pdf/2603.24209v1))
 + **[2026 Arxiv-2603]** SumRank: Aligning Summarization Models for Long-Document Listwise Reranking. ([Paper](https://arxiv.org/pdf/2603.24204v1))

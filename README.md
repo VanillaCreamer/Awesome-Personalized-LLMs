@@ -35,6 +35,7 @@ This repository collects the latest research progress on personalized large lang
 
 ### 1.3 Training-based Methods
 + **[2026 Arxiv-2603]** TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.24584v1))
++ **[2026 Arxiv-2603]** TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.24584v1))
 + **[2026 Arxiv-2603]** Comparing Developer and LLM Biases in Code Evaluation. ([Paper](https://arxiv.org/pdf/2603.24586v1))
 + **[2026 Arxiv-2603]** Vision-Language Models vs Human: Perceptual Image Quality Assessment. ([Paper](https://arxiv.org/pdf/2603.24578v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
@@ -185,6 +186,7 @@ This repository collects the latest research progress on personalized large lang
 ### 2.2 Benchmark/Dataset
 + **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
 + **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
++ **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** When AI Meets Early Childhood Education: Large Language Models as Assessment Teammates in Chinese Preschools. ([Paper](https://arxiv.org/pdf/2603.24389v1))
@@ -249,6 +251,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.3 Prompt/Vector-based Methods
++ **[2026 Arxiv-2603]** Analysing the Safety Pitfalls of Steering Vectors. ([Paper](https://arxiv.org/pdf/2603.24543v1))
 + **[2026 Arxiv-2603]** Analysing the Safety Pitfalls of Steering Vectors. ([Paper](https://arxiv.org/pdf/2603.24543v1))
 + **[2026 Arxiv-2603]** Comparing Developer and LLM Biases in Code Evaluation. ([Paper](https://arxiv.org/pdf/2603.24586v1))
 + **[2026 Arxiv-2603]** Vision-Language Models vs Human: Perceptual Image Quality Assessment. ([Paper](https://arxiv.org/pdf/2603.24578v1))
@@ -400,6 +403,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 SFT/RL Methods
++ **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs. ([Paper](https://arxiv.org/pdf/2603.24034v1))

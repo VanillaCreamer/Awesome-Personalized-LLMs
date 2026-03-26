@@ -17,6 +17,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 
 + **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
 
@@ -34,6 +35,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.3 Training-based Methods
++ **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.24584v1))
 + **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.24584v1))
@@ -120,6 +122,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.4 Training-free Methods
++ **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
 + **[2026 Arxiv-2603]** Efficiency for Experts, Visibility for Newcomers: A Case Study of Label-Code Alignment in Kubernetes. ([Paper](https://arxiv.org/pdf/2603.24501v1))
 + **[2026 Arxiv-2603]** On a Co-evolving Opinion-Leadership Model in Social Networks. ([Paper](https://arxiv.org/pdf/2603.24381v1))
 + **[2026 Arxiv-2603]** Leveraging Large Language Models for Trustworthiness Assessment of Web Applications. ([Paper](https://arxiv.org/pdf/2603.23781v1))
@@ -186,6 +189,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
 + **[2026 Arxiv-2603]** Comparing Developer and LLM Biases in Code Evaluation. ([Paper](https://arxiv.org/pdf/2603.24586v1))
 + **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
 + **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
@@ -255,6 +259,7 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.3 Prompt/Vector-based Methods
++ **[2026 Arxiv-2603]** Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22042v2))
 + **[2026 Arxiv-2603]** Analysing the Safety Pitfalls of Steering Vectors. ([Paper](https://arxiv.org/pdf/2603.24543v1))
 + **[2026 Arxiv-2603]** Analysing the Safety Pitfalls of Steering Vectors. ([Paper](https://arxiv.org/pdf/2603.24543v1))
 + **[2026 Arxiv-2603]** Comparing Developer and LLM Biases in Code Evaluation. ([Paper](https://arxiv.org/pdf/2603.24586v1))
@@ -407,6 +412,9 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.4 SFT/RL Methods
++ **[2026 Arxiv-2603]** SumRank: Aligning Summarization Models for Long-Document Listwise Reranking. ([Paper](https://arxiv.org/pdf/2603.24204v1))
++ **[2026 Arxiv-2603]** Riding Brainwaves in LLM Space: Understanding Activation Patterns Using Individual Neural Signatures. ([Paper](https://arxiv.org/pdf/2603.21847v1))
++ **[2026 Arxiv-2603]** TAMTRL: Teacher-Aligned Reward Reshaping for Multi-Turn Reinforcement Learning in Long-Context Compression. ([Paper](https://arxiv.org/pdf/2603.21663v1))
 + **[2026 Arxiv-2603]** Vision-Language Models vs Human: Perceptual Image Quality Assessment. ([Paper](https://arxiv.org/pdf/2603.24578v1))
 + **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
 + **[2026 Arxiv-2603]** When AI Meets Early Childhood Education: Large Language Models as Assessment Teammates in Chinese Preschools. ([Paper](https://arxiv.org/pdf/2603.24389v1))

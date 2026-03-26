@@ -375,7 +375,6 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-### 2.4 SFT/RL Methods
 + **[2026 Arxiv-2603]** RefReward-SR: LR-Conditioned Reward Modeling for Preference-Aligned Super-Resolution. ([Paper](https://arxiv.org/pdf/2603.24198v1))
 + **[2026 Arxiv-2603]** Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection. ([Paper](https://arxiv.org/pdf/2603.24030v1))
 + **[2026 Arxiv-2603]** Language-Grounded Multi-Agent Planning for Personalized and Fair Participatory Urban Sensing. ([Paper](https://arxiv.org/pdf/2603.24014v1))

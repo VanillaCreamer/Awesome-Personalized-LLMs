@@ -17,6 +17,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** CLAR: CIF-Localized Alignment for Retrieval-Augmented Speech LLM-Based Contextual ASR. ([Paper](https://arxiv.org/pdf/2603.25460v1))
++ **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 + **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 
 + **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
@@ -35,6 +37,10 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.3 Training-based Methods
++ **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
++ **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
++ **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v2))
++ **[2026 Arxiv-2603]** Steering LLMs for Culturally Localized Generation. ([Paper](https://arxiv.org/pdf/2603.23301v1))
 + **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
 + **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v1))
@@ -184,6 +190,11 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **[2026 Arxiv-2603]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973v1))
++ **[2026 Arxiv-2603]** PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency. ([Paper](https://arxiv.org/pdf/2603.25620v1))
++ **[2026 Arxiv-2603]** Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system. ([Paper](https://arxiv.org/pdf/2603.24940v1))
++ **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
++ **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents. ([Paper](https://arxiv.org/pdf/2603.23840v1))
 + **[2026 Arxiv-2603]** 3DCity-LLM: Empowering Multi-modality Large Language Models for 3D City-scale Perception and Understanding. ([Paper](https://arxiv.org/pdf/2603.23447v1))
@@ -234,6 +245,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.3 Prompt/Vector-based Methods
++ **[2026 Arxiv-2603]** Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving. ([Paper](https://arxiv.org/pdf/2603.25740v1))
++ **[2026 Arxiv-2603]** Self-Corrected Image Generation with Explainable Latent Rewards. ([Paper](https://arxiv.org/pdf/2603.24965v1))
 + **[2026 Arxiv-2603]** Analysing LLM Persona Generation and Fairness Interpretation in Polarised Geopolitical Contexts. ([Paper](https://arxiv.org/pdf/2603.22837v1))
 + **[2026 Arxiv-2603]** Language Models Can Explain Visual Features via Steering. ([Paper](https://arxiv.org/pdf/2603.22593v2))
 + **[2026 Arxiv-2603]** Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22042v2))

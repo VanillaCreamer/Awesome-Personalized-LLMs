@@ -1,0 +1,11 @@
+# Local runtime config
+config/weekly_maintenance.env
+
+# Runtime outputs and logs
+output/*.json
+output/*.log
+logs/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,6 +1,8 @@
 # Awesome Personalized Large Language Models
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
 
+🆕 GPT-5.4 is being used to maintain this repository, and weekly updates can be viewed through different branches.
+
 > The contributions are expected to be submitted as follows:
 > 
 > `+ **\[Year Conference/Jounal\]** Title. ([Paper](link), [Code](link))`  (if accessible).

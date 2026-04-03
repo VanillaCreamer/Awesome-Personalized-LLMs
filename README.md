@@ -3,6 +3,11 @@ This repository collects the latest research progress on personalized large lang
 
 🆕 GPT-5.4 is being used to maintain this repository, and weekly updates can be viewed through different branches.
 
+> Inclusion criteria:
+> - keep papers with an explicit connection to personalized LLMs, e.g., user preference modeling, persona/personality control, profile or memory-based personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
+> - keep benchmark/dataset papers only when personalization is a central task rather than a side setting;
+> - deprioritize generic alignment, safety, multimodal perception, recommendation, or agent papers unless they make personalization the main technical contribution.
+
 > The contributions are expected to be submitted as follows:
 > 
 > `+ **\[Year Conference/Jounal\]** Title. ([Paper](link), [Code](link))`  (if accessible).
@@ -198,8 +203,6 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2025 Arxiv-2505\]** LaMP-QA: A Benchmark for Personalized Long-form Question Answering. ([Paper](https://arxiv.org/pdf/2506.00137), [Code](https://github.com/LaMP-Benchmark/LaMP-QA))
 
-+ **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
-
 + **\[2025 WWW\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://github.com/HongruCai/PersonalWAB))
 
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
@@ -207,11 +210,7 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 Arxiv-2412\]** Can Large Language Models Understand You Better? An MBTI Personality Detection Dataset Aligned with Population Traits. ([Paper](https://arxiv.org/pdf/2412.12510), [Code](https://github.com/Personality-NLP/MbtiBench))
 
 
-+ **\[2024 Arxiv-2407\]** PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization. ([Paper](https://arxiv.org/pdf/2407.18078), [Code](https://github.com/ChrisIsKing/Parameter-Efficient-Personalization))
-
 + **\[2024 Arxiv-2407\]** LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([Paper](https://arxiv.org/pdf/2407.11016), [Code](https://longlamp-benchmark.github.io/Papers))
-
-+ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([Paper](https://arxiv.org/pdf/2406.14275), [Code](https://github.com/gersteinlab/step-back-profiling))
 
 + **\[2024 ACL\]** LaMP: When Large Language Models Meet Personalization. ([Paper](https://aclanthology.org/2024.acl-long.399.pdf), [Code](https://lamp-benchmark.github.io/))
 
@@ -226,6 +225,8 @@ This repository collects the latest research progress on personalized large lang
 ### 2.3 Memory / Retrieval-based Methods
 + **\[2026 Arxiv-260329\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247.pdf))
 + **\[2026 Arxiv-260327\]** GAAMA: Graph Augmented Associative Memory for Agents. ([Paper](https://arxiv.org/pdf/2603.27910.pdf))
++ **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
++ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([Paper](https://arxiv.org/pdf/2406.14275), [Code](https://github.com/gersteinlab/step-back-profiling))
 
 ### 2.4 Prompt/Vector-based Methods
 + **\[2026 Arxiv-260328\]** EpiPersona: Persona Projection and Episode Coupling for Pluralistic Preference Modeling. ([Paper](https://arxiv.org/pdf/2603.28197.pdf))
@@ -292,6 +293,8 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.5 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
+
++ **\[2024 Arxiv-2407\]** PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization. ([Paper](https://arxiv.org/pdf/2407.18078), [Code](https://github.com/ChrisIsKing/Parameter-Efficient-Personalization))
 
 + **\[2026 Arxiv-260400\]** Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization. ([Paper](https://arxiv.org/pdf/2604.00997.pdf))
 

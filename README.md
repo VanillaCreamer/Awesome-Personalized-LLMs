@@ -3,6 +3,8 @@ This repository collects the latest research progress on personalized large lang
 
 🆕 GPT-5.4 is being used to maintain this repository, and weekly updates can be viewed through different branches.
 
+For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
+
 > Inclusion criteria:
 > - keep papers with an explicit connection to personalized LLMs, e.g., user preference modeling, persona/personality control, profile or memory-based personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
 > - keep benchmark/dataset papers only when personalization is a central task rather than a side setting;

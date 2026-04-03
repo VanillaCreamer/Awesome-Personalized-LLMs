@@ -21,7 +21,6 @@ This repository collects the latest research progress on personalized large lang
 ### 1.2 Benchmark/Dataset
 + **[2026 Arxiv-2603]** CLAR: CIF-Localized Alignment for Retrieval-Augmented Speech LLM-Based Contextual ASR. ([Paper](https://arxiv.org/pdf/2603.25460v1))
 + **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
-+ **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
 
 + **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
 
@@ -39,29 +38,10 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 1.3 Training-based Methods
-+ **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
 + **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
 + **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v2))
 + **[2026 Arxiv-2603]** Steering LLMs for Culturally Localized Generation. ([Paper](https://arxiv.org/pdf/2603.23301v1))
-+ **[2026 Arxiv-2603]** Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification. ([Paper](https://arxiv.org/pdf/2603.24528v1))
-+ **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
-+ **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v1))
-+ **[2026 Arxiv-2603]** Steering LLMs for Culturally Localized Generation. ([Paper](https://arxiv.org/pdf/2603.23301v1))
-+ **[2026 Arxiv-2603]** TAG: Target-Agnostic Guidance for Stable Object-Centric Inference in Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.24584v1))
-+ **[2026 Arxiv-2603]** Comparing Developer and LLM Biases in Code Evaluation. ([Paper](https://arxiv.org/pdf/2603.24586v1))
-+ **[2026 Arxiv-2603]** Vision-Language Models vs Human: Perceptual Image Quality Assessment. ([Paper](https://arxiv.org/pdf/2603.24578v1))
-+ **[2026 Arxiv-2603]** Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding. ([Paper](https://arxiv.org/pdf/2603.24535v1))
-+ **[2026 Arxiv-2603]** When AI Meets Early Childhood Education: Large Language Models as Assessment Teammates in Chinese Preschools. ([Paper](https://arxiv.org/pdf/2603.24389v1))
-+ **[2026 Arxiv-2603]** Semantic Alignment across Ancient Egyptian Language Stages via Normalization-Aware Multitask Learning. ([Paper](https://arxiv.org/pdf/2603.24258v1))
-+ **[2026 Arxiv-2603]** SumRank: Aligning Summarization Models for Long-Document Listwise Reranking. ([Paper](https://arxiv.org/pdf/2603.24204v1))
-+ **[2026 Arxiv-2603]** ConceptKT: A Benchmark for Concept-Level Deficiency Prediction in Knowledge Tracing. ([Paper](https://arxiv.org/pdf/2603.24073v1))
-+ **[2026 Arxiv-2603]** From Oracle to Noisy Context: Mitigating Contextual Exposure Bias in Speech-LLMs. ([Paper](https://arxiv.org/pdf/2603.24034v1))
-+ **[2026 Arxiv-2603]** From Untamed Black Box to Interpretable Pedagogical Orchestration: The Ensemble of Specialized LLMs Architecture for Adaptive Tutoring. ([Paper](https://arxiv.org/pdf/2603.23990v1))
-+ **[2026 Arxiv-2603]** BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment. ([Paper](https://arxiv.org/pdf/2603.23883v1))
-+ **[2026 Arxiv-2603]** IslamicMMLU: A Benchmark for Evaluating LLMs on Islamic Knowledge. ([Paper](https://arxiv.org/pdf/2603.23750v1))
-+ **[2026 Arxiv-2603]** AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes. ([Paper](https://arxiv.org/pdf/2603.21551v1))
 + **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
-+ **[2026 Arxiv-2603]** Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos. ([Paper](https://arxiv.org/pdf/2603.21309v1))
 
 + **\[2025 Arxiv-2512\]** Semiparametric Preference Optimization: Your Language Model is Secretly a Single-Index Model. ([Paper](https://arxiv.org/pdf/2512.21917))
 
@@ -127,10 +107,6 @@ This repository collects the latest research progress on personalized large lang
 ### 1.4 Training-free Methods
 + **[2026 Arxiv-2603]** Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22094v2))
 + **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
-+ **[2026 Arxiv-2603]** Efficiency for Experts, Visibility for Newcomers: A Case Study of Label-Code Alignment in Kubernetes. ([Paper](https://arxiv.org/pdf/2603.24501v1))
-+ **[2026 Arxiv-2603]** On a Co-evolving Opinion-Leadership Model in Social Networks. ([Paper](https://arxiv.org/pdf/2603.24381v1))
-+ **[2026 Arxiv-2603]** Leveraging Large Language Models for Trustworthiness Assessment of Web Applications. ([Paper](https://arxiv.org/pdf/2603.23781v1))
-+ **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
 + **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
 
 + **\[2025 Arxiv-2512\]** ProSocialAlign: Preference Conditioned Test Time Alignment in Language Models. ([Paper](https://arxiv.org/pdf/2512.06515))
@@ -201,7 +177,6 @@ This repository collects the latest research progress on personalized large lang
 + **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
 + **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents. ([Paper](https://arxiv.org/pdf/2603.23840v1))
-+ **[2026 Arxiv-2603]** 3DCity-LLM: Empowering Multi-modality Large Language Models for 3D City-scale Perception and Understanding. ([Paper](https://arxiv.org/pdf/2603.23447v1))
 + **[2026 Arxiv-2603]** Multiperspectivity as a Resource for Narrative Similarity Prediction. ([Paper](https://arxiv.org/pdf/2603.22103v1))
 + **[2026 Arxiv-2603]** LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation. ([Paper](https://arxiv.org/pdf/2603.21243v1))
 

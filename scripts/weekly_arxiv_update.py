@@ -22,19 +22,34 @@ KEYWORDS = [
     'personalized agent', 'memory personalization',
     'decoding-time personalization', 'steering'
 ]
-POSITIVE_TERMS = {
-    'personalized': 4, 'personalization': 4, 'persona': 4, 'personality': 3,
-    'preference': 3, 'pluralistic': 3, 'user': 2, 'profile': 2, 'memory': 2,
-    'retrieval': 2, 'steering': 2, 'alignment': 2, 'agent': 2, 'style': 2,
-    'multimodal': 1, 'dialogue': 2, 'generation': 1, 'custom': 1
-}
-NEGATIVE_PATTERNS = [
-    r'protein', r'genome', r'medical imaging', r'earthquake', r'kubernetes',
-    r'ancient egyptian', r'super-resolution', r'temporal action detection'
-]
-START_MARKER = '<!-- WEEKLY-UPDATES:START -->'
-END_MARKER = '<!-- WEEKLY-UPDATES:END -->'
 ATOM_NS = {'a': 'http://www.w3.org/2005/Atom'}
+SECTION_MAP = {
+    '2.1 Survey/Tutorial/Framework': '### 2.1 Survey/Tutorial/Framework',
+    '2.2 Benchmark/Dataset': '### 2.2 Benchmark/Dataset',
+    '2.3 Memory / Retrieval-based Methods': '### 2.3 Memory / Retrieval-based Methods',
+    '2.4 Prompt/Vector-based Methods': '### 2.4 Prompt/Vector-based Methods',
+    '2.5 SFT/RL Methods': '### 2.5 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods',
+}
+HARD_EXCLUDE_PATTERNS = [
+    r'federated learning', r'fitness', r'workout', r'emotion recognition',
+    r'facial expression', r'gpu kernel', r'diabetes', r'darts training',
+    r'wearable human activity', r'earthquake', r'kubernetes', r'genome',
+    r'protein', r'super-resolution', r'temporal action detection',
+    r'programming courses', r'retail stores', r'marketing', r'negotiation',
+    r'game development', r'avatar', r'diffusion model', r'text-to-image'
+]
+TITLE_STRONG_TERMS = [
+    'personalized', 'personalization', 'persona', 'personality',
+    'preference', 'pluralistic', 'alignment', 'user', 'memory', 'agent'
+]
+LLM_TERMS = ['large language model', 'large language models', 'llm', 'llms', 'language model']
+METHOD_TERMS = [
+    'framework', 'method', 'prompt', 'vector', 'decoding', 'test-time',
+    'inference-time', 'adapter', 'lora', 'fine-tuning', 'sft',
+    'reinforcement learning', 'reward', 'optimization', 'preference modeling'
+]
+BENCHMARK_TERMS = ['benchmark', 'dataset', 'evaluation framework', 'bench']
+SURVEY_TERMS = ['survey', 'tutorial', 'overview', 'review']
 
 
 def utc_now() -> datetime:
@@ -67,34 +82,69 @@ def existing_readme_signatures() -> Tuple[set, set]:
     return titles, ids
 
 
+def has_any(text: str, terms: List[str]) -> bool:
+    return any(term in text for term in terms)
+
+
+def strong_relevance(title: str, summary: str) -> bool:
+    hay = normalize(f'{title} {summary}')
+    title_n = normalize(title)
+
+    if any(re.search(pat, hay) for pat in HARD_EXCLUDE_PATTERNS):
+        return False
+
+    has_llm = has_any(hay, LLM_TERMS)
+    has_personal = has_any(hay, ['personalized', 'personalization', 'persona', 'personality', 'user-specific', 'pluralistic'])
+    has_pref_align = has_any(hay, ['preference', 'alignment', 'reward factorization', 'preference modeling'])
+    has_agent_memory = has_any(hay, ['memory', 'retrieval', 'agent', 'profile'])
+
+    # require explicit LLM/personalization signal, not just generic "personalized"
+    if not has_llm and not ('gui agent' in hay and has_personal):
+        return False
+
+    # require a meaningful personalization/alignment hook
+    if not (has_personal or has_pref_align or (has_agent_memory and has_personal)):
+        return False
+
+    # title should carry strong signal unless benchmark/method summary is very explicit
+    if not has_any(title_n, TITLE_STRONG_TERMS):
+        if not (has_any(hay, BENCHMARK_TERMS) and has_personal and has_llm):
+            if not (has_any(hay, METHOD_TERMS) and has_personal and has_llm):
+                return False
+
+    return True
+
+
 def score_paper(title: str, summary: str) -> int:
     hay = normalize(f'{title} {summary}')
     score = 0
-    for term, weight in POSITIVE_TERMS.items():
+    for term in TITLE_STRONG_TERMS:
         if term in hay:
-            score += weight
-    if 'large language model' in hay or 'llm' in hay:
-        score += 3
-    if any(re.search(pat, hay) for pat in NEGATIVE_PATTERNS):
-        score -= 6
+            score += 3
+    for term in LLM_TERMS:
+        if term in hay:
+            score += 2
+    for term in ['memory', 'retrieval', 'agent', 'benchmark', 'dataset', 'steering', 'prompt', 'reward', 'alignment']:
+        if term in hay:
+            score += 1
     return score
 
 
 def classify(title: str, summary: str) -> str:
     hay = normalize(f'{title} {summary}')
-    if 'survey' in hay or 'tutorial' in hay or 'benchmark' in hay or 'dataset' in hay:
-        return 'Survey / Benchmark'
-    if 'persona' in hay or 'personality' in hay or 'style' in hay:
-        return 'Persona / Personality'
-    if 'steering' in hay or 'decoding' in hay or 'test-time' in hay or 'inference' in hay:
-        return 'Test-time / Steering'
-    if 'memory' in hay or 'retrieval' in hay or 'user modeling' in hay or 'profile' in hay:
-        return 'Memory / Retrieval / User Modeling'
-    if 'agent' in hay or 'multimodal' in hay or 'vision-language' in hay:
-        return 'Agents / Multimodal'
-    if 'preference' in hay or 'alignment' in hay or 'pluralistic' in hay:
-        return 'Preference / Alignment'
-    return 'Other Personalized LLMs'
+    if has_any(hay, SURVEY_TERMS):
+        return '2.1 Survey/Tutorial/Framework'
+    if has_any(hay, BENCHMARK_TERMS):
+        return '2.2 Benchmark/Dataset'
+    if has_any(hay, ['prompt', 'vector', 'steering', 'decoding', 'test-time', 'inference-time', 'activation', 'persona projection']):
+        return '2.4 Prompt/Vector-based Methods'
+    if has_any(hay, ['memory', 'retrieval', 'profile', 'graph', 'rerank']):
+        return '2.3 Memory / Retrieval-based Methods'
+    if has_any(hay, ['fine-tuning', 'sft', 'reinforcement learning', 'reward', 'optimization', 'lora', 'adapter', 'dpo', 'factorization']):
+        return '2.5 SFT/RL Methods'
+    if has_any(hay, ['agent', 'persona', 'personality']):
+        return '2.4 Prompt/Vector-based Methods'
+    return '2.5 SFT/RL Methods'
 
 
 def build_query() -> str:
@@ -149,6 +199,12 @@ def within_window(ts: str, days: int) -> bool:
     return dt >= utc_now() - timedelta(days=days)
 
 
+def format_entry(item: Dict[str, str]) -> str:
+    ym = item['id'].replace('.', '')[:6]
+    year = item['published'][:4] if item.get('published') else today_iso()[:4]
+    return f"+ **\\[{year} Arxiv-{ym}\\]** {item['title']}. ([Paper]({item['pdf_url']}))"
+
+
 def pick_papers() -> Tuple[List[Dict[str, str]], int]:
     window_days = env_int('WINDOW_DAYS', 7)
     existing_titles, existing_ids = existing_readme_signatures()
@@ -162,45 +218,51 @@ def pick_papers() -> Tuple[List[Dict[str, str]], int]:
         if paper['id'] in seen_ids or paper['id'] in existing_ids or normalize(paper['title']) in existing_titles:
             skipped_duplicates += 1
             continue
-        score = score_paper(paper['title'], paper['summary'])
-        if score < 7:
+        if not strong_relevance(paper['title'], paper['summary']):
             continue
-        paper['score'] = score
+        paper['score'] = score_paper(paper['title'], paper['summary'])
         paper['category'] = classify(paper['title'], paper['summary'])
         accepted.append(paper)
         seen_ids.add(paper['id'])
     accepted.sort(key=lambda x: (-x['score'], x['id']))
-    return accepted[:20], skipped_duplicates
+    return accepted[:10], skipped_duplicates
 
 
-def weekly_section(items: List[Dict[str, str]], today: str) -> str:
-    lines = [START_MARKER, '## Weekly Updates (Automated)', f'### {today}']
-    if not items:
-        lines.append('- No qualified new arXiv papers this week.')
-    else:
-        for item in items:
-            ym = item['id'].replace('.', '')[:6]
-            lines.append(f"+ **\\[{today[:4]} Arxiv-{ym}\\]** {item['title']}. ([Paper]({item['pdf_url']}))")
-    lines.append(END_MARKER)
-    return '\n'.join(lines)
+def remove_weekly_updates_block(text: str) -> str:
+    return re.sub(r'<!-- WEEKLY-UPDATES:START -->.*?<!-- WEEKLY-UPDATES:END -->\n*', '', text, flags=re.S)
 
 
-def update_readme(items: List[Dict[str, str]], today: str) -> bool:
+def insert_into_section(text: str, heading: str, entries: List[str]) -> str:
+    if not entries:
+        return text
+    idx = text.find(heading)
+    if idx == -1:
+        return text
+    after_heading = text.find('\n', idx)
+    if after_heading == -1:
+        return text
+    insert_pos = after_heading + 1
+    block = '\n'.join(entries) + '\n\n'
+    return text[:insert_pos] + block + text[insert_pos:]
+
+
+def update_readme(items: List[Dict[str, str]]) -> Tuple[bool, List[str]]:
     text = README.read_text(encoding='utf-8')
-    section = weekly_section(items, today)
-    pattern = re.compile(re.escape(START_MARKER) + r'.*?' + re.escape(END_MARKER), re.S)
-    if START_MARKER in text and END_MARKER in text:
-        new_text = pattern.sub(section, text)
-    else:
-        insert_at = text.find('## 1. Human Value Alignment')
-        if insert_at == -1:
-            new_text = text.rstrip() + '\n\n' + section + '\n'
-        else:
-            new_text = text[:insert_at].rstrip() + '\n\n' + section + '\n\n' + text[insert_at:]
+    text = remove_weekly_updates_block(text)
+    by_section: Dict[str, List[str]] = {key: [] for key in SECTION_MAP}
+    for item in items:
+        by_section[item['category']].append(format_entry(item))
+    touched = []
+    new_text = text
+    for section_key, heading in SECTION_MAP.items():
+        entries = by_section.get(section_key, [])
+        if entries:
+            new_text = insert_into_section(new_text, heading, entries)
+            touched.append(section_key)
     if new_text != text:
         README.write_text(new_text, encoding='utf-8')
-        return True
-    return False
+        return True, touched
+    return False, touched
 
 
 def build_digest(items: List[Dict[str, str]], today: str) -> Dict:
@@ -224,7 +286,7 @@ def build_digest(items: List[Dict[str, str]], today: str) -> Dict:
 def main() -> int:
     today = today_iso()
     items, duplicates = pick_papers()
-    readme_changed = update_readme(items, today)
+    readme_changed, touched = update_readme(items)
     candidates = {
         'generated_at': utc_now().isoformat(),
         'source': 'arXiv',
@@ -239,14 +301,14 @@ def main() -> int:
         'branch': f'weekly/arxiv-{today}',
         'title': f'weekly: arXiv update for {today}',
         'accepted_count': len(items),
-        'sections_updated': ['Weekly Updates (Automated)'] if readme_changed else [],
+        'sections_updated': touched,
         'duplicates_removed': duplicates,
         'status': 'ok'
     }
     (OUT / 'candidates.json').write_text(json.dumps(candidates, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (OUT / 'email_digest.json').write_text(json.dumps(digest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (OUT / 'pr_summary.json').write_text(json.dumps(pr_summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f"Accepted {len(items)} papers; README changed={readme_changed}; duplicates skipped={duplicates}")
+    print(f"Accepted {len(items)} papers; README changed={readme_changed}; duplicates skipped={duplicates}; sections={touched}")
     return 0
 
 

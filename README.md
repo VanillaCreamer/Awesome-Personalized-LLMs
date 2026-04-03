@@ -11,31 +11,6 @@ This repository collects the latest research progress on personalized large lang
 
 + **\[2024 Arxiv-2411\]** Personalization of Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2411.00027))
 
-<!-- WEEKLY-UPDATES:START -->
-## Weekly Updates (Automated)
-### 2026-04-02
-+ **\[2026 Arxiv-260328\]** FedDES: Graph-Based Dynamic Ensemble Selection for Personalized Federated Learning. ([Paper](https://arxiv.org/pdf/2603.28006.pdf))
-+ **\[2026 Arxiv-260328\]** MOSS-VoiceGenerator: Create Realistic Voices with Natural Language Descriptions. ([Paper](https://arxiv.org/pdf/2603.28086.pdf))
-+ **\[2026 Arxiv-260328\]** "What Did It Actually Do?": Understanding Risk Awareness and Traceability for Computer-Use Agents. ([Paper](https://arxiv.org/pdf/2603.28551.pdf))
-+ **\[2026 Arxiv-260328\]** Calibrated Fusion for Heterogeneous Graph-Vector Retrieval in Multi-Hop QA. ([Paper](https://arxiv.org/pdf/2603.28886.pdf))
-+ **\[2026 Arxiv-260400\]** ActivityNarrated: An Open-Ended Narrative Paradigm for Wearable Human Activity Understanding. ([Paper](https://arxiv.org/pdf/2604.00767.pdf))
-+ **\[2026 Arxiv-260401\]** Toward Personalized Darts Training: A Data-Driven Framework Based on Skeleton-Based Biomechanical Analysis and Motion Modeling. ([Paper](https://arxiv.org/pdf/2604.01130.pdf))
-+ **\[2026 Arxiv-260327\]** Large Language Models in Game Development: Implications for Gameplay, Playability, and Player Experience. ([Paper](https://arxiv.org/pdf/2603.27896.pdf))
-+ **\[2026 Arxiv-260327\]** ViviDoc: Generating Interactive Documents through Human-Agent Collaboration. ([Paper](https://arxiv.org/pdf/2603.27991.pdf))
-+ **\[2026 Arxiv-260328\]** Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web. ([Paper](https://arxiv.org/pdf/2603.28428.pdf))
-+ **\[2026 Arxiv-260328\]** The Ultimate Tutorial for AI-driven Scale Development in Generative Psychometrics: Releasing AIGENIE from its Bottle. ([Paper](https://arxiv.org/pdf/2603.28643.pdf))
-+ **\[2026 Arxiv-260329\]** Customer Analysis and Text Generation for Small Retail Stores Using LLM-Generated Marketing Presence. ([Paper](https://arxiv.org/pdf/2603.29273.pdf))
-+ **\[2026 Arxiv-260400\]** Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation. ([Paper](https://arxiv.org/pdf/2604.00464.pdf))
-+ **\[2026 Arxiv-260400\]** Steering through Time: Blending Longitudinal Data with Simulation to Rethink Human-Autonomous Vehicle Interaction. ([Paper](https://arxiv.org/pdf/2604.00832.pdf))
-+ **\[2026 Arxiv-260327\]** Let the Agent Steer: Closed-Loop Ranking Optimization via Influence Exchange. ([Paper](https://arxiv.org/pdf/2603.27765.pdf))
-+ **\[2026 Arxiv-260328\]** DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video. ([Paper](https://arxiv.org/pdf/2603.28003.pdf))
-+ **\[2026 Arxiv-260328\]** With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems. ([Paper](https://arxiv.org/pdf/2603.28476.pdf))
-+ **\[2026 Arxiv-260329\]** FedDBP: Enhancing Federated Prototype Learning with Dual-Branch Features and Personalized Global Fusion. ([Paper](https://arxiv.org/pdf/2603.29455.pdf))
-+ **\[2026 Arxiv-260329\]** Self-Supervised Federated Learning under Data Heterogeneity for Label-Scarce Diatom Classification. ([Paper](https://arxiv.org/pdf/2603.29633.pdf))
-+ **\[2026 Arxiv-260400\]** GUIDE: Reinforcement Learning for Behavioral Action Support in Type 1 Diabetes. ([Paper](https://arxiv.org/pdf/2604.00385.pdf))
-+ **\[2026 Arxiv-260329\]** Improving Efficiency of GPU Kernel Optimization Agents using a Domain-Specific Language and Speed-of-Light Guidance. ([Paper](https://arxiv.org/pdf/2603.29010.pdf))
-<!-- WEEKLY-UPDATES:END -->
-
 ## 1. Human Value Alignment
 
 ### 1.1 Survey/Tutorial/Framework
@@ -217,11 +192,13 @@ This repository collects the latest research progress on personalized large lang
 
 
 ### 2.2 Benchmark/Dataset
++ **\[2026 Arxiv-260329\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318.pdf))
++ **\[2026 Arxiv-260401\]** HippoCamp: Benchmarking Contextual Agents on Personal Computers. ([Paper](https://arxiv.org/pdf/2604.01221.pdf))
+
 + **[2026 Arxiv-2603]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973v1))
 + **[2026 Arxiv-2603]** PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency. ([Paper](https://arxiv.org/pdf/2603.25620v1))
 + **[2026 Arxiv-2603]** Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system. ([Paper](https://arxiv.org/pdf/2603.24940v1))
 + **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
-+ **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
 + **[2026 Arxiv-2603]** VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents. ([Paper](https://arxiv.org/pdf/2603.23840v1))
 + **[2026 Arxiv-2603]** 3DCity-LLM: Empowering Multi-modality Large Language Models for 3D City-scale Perception and Understanding. ([Paper](https://arxiv.org/pdf/2603.23447v1))
@@ -271,7 +248,13 @@ This repository collects the latest research progress on personalized large lang
 
 
 
-### 2.3 Prompt/Vector-based Methods
+### 2.3 Memory / Retrieval-based Methods
++ **\[2026 Arxiv-260329\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247.pdf))
++ **\[2026 Arxiv-260327\]** GAAMA: Graph Augmented Associative Memory for Agents. ([Paper](https://arxiv.org/pdf/2603.27910.pdf))
+
+### 2.4 Prompt/Vector-based Methods
++ **\[2026 Arxiv-260328\]** EpiPersona: Persona Projection and Episode Coupling for Pluralistic Preference Modeling. ([Paper](https://arxiv.org/pdf/2603.28197.pdf))
+
 + **[2026 Arxiv-2603]** Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving. ([Paper](https://arxiv.org/pdf/2603.25740v1))
 + **[2026 Arxiv-2603]** Self-Corrected Image Generation with Explainable Latent Rewards. ([Paper](https://arxiv.org/pdf/2603.24965v1))
 + **[2026 Arxiv-2603]** Analysing LLM Persona Generation and Fairness Interpretation in Polarised Geopolitical Contexts. ([Paper](https://arxiv.org/pdf/2603.22837v1))
@@ -333,7 +316,11 @@ This repository collects the latest research progress on personalized large lang
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [Code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
-### 2.4 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
+### 2.5 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
+
++ **\[2026 Arxiv-260400\]** Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization. ([Paper](https://arxiv.org/pdf/2604.00997.pdf))
+
++ **\[2026 Arxiv-260400\]** Dual Optimal: Make Your LLM Peer-like with Dignity. ([Paper](https://arxiv.org/pdf/2604.00979.pdf))
 
 + **\[2025 Arxiv-2512\]** LLM-based Personalized Portfolio Recommender: Integrating Large Language Models and Reinforcement Learning for Intelligent Investment Strategy Optimization. ([Paper](https://arxiv.org/pdf/2512.12922))
 

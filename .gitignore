@@ -1,0 +1,23 @@
+# Keep the public repo reader-facing
+# Only README.md is intended for readers; maintenance files stay local.
+
+# Local runtime config
+config/
+config.weekly_maintenance.env.example
+
+# Maintenance docs and automation
+.docs/
+docs/
+scripts/
+.github/
+
+# Runtime outputs and logs
+output/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Public contributor guidance
+!MAINTENANCE.md

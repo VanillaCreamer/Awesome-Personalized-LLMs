@@ -18,149 +18,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2024 Arxiv-2411\]** Personalization of Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2411.00027))
 
-## 1. Human Value Alignment
 
-### 1.1 Survey/Tutorial/Framework
 
-+ **\[2024 GitHub\]** Personalized LMs: Aligning Language Models with Diverse Human Preference. ([Link](https://github.com/allenai/compred))
-
-
-### 1.2 Benchmark/Dataset
-+ **[2026 Arxiv-2603]** CLAR: CIF-Localized Alignment for Retrieval-Augmented Speech LLM-Based Contextual ASR. ([Paper](https://arxiv.org/pdf/2603.25460v1))
-+ **[2026 Arxiv-2603]** PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay. ([Paper](https://arxiv.org/pdf/2603.23841v1))
-
-+ **\[2025 Arxiv-2510\]** Large Language Model Agent Personality and Response Appropriateness: Evaluation by Human Linguistic Experts, LLM-as-Judge, and Natural Language Processing Model. ([Paper](https://arxiv.org/pdf/2510.23875))
-
-+ **\[2025 ICLR\]** DreamBench++: A Human-Aligned Benchmark for Personalized Image Generation. ([Paper](https://openreview.net/forum?id=4GSOESJrk6))
-
-+ **\[2025 ICLR\]** DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life. ([Paper](https://openreview.net/forum?id=PGhiPGBf47))
-
-+ **\[2024 NeurIPS\]** The PRISM Alignment Project: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2404.16019), [Code](https://hannahkirk.github.io/prism-alignment/))
-
-+ **\[2024 NeurIPS\]** Aligning to Thousands of Preferences via System Message Generalization. ([Paper](https://arxiv.org/pdf/2405.17977), [website](https://arxiv.org/pdf/2405.17977))
-
-+ **\[2024 NeurIPS\]** Improving Context-Aware Preference Modeling for Language Models. ([Paper](https://arxiv.org/pdf/2407.14916))
-
-+ **\[2023 Arxiv-2310\]** Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging. ([Paper](https://arxiv.org/pdf/2310.11564), [Code](https://github.com/joeljang/RLPHF))
-
-
-### 1.3 Training-based Methods
-+ **[2026 Arxiv-2603]** Alignment Reduces Expressed but Not Encoded Gender Bias: A Unified Framework and Study. ([Paper](https://arxiv.org/pdf/2603.24125v1))
-+ **[2026 Arxiv-2603]** The Alignment Tax: Response Homogenization in Aligned LLMs and Its Implications for Uncertainty Estimation. ([Paper](https://arxiv.org/pdf/2603.24124v2))
-+ **[2026 Arxiv-2603]** Steering LLMs for Culturally Localized Generation. ([Paper](https://arxiv.org/pdf/2603.23301v1))
-+ **[2026 Arxiv-2603]** The Illusion of Agreement with ChatGPT: Sycophancy and Beyond. ([Paper](https://arxiv.org/pdf/2603.21409v1))
-
-+ **\[2025 Arxiv-2512\]** Semiparametric Preference Optimization: Your Language Model is Secretly a Single-Index Model. ([Paper](https://arxiv.org/pdf/2512.21917))
-
-+ **\[2025 Arxiv-2511\]** Using Large Language Models to Create Personalized Networks From Therapy Sessions. ([Paper](https://arxiv.org/pdf/2512.05836))
-
-+ **\[2025 Arxiv-2511\]** Preference Orchestrator: Prompt-Aware Multi-Objective Alignment for Large Language Models. ([Paper](https://arxiv.org/pdf/2511.10656))
-
-+ **\[2025 Arxiv-2510\]** Aligning Diffusion Language Models via Unpaired Preference Optimization. ([Paper](https://arxiv.org/pdf/2510.23658))
-
-+ **\[2025 Arxiv-2510\]** Towards Understanding Valuable Preference Data for Large Language Model Alignment. ([Paper](https://arxiv.org/pdf/2510.13212))
-
-+ **\[2025 Arxiv-2510\]** VaPR -- Vision-language Preference alignment for Reasoning. ([Paper](https://arxiv.org/pdf/2510.01700))
-
-+ **\[2025 Arxiv-2510\]** Syntax-Guided Diffusion Language Models with User-Integrated Personalization. ([Paper](https://arxiv.org/pdf/2510.01028))
-
-+ **\[2025 Arxiv-2509\]** Aligning Large Vision-Language Models by Deep Reinforcement Learning and Direct Preference Optimization. ([Paper](https://arxiv.org/pdf/2509.06759))
-
-+ **\[2025 Arxiv-2509\]** LifeAlign: Lifelong Alignment for Large Language Models with Memory-Augmented Focalized Preference Optimization([Paper](https://arxiv.org/pdf/2509.17183))
-
-+ **\[2025 ICLR\]** PAL: Sample-Efficient Personalized Reward Modeling for Pluralistic Alignment. ([Paper](https://openreview.net/forum?id=1kFDrYCuSu))
-
-+ **\[2025 ICLR\]** MAP: Multi-Human-Value Alignment Palette. ([Paper](https://openreview.net/forum?id=NN6QHwgRrQ))
-
-+ **\[2025 Arxiv-2504\]** Persona-judge: Personalized Alignment of Large Language Models via Token-level Self-judgment
-
-+ **\[2025 Arxiv-2503\]** Language Model Personalization via Reward Factorization. ([Paper](https://arxiv.org/pdf/2503.06358), [Code](https://idanshen.github.io/PReF/))
-
-+ **\[2024 Arxiv-2410\]** COMPO: Community Preferences for Language Model Personalization. ([Paper](https://arxiv.org/pdf/2410.16027))
-
-+ **\[2024 Arxiv-2408\]** Personality Alignment of Large Language Models. ([Paper](https://arxiv.org/pdf/2408.11779), [Code](https://github.com/zhu-minjun/PAlign))
-
-+ **\[2024 Arxiv-2407\]** Orchestrating LLMs with Different Personalizations. ([Paper](https://arxiv.org/pdf/2407.04181))
-
-+ **\[2024 Arxiv-2405\]** Multi-Reference Preference Optimization for Large Language Models. ([Paper](https://arxiv.org/pdf/2405.16388))
-
-+ **\[2024 Arxiv-2402\]** Personalized Language Modeling from Personalized Human Feedback. ([Paper](https://openreview.net/pdf?id=bqUsdBeRjQ))
-
-+ **\[2024 ACL\]** Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference Alignment with Multi-Objective Rewards. ([Paper](https://aclanthology.org/2024.acl-long.468.pdf), [Code](https://github.com/RLHFlow/Directional-Preference-Alignment))
-
-+ **\[2024 EMNLP\]** On Diversified Preferences of Large Language Model Alignment. ([Paper](https://arxiv.org/pdf/2312.07401), [Code](https://github.com/dunzeng/MORE))
-
-+ **\[2024 EMNLP\]** Learning Personalized Alignment for Evaluating Open-ended Text Generation. ([Paper](https://aclanthology.org/2024.emnlp-main.737.pdf))
-
-+ **\[2024 EMNLP\]** BAPO: Base-Anchored Preference Optimization for Personalized Alignment in Large Language Models. ([Paper](https://aclanthology.org/2024.findings-emnlp.398.pdf))
-
-+ **\[2024 EMNLP\]** Dynamic Multi-Reward Weighting for Multi-Style Controllable Generation. ([Paper](https://aclanthology.org/2024.emnlp-main.386.pdf), [Code](https://aclanthology.org/2024.emnlp-main.386.pdf))
-
-+ **\[2024 ICML\]** MaxMin-RLHF: Alignment with Diverse Human Preferences. ([Paper](https://openreview.net/forum?id=8tzjEMF0Vq))
-
-+ **\[2024 NeurIPS\]** Panacea: Pareto Alignment via Preference Adaptation for LLMs. ([Paper](https://arxiv.org/pdf/2402.02030))
-
-+ **\[2024 NeurIPS\]** Personalized Steering of Large Language Models: Versatile Steering Vectors Through Bi-directional Preference Optimization. ([Paper](https://openreview.net/pdf?id=7qJFkuZdYo), [Code](https://github.com/CaoYuanpu/BiPO))
-
-+ **\[2024 NeurIPS Workshop\]** Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning. ([Paper](https://openreview.net/pdf?id=zsXKtupv2I), [Code](https://github.com/WEIRDLabUW/vpl_llm), [website](https://weirdlabuw.github.io/vpl/))
-
-+ **\[2024 PMLR\]** Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustment. ([Paper](https://openreview.net/pdf?id=QLcBzRI3V3))
-
-+ **\[2023 NeurIPS\]** Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards. ([Paper](https://proceedings.neurips.cc/Paper_files/Paper/2023/file/e12a3b98b67e8395f639fde4c2b03168-Paper-Conference.pdf), [Code](https://github.com/alexrame/rewardedsoups))
-
-
-
-
-### 1.4 Training-free Methods
-+ **[2026 Arxiv-2603]** Principled Steering via Null-space Projection for Jailbreak Defense in Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22094v2))
-+ **[2026 Arxiv-2603]** Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21697v1))
-+ **[2026 Arxiv-2603]** User Preference Modeling for Conversational LLM Agents: Weak Rewards from Retrieval-Augmented Interaction. ([Paper](https://arxiv.org/pdf/2603.20939v1))
-
-+ **\[2025 Arxiv-2512\]** ProSocialAlign: Preference Conditioned Test Time Alignment in Language Models. ([Paper](https://arxiv.org/pdf/2512.06515))
-
-+ **\[2025 Arxiv-2510\]** BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation. ([Paper](https://arxiv.org/pdf/2510.10157))
-
-+ **\[2025 Arxiv-2510\]** Humanoid Artificial Consciousness Designed with Large Language Model Based on Psychoanalysis and Personality Theory. ([Paper](https://arxiv.org/pdf/2510.09043)) 
-
-+ **\[2025 Arxiv-2510\]** Language, Culture, and Ideology: Personalizing Offensiveness Detection in Political Tweets with Reasoning LLMs. ([Paper](https://arxiv.org/pdf/2510.02351))
-
-+ **\[2025 Arxiv-2509\]** Meta-Router: Bridging Gold-standard and Preference-based Evaluations in Large Language Model Routing. ([Paper](https://arxiv.org/pdf/2509.25535))
-
-+ **\[2025 Arxiv-2509\]** SeaPO: Strategic Error Amplification for Robust Preference Optimization of Large Language Models. ([Paper](https://arxiv.org/pdf/2509.24781))
-
-+ **\[2025 Arxiv-2509\]** Toward Preference-aligned Large Language Models via Residual-based Model Steering. ([Paper](https://arxiv.org/pdf/2509.23982))
-
-+ **\[2025 Arxiv-2509\]** Personality Vector: Modulating Personality of Large Language Models by Model Merging. ([Paper](https://arxiv.org/pdf/2509.19727))
-
-+ **\[2025 Arxiv-2509\]** Fisher Random Walk: Automatic Debiasing Contextual Preference Inference for Large Language Model Evaluation. ([Paper](https://arxiv.org/pdf/2509.05852))
-
-+ **\[2025 Arxiv-2509\]** Icon2: Aligning Large Language Models Using Self-Synthetic Preference Data via Inherent Regulation. ([Paper](https://arxiv.org/pdf/2509.05605))
-
-+ **\[2025 ICLR\]** On-the-fly Preference Alignment via Principle-Guided Decoding. ([Paper](https://openreview.net/forum?id=cfn2O1qvxp))
-
-+ **\[2025 ICLR\]** PAD: Personalized Alignment of LLMs at Decoding-Time. ([Paper](https://arxiv.org/pdf/2410.04070))
-
-+ **\[2025 Arxiv-2502\]** Drift: Decoding-time Personalized Alignments with Implicit User Preferences. ([paper](https://arxiv.org/pdf/2502.14289))
-
-+ **\[2024 Arxiv-2410\]** Neuron-based Personality Trait Induction in Large Language Models. ([Paper](https://arxiv.org/pdf/2410.12327), [Code](https://github.com/RUCAIBox/NPTI))
-
-+ **\[2024 Arxiv-2408\]** Unlocking Decoding-time Controllability: Gradient-Free Multi-Objective Alignment with Contrastive Prompts. ([Paper](https://arxiv.org/pdf/2408.05094))
-
-+ **\[2024 ACL\]** Conditioned Language Policy: A General Framework for Steerable Multi-Objective Finetuning. ([Paper](https://aclanthology.org/2024.findings-emnlp.118.pdf))
-
-+ **\[2024 EMNLP\]** Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration. ([Paper](https://aclanthology.org/2024.emnlp-main.240.pdf), [Code](https://github.com/BunsenFeng/modular_pluralism/tree/main))
-
-+ **\[2024 EMNLP\]** Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment. ([Paper](https://aclanthology.org/2024.emnlp-main.85.pdf))
-
-+ **\[2024 ICLR Workshop\]** Prompt Optimization with Logged Bandit Data. ([Paper](https://openreview.net/pdf?id=Byj8MMJmoL))
-
-+ **\[2024 NeurIPS\]** Decoding-Time Language Model Alignment with Multiple Objectives. ([Paper](https://openreview.net/pdf?id=RmGvEmttB7))
-
-
-
-## 2 Preference Alignment
-
-### 2.1 Survey/Tutorial/Framework
+### 1. Survey/Tutorial/Framework
 
 + **\[2025 Arxiv-2504\]** A Survey on Personalized and Pluralistic Preference Alignment in Large Language Models. ([Paper](https://arxiv.org/pdf/2504.07070))
 
@@ -174,18 +34,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 
 
-### 2.2 Benchmark/Dataset
-+ **\[2026 Arxiv-260329\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318.pdf))
-+ **\[2026 Arxiv-260401\]** HippoCamp: Benchmarking Contextual Agents on Personal Computers. ([Paper](https://arxiv.org/pdf/2604.01221.pdf))
-
-+ **[2026 Arxiv-2603]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973v1))
-+ **[2026 Arxiv-2603]** PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency. ([Paper](https://arxiv.org/pdf/2603.25620v1))
-+ **[2026 Arxiv-2603]** Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system. ([Paper](https://arxiv.org/pdf/2603.24940v1))
-+ **[2026 Arxiv-2603]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231v1))
-+ **[2026 Arxiv-2603]** From Synthetic to Native: Benchmarking Multilingual Intent Classification in Logistics Customer Service. ([Paper](https://arxiv.org/pdf/2603.23172v1))
-+ **[2026 Arxiv-2603]** VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents. ([Paper](https://arxiv.org/pdf/2603.23840v1))
-+ **[2026 Arxiv-2603]** Multiperspectivity as a Resource for Narrative Similarity Prediction. ([Paper](https://arxiv.org/pdf/2603.22103v1))
-+ **[2026 Arxiv-2603]** LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation. ([Paper](https://arxiv.org/pdf/2603.21243v1))
+### 2. Benchmark/Dataset
 
 + **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
 
@@ -205,14 +54,21 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2025 Arxiv-2505\]** LaMP-QA: A Benchmark for Personalized Long-form Question Answering. ([Paper](https://arxiv.org/pdf/2506.00137), [Code](https://github.com/LaMP-Benchmark/LaMP-QA))
 
++ **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
+
 + **\[2025 WWW\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://github.com/HongruCai/PersonalWAB))
 
 + **\[2025 AAAI\]** CharacterBench: Benchmarking Character Customization of Large Language Models. ([Paper](https://arxiv.org/pdf/2412.11912), [Code](https://github.com/thu-coai/CharacterBench))
 
 + **\[2024 Arxiv-2412\]** Can Large Language Models Understand You Better? An MBTI Personality Detection Dataset Aligned with Population Traits. ([Paper](https://arxiv.org/pdf/2412.12510), [Code](https://github.com/Personality-NLP/MbtiBench))
 
++ **\[2024 Arxiv-2410\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2410.17236), [Code](https://hongrucai.github.io/PersonalWAB/))
+
++ **\[2024 Arxiv-2407\]** PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization. ([Paper](https://arxiv.org/pdf/2407.18078), [Code](https://github.com/ChrisIsKing/Parameter-Efficient-Personalization))
 
 + **\[2024 Arxiv-2407\]** LongLaMP: A Benchmark for Personalized Long-form Text Generation. ([Paper](https://arxiv.org/pdf/2407.11016), [Code](https://longlamp-benchmark.github.io/Papers))
+
++ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([Paper](https://arxiv.org/pdf/2406.14275), [Code](https://github.com/gersteinlab/step-back-profiling))
 
 + **\[2024 ACL\]** LaMP: When Large Language Models Meet Personalization. ([Paper](https://aclanthology.org/2024.acl-long.399.pdf), [Code](https://lamp-benchmark.github.io/))
 
@@ -224,26 +80,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 
 
-### 2.3 Memory / Retrieval-based Methods
-+ **\[2026 Arxiv-260329\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247.pdf))
-+ **\[2026 Arxiv-260327\]** GAAMA: Graph Augmented Associative Memory for Agents. ([Paper](https://arxiv.org/pdf/2603.27910.pdf))
-+ **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
-+ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([Paper](https://arxiv.org/pdf/2406.14275), [Code](https://github.com/gersteinlab/step-back-profiling))
-
-### 2.4 Prompt/Vector-based Methods
-+ **\[2026 Arxiv-260328\]** EpiPersona: Persona Projection and Episode Coupling for Pluralistic Preference Modeling. ([Paper](https://arxiv.org/pdf/2603.28197.pdf))
-
-+ **[2026 Arxiv-2603]** Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving. ([Paper](https://arxiv.org/pdf/2603.25740v1))
-+ **[2026 Arxiv-2603]** Self-Corrected Image Generation with Explainable Latent Rewards. ([Paper](https://arxiv.org/pdf/2603.24965v1))
-+ **[2026 Arxiv-2603]** Analysing LLM Persona Generation and Fairness Interpretation in Polarised Geopolitical Contexts. ([Paper](https://arxiv.org/pdf/2603.22837v1))
-+ **[2026 Arxiv-2603]** Language Models Can Explain Visual Features via Steering. ([Paper](https://arxiv.org/pdf/2603.22593v2))
-+ **[2026 Arxiv-2603]** Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models. ([Paper](https://arxiv.org/pdf/2603.22042v2))
-+ **[2026 Arxiv-2603]** Analysing the Safety Pitfalls of Steering Vectors. ([Paper](https://arxiv.org/pdf/2603.24543v1))
-+ **[2026 Arxiv-2603]** Semantic-Aware Interruption Detection in Spoken Dialogue Systems: Benchmark, Metric, and Model. ([Paper](https://arxiv.org/pdf/2603.24144v1))
-+ **[2026 Arxiv-2603]** Forensic Implications of Localized AI: Artifact Analysis of Ollama, LM Studio, and llama.cpp. ([Paper](https://arxiv.org/pdf/2603.23996v1))
-+ **[2026 Arxiv-2603]** Leveraging LLMs and Social Media to Understand User Perception of Smartphone-Based Earthquake Early Warnings. ([Paper](https://arxiv.org/pdf/2603.23322v1))
-+ **[2026 Arxiv-2603]** Optimizing Feature Extraction for On-device Model Inference with User Behavior Sequences. ([Paper](https://arxiv.org/pdf/2603.21508v1))
-+ **[2026 Arxiv-2603]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398v1))
+### 3. Prompt/Vector-based Methods
 
 + **\[2025 Arxiv-2512\]** Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting. ([Paper](https://arxiv.org/pdf/2512.20014))
 
@@ -294,13 +131,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783), [Code](https://dlnext.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 
-### 2.5 Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
-
-+ **\[2024 Arxiv-2407\]** PEFT-U: Parameter-Efficient Fine-Tuning for User Personalization. ([Paper](https://arxiv.org/pdf/2407.18078), [Code](https://github.com/ChrisIsKing/Parameter-Efficient-Personalization))
-
-+ **\[2026 Arxiv-260400\]** Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization. ([Paper](https://arxiv.org/pdf/2604.00997.pdf))
-
-+ **\[2026 Arxiv-260400\]** Dual Optimal: Make Your LLM Peer-like with Dignity. ([Paper](https://arxiv.org/pdf/2604.00979.pdf))
+### 4. Supervised Fine-Tuning-based (SFT) / Reinforcement Learning (RL) Methods
 
 + **\[2025 Arxiv-2512\]** LLM-based Personalized Portfolio Recommender: Integrating Large Language Models and Reinforcement Learning for Intelligent Investment Strategy Optimization. ([Paper](https://arxiv.org/pdf/2512.12922))
 
@@ -368,6 +199,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2024 EMNLP\]** Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning. ([Paper](https://arxiv.org/pdf/2402.04401), [Code](https://github.com/TamSiuhin/OPPU))
  
++ **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 + **\[2024 EMNLP\]** HEART-felt Narratives: Tracing Empathy and Narrative Style in Personal Stories with LLMs. ([Paper](https://arxiv.org/pdf/2405.17633), [Code](https://github.com/mitmedialab/heartfelt-narratives-emnlp))
 
@@ -379,37 +211,3 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 
 
-
-
-
-+ **[2026 Arxiv-2603]** RefReward-SR: LR-Conditioned Reward Modeling for Preference-Aligned Super-Resolution. ([Paper](https://arxiv.org/pdf/2603.24198v1))
-+ **[2026 Arxiv-2603]** Decompose and Transfer: CoT-Prompting Enhanced Alignment for Open-Vocabulary Temporal Action Detection. ([Paper](https://arxiv.org/pdf/2603.24030v1))
-+ **[2026 Arxiv-2603]** Language-Grounded Multi-Agent Planning for Personalized and Fair Participatory Urban Sensing. ([Paper](https://arxiv.org/pdf/2603.24014v1))
-+ **[2026 Arxiv-2603]** Probabilistic Geometric Alignment via Bayesian Latent Transport for Domain-Adaptive Foundation Models. ([Paper](https://arxiv.org/pdf/2603.23783v1))
-+ **[2026 Arxiv-2603]** Steering Code LLMs with Activation Directions for Language and Library Control. ([Paper](https://arxiv.org/pdf/2603.23629v1))
-+ **[2026 Arxiv-2603]** LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops. ([Paper](https://arxiv.org/pdf/2603.23613v1))
-+ **[2026 Arxiv-2603]** Off-Policy Value-Based Reinforcement Learning for Large Language Models. ([Paper](https://arxiv.org/pdf/2603.23355v1))
-+ **[2026 Arxiv-2603]** Is AI Catching Up to Human Expression? Exploring Emotion, Personality, Authorship, and Linguistic Style in English and Arabic with Six Large Language Models. ([Paper](https://arxiv.org/pdf/2603.23251v1))
-+ **[2026 Arxiv-2603]** ImplicitRM: Unbiased Reward Modeling from Implicit Preference Data for LLM alignment. ([Paper](https://arxiv.org/pdf/2603.23184v1))
-+ **[2026 Arxiv-2603]** Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models. ([Paper](https://arxiv.org/pdf/2603.23149v1))
-+ **[2026 Arxiv-2603]** Generative Event Pretraining with Foundation Model Alignment. ([Paper](https://arxiv.org/pdf/2603.23032v1))
-+ **[2026 Arxiv-2603]** VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models. ([Paper](https://arxiv.org/pdf/2603.22991v1))
-+ **[2026 Arxiv-2603]** Set-Valued Prediction for Large Language Models with Feasibility-Aware Coverage Guarantees. ([Paper](https://arxiv.org/pdf/2603.22966v1))
-+ **[2026 Arxiv-2603]** PersonalQ: Select, Quantize, and Serve Personalized Diffusion Models for Efficient Inference. ([Paper](https://arxiv.org/pdf/2603.22943v1))
-+ **[2026 Arxiv-2603]** Improving Safety Alignment via Balanced Direct Preference Optimization. ([Paper](https://arxiv.org/pdf/2603.22829v1))
-+ **[2026 Arxiv-2603]** KARMA: Knowledge-Action Regularized Multimodal Alignment for Personalized Search at Taobao. ([Paper](https://arxiv.org/pdf/2603.22779v1))
-+ **[2026 Arxiv-2603]** DALDALL: Data Augmentation for Lexical and Semantic Diverse in Legal Domain by leveraging LLM-Persona. ([Paper](https://arxiv.org/pdf/2603.22765v1))
-+ **[2026 Arxiv-2603]** SpatialReward: Verifiable Spatial Reward Modeling for Fine-Grained Spatial Consistency in Text-to-Image Generation. ([Paper](https://arxiv.org/pdf/2603.22228v1))
-+ **[2026 Arxiv-2603]** ACPO: Counteracting Likelihood Displacement in Vision-Language Alignment with Asymmetric Constraints. ([Paper](https://arxiv.org/pdf/2603.22165v1))
-+ **[2026 Arxiv-2603]** Riding Brainwaves in LLM Space: Understanding Activation Patterns Using Individual Neural Signatures. ([Paper](https://arxiv.org/pdf/2603.21847v1))
-+ **[2026 Arxiv-2603]** TAMTRL: Teacher-Aligned Reward Reshaping for Multi-Turn Reinforcement Learning in Long-Context Compression. ([Paper](https://arxiv.org/pdf/2603.21663v1))
-+ **[2026 Arxiv-2603]** SSAM: Singular Subspace Alignment for Merging Multimodal Large Language Models. ([Paper](https://arxiv.org/pdf/2603.21584v1))
-+ **[2026 Arxiv-2603]** Large Language Model Guided Incentive Aware Reward Design for Cooperative Multi-Agent Reinforcement Learning. ([Paper](https://arxiv.org/pdf/2603.24324v1))
-+ **[2026 Arxiv-2603]** HEART-PFL: Stable Personalized Federated Learning under Heterogeneity with Hierarchical Directional Alignment and Adversarial Knowledge Transfer. ([Paper](https://arxiv.org/pdf/2603.24209v1))
-+ **[2026 Arxiv-2603]** TDATR: Improving End-to-End Table Recognition via Table Detail-Aware Learning and Cell-Level Visual Alignment. ([Paper](https://arxiv.org/pdf/2603.22819v1))
-+ **[2026 Arxiv-2603]** Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement. ([Paper](https://arxiv.org/pdf/2603.22187v1))
-+ **[2026 Arxiv-2603]** Towards Multimodal Time Series Anomaly Detection with Semantic Alignment and Condensed Interaction. ([Paper](https://arxiv.org/pdf/2603.21612v1))
-+ **[2026 Arxiv-2603]** Language-Assisted Image Clustering Guided by Discriminative Relational Signals and Adaptive Semantic Centers. ([Paper](https://arxiv.org/pdf/2603.24275v1))
-+ **[2026 Arxiv-2603]** Efficient Controller Learning from Human Preferences and Numerical Data Via Multi-Modal Surrogate Models. ([Paper](https://arxiv.org/pdf/2603.24138v1))
-+ **[2026 Arxiv-2603]** Topology, noise, and parallel updates in circular opinion dynamics. ([Paper](https://arxiv.org/pdf/2603.21838v1))
-+ **[2026 Arxiv-2603]** Image-Based Structural Analysis Using Computer Vision and LLMs: PhotoBeamSolver. ([Paper](https://arxiv.org/pdf/2603.21432v1))

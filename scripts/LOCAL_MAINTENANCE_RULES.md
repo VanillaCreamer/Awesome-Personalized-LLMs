@@ -108,8 +108,9 @@ Keep local/private:
 3. Generate the digest.
 4. Send weekly digest email.
 5. Commit only public reader-facing files.
-6. Open/update the weekly PR.
+6. **Open or update the weekly PR**.
 
 ### Reminder
 - The user explicitly wants weekly email digests to continue.
+- The user also explicitly expects the weekly maintenance flow to include **PR creation/update**; this is a required step, not an optional follow-up.
 - Public repo policy should stay reader-facing even if local maintenance assets become more detailed.

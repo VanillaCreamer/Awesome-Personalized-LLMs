@@ -38,6 +38,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2025 Arxiv-2508\]** CAPE: Context-Aware Personality Evaluation Framework for Large Language Models. ([Paper](https://arxiv.org/pdf/2508.20385))
 +
++ **\[2025 Arxiv-2509\]** PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations? ([Paper](https://arxiv.org/pdf/2509.08829))
++
 + **\[2025 ICLR\]** Neuron-based Personality Trait Induction in Large Language Models. ([Paper](https://openreview.net/forum?id=LYHEY783Np))
 +
 + **\[2025 ICLR\]** Personality Alignment of Large Language Models. ([Paper](https://openreview.net/forum?id=0DZEs8NpUH))
@@ -64,6 +66,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
 +
++ **\[2024 Arxiv-2406\]** STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing. ([Paper](https://arxiv.org/pdf/2406.14275), [Code](https://github.com/gersteinlab/step-back-profiling))
++
 + **\[2023 CIKM\]** Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models. ([Paper](https://arxiv.org/pdf/2310.20081))
 +
 + **\[2024 Arxiv-2411\]** On the Way to LLM Personalization: Learning to Remember User Conversations. ([Paper](https://arxiv.org/pdf/2411.13405))
@@ -77,6 +81,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2025 Arxiv-2512\]** The Geometry of Persona: Disentangling Personality from Reasoning in Large Language Models. ([Paper](https://arxiv.org/pdf/2512.07092))
 +
 + **\[2025 Arxiv-2511\]** Moral Susceptibility and Robustness under Persona Role-Play in Large Language Models. ([Paper](https://arxiv.org/pdf/2511.08565))
++
++ **\[2025 Arxiv-2509\]** Harnessing Multimodal Large Language Models for Personalized Product Search with Query-aware Refinement. ([Paper](https://arxiv.org/pdf/2509.18682))
++
++ **\[2025 Arxiv-2509\]** Reasoning with Preference Constraints: A Benchmark for Language Models in Many-to-One Matching Markets. ([Paper](https://arxiv.org/pdf/2509.13131))
 +
 + **\[2025 Arxiv-2506\]** PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time. ([Paper](https://arxiv.org/pdf/2506.06254))
 +
@@ -124,6 +132,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2025 Arxiv-2508\]** MM-R1: Unleashing the Power of Unified Multimodal Large Language Models for Personalized Image Generation. ([Paper](https://arxiv.org/pdf/2508.11433))
 +
++ **\[2025 Arxiv-2508\]** End-to-End Personalization: Unifying Recommender Systems with Large Language Models. ([Paper](https://arxiv.org/pdf/2508.01514))
++
++ **\[2025 Arxiv-2508\]** CAP-LLM: Context-Augmented Personalized Large Language Models for News Headline Generation. ([Paper](https://arxiv.org/pdf/2508.03935))
++
 + **\[2025 Arxiv-2507\]** Persona Vectors: Monitoring and Controlling Character Traits in Language Models. ([Paper](https://arxiv.org/pdf/2507.21509))
 +
 + **\[2025 Arxiv-2506\]** Personalized LLM Decoding via Contrasting Personal Preference. ([Paper](https://arxiv.org/pdf/2506.12109v1))
@@ -137,6 +149,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2025 Arxiv-2501\]** Personalized Language Model Learning on Text Data Without User Identifiers. ([Paper](https://arxiv.org/pdf/2501.06062), [Code](https://github.com/sjtu-yc/IDfree-Personalized-Learning))
 +
 + **\[2024 Arxiv-2412\]** Personalizing Multimodal Large Language Models for Image Captioning: An Experimental Analysis. ([Paper](https://arxiv.org/pdf/2412.03665))
++
++ **\[2024 Arxiv-2410\]** LMLPA: Language Model Linguistic Personality Assessment. ([Paper](https://arxiv.org/pdf/2410.17632))
 +
 + **\[2024 Arxiv-2409\]** LLMs + Persona-Plug = Personalized LLMs. ([Paper](https://arxiv.org/pdf/2409.11901))
 +

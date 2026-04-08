@@ -38,6 +38,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2604\]** Ego-Grounding for Personalized Question-Answering in Egocentric Videos. ([Paper](https://arxiv.org/pdf/2604.01966), [Code](https://github.com/Ryougetsu3606/MyEgo))
++
 + **\[2026 Arxiv-2603\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318))
 +
 + **\[2026 Arxiv-2603\]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973))
@@ -96,6 +98,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2604\]** MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs. ([Paper](https://arxiv.org/pdf/2604.06134))
++
++ **\[2026 Arxiv-2603\]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398))
++
 + **\[2026 Arxiv-2604\]** AdaptFuse: Training-Free Sequential Preference Learning via Externalized Bayesian Inference. ([Paper](https://arxiv.org/pdf/2604.03925))
 +
 + **\[2024 Arxiv-2408\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([Paper](https://arxiv.org/pdf/2408.08103))

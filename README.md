@@ -80,6 +80,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2603\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247))
++
 + **\[2026 Arxiv-2604\]** FileGram: Grounding Agent Personalization in File-System Behavioral Traces. ([Paper](https://arxiv.org/pdf/2604.04901))
 +
 + **\[2026 Arxiv-2604\]** MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. ([Paper](https://arxiv.org/pdf/2604.04853))

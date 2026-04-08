@@ -20,6 +20,12 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 1. Survey / Tutorial / Framework
 
++ **\[2024 Arxiv-2409\]** PersonalLLM: Tailoring Large Language Models to Individual Preferences. ([Paper](https://arxiv.org/pdf/2409.15746))
++
++ **\[2024 Arxiv-2402\]** Amulet: Personalized Large Language Model Fine-tuning for User-centric Text Generation. ([Paper](https://arxiv.org/pdf/2402.11115))
++
++ **\[2024 Arxiv-2407\]** Large Language Models Empowered Personalized Web Agents. ([Paper](https://arxiv.org/pdf/2407.20509))
++
 + **\[2025 Arxiv-2504\]** A Survey on Personalized and Pluralistic Preference Alignment in Large Language Models. ([Paper](https://arxiv.org/pdf/2504.07070))
 +
 + **\[2024 EMNLP\]** Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization. ([Paper](https://arxiv.org/pdf/2406.01171), [Code](https://github.com/MiuLab/PersonaLLM-Survey))
@@ -76,6 +82,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2024 Arxiv-2408\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([Paper](https://arxiv.org/pdf/2408.08103))
++
 + **\[2025 Arxiv-2512\]** Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting. ([Paper](https://arxiv.org/pdf/2512.20014))
 +
 + **\[2025 Arxiv-2512\]** The Geometry of Persona: Disentangling Personality from Reasoning in Large Language Models. ([Paper](https://arxiv.org/pdf/2512.07092))

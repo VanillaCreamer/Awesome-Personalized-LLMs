@@ -38,6 +38,16 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2603\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318))
++
++ **\[2026 Arxiv-2603\]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973))
++
++ **\[2026 Arxiv-2603\]** PICon: A Multi-Turn Interrogation Framework for Evaluating Persona Agent Consistency. ([Paper](https://arxiv.org/pdf/2603.25620))
++
++ **\[2026 Arxiv-2603\]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231))
++
++ **\[2026 Arxiv-2603\]** Mimetic Alignment with ASPECT: Evaluation of AI-inferred Personal Profiles. ([Paper](https://arxiv.org/pdf/2603.26922))
++
 + **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
 +
 + **\[2025 Arxiv-2509\]** BESPOKE: Benchmark for Search-Augmented Large Language Model Personalization via Diagnostic Feedback. ([Paper](https://arxiv.org/pdf/2509.21106), [Code](https://augustinlib.github.io/BESPOKE/))
@@ -68,6 +78,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2604\]** FileGram: Grounding Agent Personalization in File-System Behavioral Traces. ([Paper](https://arxiv.org/pdf/2604.04901))
++
++ **\[2026 Arxiv-2604\]** MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. ([Paper](https://arxiv.org/pdf/2604.04853))
++
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
 +
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
@@ -82,6 +96,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2604\]** AdaptFuse: Training-Free Sequential Preference Learning via Externalized Bayesian Inference. ([Paper](https://arxiv.org/pdf/2604.03925))
++
 + **\[2024 Arxiv-2408\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([Paper](https://arxiv.org/pdf/2408.08103))
 +
 + **\[2025 Arxiv-2512\]** Bring My Cup! Personalizing Vision-Language-Action Models with Visual Attentive Prompting. ([Paper](https://arxiv.org/pdf/2512.20014))
@@ -118,6 +134,12 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 5. SFT / RL / Preference Optimization Methods
 
++ **\[2026 Arxiv-2604\]** Many Preferences, Few Policies: Towards Scalable Language Model Personalization. ([Paper](https://arxiv.org/pdf/2604.04144))
++
++ **\[2026 Arxiv-2604\]** Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization. ([Paper](https://arxiv.org/pdf/2604.00997))
++
++ **\[2026 Arxiv-2603\]** EpiPersona: Persona Projection and Episode Coupling for Pluralistic Preference Modeling. ([Paper](https://arxiv.org/pdf/2603.28197))
++
 + **\[2025 Arxiv-2511\]** MTA: A Merge-then-Adapt Framework for Personalized Large Language Model. ([Paper](https://arxiv.org/pdf/2511.20072))
 +
 + **\[2025 Arxiv-2511\]** Multimodal Large Language Models with Adaptive Preference Optimization for Sequential Recommendation. ([Paper](https://arxiv.org/pdf/2511.18740))

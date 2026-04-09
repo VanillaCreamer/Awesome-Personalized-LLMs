@@ -50,6 +50,14 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2026 Arxiv-2603\]** Mimetic Alignment with ASPECT: Evaluation of AI-inferred Personal Profiles. ([Paper](https://arxiv.org/pdf/2603.26922))
 +
++ **\[2026 Arxiv-2602\]** AgenticShop: Benchmarking Agentic Product Curation for Personalized Web Shopping. ([Paper](https://arxiv.org/pdf/2602.12315))
++
++ **\[2026 Arxiv-2601\]** EmoHarbor: Evaluating Personalized Emotional Support by Simulating the User's Internal World. ([Paper](https://arxiv.org/pdf/2601.01530))
++
++ **\[2026 Arxiv-2604\]** Stories of Your Life as Others: A Round-Trip Evaluation of LLM-Generated Life Stories Conditioned on Rich Psychometric Profiles. ([Paper](https://arxiv.org/pdf/2604.06071))
++
++ **\[2026 Arxiv-2604\]** Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization. ([Paper](https://arxiv.org/pdf/2604.07343))
++
 + **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
 +
 + **\[2025 Arxiv-2509\]** BESPOKE: Benchmark for Search-Augmented Large Language Model Personalization via Diagnostic Feedback. ([Paper](https://arxiv.org/pdf/2509.21106), [Code](https://augustinlib.github.io/BESPOKE/))
@@ -86,6 +94,20 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2026 Arxiv-2604\]** MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. ([Paper](https://arxiv.org/pdf/2604.04853))
 +
++ **\[2026 Arxiv-2602\]** Learning to Reason for Multi-Step Retrieval of Personal Context in Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2602.19317))
++
++ **\[2026 Arxiv-2601\]** Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. ([Paper](https://arxiv.org/pdf/2601.05171))
++
++ **\[2026 Arxiv-2601\]** Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents. ([Paper](https://arxiv.org/pdf/2601.06490))
++
++ **\[2026 Arxiv-2601\]** Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization. ([Paper](https://arxiv.org/pdf/2601.12078))
++
++ **\[2026 Arxiv-2601\]** Improving User Privacy in Personalized Generation: Client-Side Retrieval-Augmented Modification of Server-Side Generated Speculations. ([Paper](https://arxiv.org/pdf/2601.17569))
++
++ **\[2026 Arxiv-2604\]** SensorPersona: An LLM-Empowered System for Continual Persona Extraction from Longitudinal Mobile Sensor Streams. ([Paper](https://arxiv.org/pdf/2604.06204))
++
++ **\[2026 Arxiv-2604\]** HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues. ([Paper](https://arxiv.org/pdf/2604.06845))
++
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
 +
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))
@@ -105,6 +127,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2603\]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398))
 +
 + **\[2026 Arxiv-2604\]** AdaptFuse: Training-Free Sequential Preference Learning via Externalized Bayesian Inference. ([Paper](https://arxiv.org/pdf/2604.03925))
++
++ **\[2026 Arxiv-2602\]** Attn-GS: Attention-Guided Context Compression for Efficient Personalized LLMs. ([Paper](https://arxiv.org/pdf/2602.07778))
 +
 + **\[2024 Arxiv-2408\]** Personalized Text Generation with Fine-Grained Linguistic Control. ([Paper](https://arxiv.org/pdf/2408.08103))
 +
@@ -147,6 +171,12 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2604\]** Uncertainty-Aware Variational Reward Factorization via Probabilistic Preference Bases for LLM Personalization. ([Paper](https://arxiv.org/pdf/2604.00997))
 +
 + **\[2026 Arxiv-2603\]** EpiPersona: Persona Projection and Episode Coupling for Pluralistic Preference Modeling. ([Paper](https://arxiv.org/pdf/2603.28197))
++
++ **\[2026 Arxiv-2602\]** Learning Personalized Agents from Human Feedback. ([Paper](https://arxiv.org/pdf/2602.16173))
++
++ **\[2026 Arxiv-2602\]** Synthetic Interaction Data for Scalable Personalization in Large Language Models. ([Paper](https://arxiv.org/pdf/2602.12394))
++
++ **\[2026 Arxiv-2601\]** UserLM-R1: Modeling Human Reasoning in User Language Models with Multi-Reward Reinforcement Learning. ([Paper](https://arxiv.org/pdf/2601.09215))
 +
 + **\[2025 Arxiv-2511\]** MTA: A Merge-then-Adapt Framework for Personalized Large Language Model. ([Paper](https://arxiv.org/pdf/2511.20072))
 +

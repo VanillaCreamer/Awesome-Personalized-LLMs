@@ -38,9 +38,15 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2604\]** Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization. ([Paper](https://arxiv.org/pdf/2604.07343))
++
++ **\[2026 Arxiv-2604\]** Stories of Your Life as Others: A Round-Trip Evaluation of LLM-Generated Life Stories Conditioned on Rich Psychometric Profiles. ([Paper](https://arxiv.org/pdf/2604.06071))
++
 + **\[2026 Arxiv-2604\]** Ego-Grounding for Personalized Question-Answering in Egocentric Videos. ([Paper](https://arxiv.org/pdf/2604.01966), [Code](https://github.com/Ryougetsu3606/MyEgo))
 +
 + **\[2026 Arxiv-2603\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318))
++
++ **\[2026 Arxiv-2603\]** Mimetic Alignment with ASPECT: Evaluation of AI-inferred Personal Profiles. ([Paper](https://arxiv.org/pdf/2603.26922))
 +
 + **\[2026 Arxiv-2603\]** MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization. ([Paper](https://arxiv.org/pdf/2603.25973))
 +
@@ -48,15 +54,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 +
 + **\[2026 Arxiv-2603\]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231))
 +
-+ **\[2026 Arxiv-2603\]** Mimetic Alignment with ASPECT: Evaluation of AI-inferred Personal Profiles. ([Paper](https://arxiv.org/pdf/2603.26922))
-+
 + **\[2026 Arxiv-2602\]** AgenticShop: Benchmarking Agentic Product Curation for Personalized Web Shopping. ([Paper](https://arxiv.org/pdf/2602.12315))
 +
 + **\[2026 Arxiv-2601\]** EmoHarbor: Evaluating Personalized Emotional Support by Simulating the User's Internal World. ([Paper](https://arxiv.org/pdf/2601.01530))
-+
-+ **\[2026 Arxiv-2604\]** Stories of Your Life as Others: A Round-Trip Evaluation of LLM-Generated Life Stories Conditioned on Rich Psychometric Profiles. ([Paper](https://arxiv.org/pdf/2604.06071))
-+
-+ **\[2026 Arxiv-2604\]** Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization. ([Paper](https://arxiv.org/pdf/2604.07343))
 +
 + **\[2025 Arxiv-2512\]** The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability. ([Paper](https://arxiv.org/pdf/2512.17389))
 +
@@ -88,25 +88,25 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
-+ **\[2026 Arxiv-2603\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247))
++ **\[2026 Arxiv-2604\]** HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues. ([Paper](https://arxiv.org/pdf/2604.06845))
++
++ **\[2026 Arxiv-2604\]** SensorPersona: An LLM-Empowered System for Continual Persona Extraction from Longitudinal Mobile Sensor Streams. ([Paper](https://arxiv.org/pdf/2604.06204))
 +
 + **\[2026 Arxiv-2604\]** FileGram: Grounding Agent Personalization in File-System Behavioral Traces. ([Paper](https://arxiv.org/pdf/2604.04901))
 +
 + **\[2026 Arxiv-2604\]** MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. ([Paper](https://arxiv.org/pdf/2604.04853))
 +
++ **\[2026 Arxiv-2603\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247))
++
 + **\[2026 Arxiv-2602\]** Learning to Reason for Multi-Step Retrieval of Personal Context in Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2602.19317))
-+
-+ **\[2026 Arxiv-2601\]** Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. ([Paper](https://arxiv.org/pdf/2601.05171))
-+
-+ **\[2026 Arxiv-2601\]** Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents. ([Paper](https://arxiv.org/pdf/2601.06490))
-+
-+ **\[2026 Arxiv-2601\]** Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization. ([Paper](https://arxiv.org/pdf/2601.12078))
 +
 + **\[2026 Arxiv-2601\]** Improving User Privacy in Personalized Generation: Client-Side Retrieval-Augmented Modification of Server-Side Generated Speculations. ([Paper](https://arxiv.org/pdf/2601.17569))
 +
-+ **\[2026 Arxiv-2604\]** SensorPersona: An LLM-Empowered System for Continual Persona Extraction from Longitudinal Mobile Sensor Streams. ([Paper](https://arxiv.org/pdf/2604.06204))
++ **\[2026 Arxiv-2601\]** Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization. ([Paper](https://arxiv.org/pdf/2601.12078))
 +
-+ **\[2026 Arxiv-2604\]** HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues. ([Paper](https://arxiv.org/pdf/2604.06845))
++ **\[2026 Arxiv-2601\]** Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents. ([Paper](https://arxiv.org/pdf/2601.06490))
++
++ **\[2026 Arxiv-2601\]** Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. ([Paper](https://arxiv.org/pdf/2601.05171))
 +
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
 +
@@ -124,9 +124,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2604\]** MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs. ([Paper](https://arxiv.org/pdf/2604.06134))
 +
-+ **\[2026 Arxiv-2603\]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398))
-+
 + **\[2026 Arxiv-2604\]** AdaptFuse: Training-Free Sequential Preference Learning via Externalized Bayesian Inference. ([Paper](https://arxiv.org/pdf/2604.03925))
++
++ **\[2026 Arxiv-2603\]** Persona Vectors in Games: Measuring and Steering Strategies via Activation Vectors. ([Paper](https://arxiv.org/pdf/2603.21398))
 +
 + **\[2026 Arxiv-2602\]** Attn-GS: Attention-Guided Context Compression for Efficient Personalized LLMs. ([Paper](https://arxiv.org/pdf/2602.07778))
 +

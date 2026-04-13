@@ -38,7 +38,6 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
-+ **\[2026 Arxiv-2604\]** TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation. ([Paper](http://arxiv.org/pdf/2604.07894v1))
 
 
 + **\[2026 Arxiv-2604\]** Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization. ([Paper](https://arxiv.org/pdf/2604.07343))
@@ -90,6 +89,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2604\]** TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation. ([Paper](http://arxiv.org/pdf/2604.07894v1))
 
 + **\[2026 Arxiv-2604\]** HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues. ([Paper](https://arxiv.org/pdf/2604.06845))
 

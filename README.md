@@ -38,6 +38,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2604\]** TSUBASA: Improving Long-Horizon Personalization via Evolving Memory and Self-Learning with Context Distillation. ([Paper](http://arxiv.org/pdf/2604.07894v1))
+
+
 + **\[2026 Arxiv-2604\]** Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization. ([Paper](https://arxiv.org/pdf/2604.07343))
 
 + **\[2026 Arxiv-2604\]** Stories of Your Life as Others: A Round-Trip Evaluation of LLM-Generated Life Stories Conditioned on Rich Psychometric Profiles. ([Paper](https://arxiv.org/pdf/2604.06071))
@@ -165,6 +168,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2604\]** One Model for All: Multi-Objective Controllable Language Models. ([Paper](http://arxiv.org/pdf/2604.04497v1))
+
 
 + **\[2026 Arxiv-2604\]** Many Preferences, Few Policies: Towards Scalable Language Model Personalization. ([Paper](https://arxiv.org/pdf/2604.04144))
 

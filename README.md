@@ -38,6 +38,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2604\]** Personalized Benchmarking: Evaluating LLMs by Individual Preferences. ([Paper](http://arxiv.org/pdf/2604.18943v1))
+
+
 + **\[2026 Arxiv-2604\]** Beyond Static Personas: Situational Personality Steering for Large Language Models. ([Paper](http://arxiv.org/pdf/2604.13846v3))
 
 

@@ -38,6 +38,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2605\]** STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. ([Paper](http://arxiv.org/pdf/2605.06527v1))
+
 + **\[2026 Arxiv-2604\]** Personalized Benchmarking: Evaluating LLMs by Individual Preferences. ([Paper](http://arxiv.org/pdf/2604.18943v1))
 
 
@@ -133,6 +135,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2605\]** CLIPer: Tailoring Diverse User Preference via Classifier-Guided Inference-Time Personalization. ([Paper](http://arxiv.org/pdf/2605.07162v1))
 
 + **\[2026 Arxiv-2604\]** MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs. ([Paper](https://arxiv.org/pdf/2604.06134))
 

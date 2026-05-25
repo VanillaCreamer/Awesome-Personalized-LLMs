@@ -14,11 +14,15 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 >
 > `+ **\[Year Conference/Journal\]** Title. ([Paper](link), [Code](link))` (if accessible).
 
+
+
+### 1. Survey / Tutorial / Framework
+
++ **\[2026 Arxiv-2602\]** Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions. ([Paper](https://arxiv.org/pdf/2602.22680v1))
+
 + **\[2025 Arxiv-2503\]** Personalized Generation In Large Model Era: A Survey. ([Paper](https://arxiv.org/pdf/2503.02614))
 
 + **\[2024 Arxiv-2411\]** Personalization of Large Language Models: A Survey. ([Paper](https://arxiv.org/pdf/2411.00027))
-
-### 1. Survey / Tutorial / Framework
 
 + **\[2024 Arxiv-2409\]** PersonalLLM: Tailoring Large Language Models to Individual Preferences. ([Paper](https://arxiv.org/pdf/2409.15746))
 

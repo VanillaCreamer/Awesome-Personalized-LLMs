@@ -6,9 +6,10 @@ This repository collects the latest research progress on personalized large lang
 For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 > Inclusion criteria:
-> - keep papers with an explicit connection to personalized LLMs, e.g., user preference modeling, persona/personality control, profile or memory-based personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
+> - keep papers whose main task or technical method is personalized LLMs, e.g., user preference modeling, persona/personality control, profile or user-memory personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
 > - keep benchmark/dataset papers only when personalization is a central task rather than a side setting;
-> - deprioritize generic alignment, safety, multimodal perception, recommendation, or agent papers unless they make personalization the main technical contribution.
+> - keep agent papers only when the agent is personalized through user preferences, profiles, personal memory, user-adaptive planning/tool use, or personalized web/GUI/mobile interaction;
+> - deprioritize generic alignment, safety, multimodal perception, recommendation, memory, or agent papers when personalization is only a loose keyword, demographic/persona audit variable, or downstream application context.
 
 > The contributions are expected to be submitted as follows:
 >
@@ -42,7 +43,6 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
-+ **\[2026 Arxiv-2605\]** Whose Name Comes Up? III: Persona Prompting Effects in LLM-Based Scholar Recommendation. ([Paper](http://arxiv.org/pdf/2605.28187))
 + **\[2026 Arxiv-2605\]** ChildEval: When large language models meet children's personalities. ([Paper](http://arxiv.org/pdf/2605.27805))
 
 + **\[2026 Arxiv-2605\]** Think Thrice Before You Speak: Dual knowledge-enhanced Theory-of-Mind Reasoning for Persuasive Agents. ([Paper](http://arxiv.org/pdf/2605.22602))
@@ -54,6 +54,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2605\]** STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. ([Paper](http://arxiv.org/pdf/2605.06527v1))
 
 + **\[2026 Arxiv-2604\]** Personalized Benchmarking: Evaluating LLMs by Individual Preferences. ([Paper](http://arxiv.org/pdf/2604.18943v1))
+
++ **\[2026 Arxiv-2604\]** KnowU-Bench: A Benchmark for Personalized Agents with User Profiles in E-Commerce. ([Paper](https://arxiv.org/pdf/2604.08455), [Code](https://github.com/ZJU-REAL/KnowU-Bench))
 
 
 + **\[2026 Arxiv-2604\]** Beyond Static Personas: Situational Personality Steering for Large Language Models. ([Paper](http://arxiv.org/pdf/2604.13846v3))
@@ -81,6 +83,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2603\]** PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments. ([Paper](https://arxiv.org/pdf/2603.23231))
 
 + **\[2026 Arxiv-2602\]** AgenticShop: Benchmarking Agentic Product Curation for Personalized Web Shopping. ([Paper](https://arxiv.org/pdf/2602.12315))
+
++ **\[2026 Arxiv-2602\]** Persona2Web: Learning Personalized Agents from User Preferences and Habits for Personalized Web Service. ([Paper](https://arxiv.org/pdf/2602.17003))
 
 + **\[2026 Arxiv-2601\]** EmoHarbor: Evaluating Personalized Emotional Support by Simulating the User's Internal World. ([Paper](https://arxiv.org/pdf/2601.01530))
 
@@ -114,10 +118,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
-+ **\[2026 Arxiv-2605\]** MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems. ([Paper](http://arxiv.org/pdf/2605.28732))
 + **\[2026 Arxiv-2605\]** MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models. ([Paper](http://arxiv.org/pdf/2605.28009))
-+ **\[2026 Arxiv-2605\]** ConvMemory: A Lightweight Learned Memory Reranker, a Negative Attribution Result, and a Research-Preview Conflict Editor. ([Paper](http://arxiv.org/pdf/2605.28062))
-+ **\[2026 Arxiv-2605\]** MemFail: Stress-Testing Failure Modes of LLM Memory Systems. ([Paper](http://arxiv.org/pdf/2605.26667))
 
 + **\[2026 Arxiv-2605\]** DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA. ([Paper](http://arxiv.org/pdf/2605.22411))
 + **\[2026 Arxiv-2605\]** EmoTrack: Robust Depression Tracking from Counseling Transcripts across Session Regimes. ([Paper](http://arxiv.org/pdf/2605.22286))
@@ -135,6 +136,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2604\]** MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. ([Paper](https://arxiv.org/pdf/2604.04853))
 
++ **\[2026 AAAI\]** Orion: A Personalized Web Agent with Global-Micro Profiling and Adaptive Intent Tracking. ([Paper](https://ojs.aaai.org/index.php/AAAI/article/view/40188))
+
 + **\[2026 Arxiv-2603\]** MemRerank: Preference Memory for Personalized Product Reranking. ([Paper](https://arxiv.org/pdf/2603.29247))
 
 + **\[2026 Arxiv-2602\]** Learning to Reason for Multi-Step Retrieval of Personal Context in Personalized Question Answering. ([Paper](https://arxiv.org/pdf/2602.19317))
@@ -144,6 +147,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2601\]** Optimizing User Profiles via Contextual Bandits for Retrieval-Augmented LLM Personalization. ([Paper](https://arxiv.org/pdf/2601.12078))
 
 + **\[2026 Arxiv-2601\]** Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents. ([Paper](https://arxiv.org/pdf/2601.06490))
+
++ **\[2026 Arxiv-2601\]** Me-Agent: A Personalized Mobile Agent with Two-Level User Habit Learning. ([Paper](https://arxiv.org/pdf/2601.20162))
 
 + **\[2026 Arxiv-2601\]** Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. ([Paper](https://arxiv.org/pdf/2601.05171))
 

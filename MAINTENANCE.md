@@ -8,13 +8,14 @@ Contributions should improve the quality of the curated paper list rather than e
 
 ### Include papers when they are clearly about personalized LLMs
 
-Strong fits include papers centered on:
+Strong fits include papers whose **main task or technical method** is centered on:
 - user preference modeling
 - persona / personality control
-- profile- or memory-based personalization
+- profile- or user-memory-based personalization
 - personalized retrieval or generation
 - personalized alignment
 - benchmarks / datasets / evaluation where personalization is a central task
+- personalized agents, including personal assistants, personalized web / GUI / mobile agents, lifelong user-memory agents, and agents that adapt planning or tool use to an individual user's preferences
 
 ### Be conservative with borderline papers
 
@@ -25,6 +26,8 @@ Examples of weak fits:
 - generic safety / jailbreak / trustworthiness papers
 - generic multimodal perception papers
 - generic recommendation or agent papers with only loose personalization language
+- generic memory, RAG, or agent infrastructure papers unless the memory/profile/action policy is explicitly user-specific
+- persona or demographic prompting audits where persona is only an experimental variable for a non-personalized task
 - papers whose main contribution is unrelated infrastructure, systems, compression, or deployment
 
 ## Classification rules

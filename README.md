@@ -42,6 +42,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2605\]** Whose Name Comes Up? III: Persona Prompting Effects in LLM-Based Scholar Recommendation. ([Paper](http://arxiv.org/pdf/2605.28187))
++ **\[2026 Arxiv-2605\]** ChildEval: When large language models meet children's personalities. ([Paper](http://arxiv.org/pdf/2605.27805))
+
 + **\[2026 Arxiv-2605\]** Think Thrice Before You Speak: Dual knowledge-enhanced Theory-of-Mind Reasoning for Persuasive Agents. ([Paper](http://arxiv.org/pdf/2605.22602))
 + **\[2026 Arxiv-2605\]** Psy-Chronicle:A Structured Pipeline for Synthesizing Long-Horizon Campus Psychological Counseling Dialogues. ([Paper](http://arxiv.org/pdf/2605.22140))
 + **\[2026 Arxiv-2605\]** APM: Evaluating Style Personalization in LLMs with Arbitrary Preference Mappings. ([Paper](http://arxiv.org/pdf/2605.21063))
@@ -110,6 +113,11 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2605\]** MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems. ([Paper](http://arxiv.org/pdf/2605.28732))
++ **\[2026 Arxiv-2605\]** MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models. ([Paper](http://arxiv.org/pdf/2605.28009))
++ **\[2026 Arxiv-2605\]** ConvMemory: A Lightweight Learned Memory Reranker, a Negative Attribution Result, and a Research-Preview Conflict Editor. ([Paper](http://arxiv.org/pdf/2605.28062))
++ **\[2026 Arxiv-2605\]** MemFail: Stress-Testing Failure Modes of LLM Memory Systems. ([Paper](http://arxiv.org/pdf/2605.26667))
 
 + **\[2026 Arxiv-2605\]** DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA. ([Paper](http://arxiv.org/pdf/2605.22411))
 + **\[2026 Arxiv-2605\]** EmoTrack: Robust Depression Tracking from Counseling Transcripts across Session Regimes. ([Paper](http://arxiv.org/pdf/2605.22286))
@@ -204,6 +212,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2605\]** Human Label Variation as Stable Signal: Learning Annotator-Specific Explanation Behavior via Cross-Annotator Preference Optimization. ([Paper](http://arxiv.org/pdf/2605.28802))
++ **\[2026 Arxiv-2605\]** Semantic Flow Regularization: Teaching LLMs to Generate Diverse Yet Coherent Responses. ([Paper](http://arxiv.org/pdf/2605.27971))
 
 + **\[2026 Arxiv-2605\]** Unlocking Proactivity in Task-Oriented Dialogue. ([Paper](http://arxiv.org/pdf/2605.22240))
 

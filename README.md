@@ -65,6 +65,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2604\]** Ego-Grounding for Personalized Question-Answering in Egocentric Videos. ([Paper](https://arxiv.org/pdf/2604.01966), [Code](https://github.com/Ryougetsu3606/MyEgo))
 
++ **\[2026 Arxiv-2603\]** AlpsBench: An LLM Personalization Benchmark for Real-Dialogue Memorization and Preference Alignment. ([Paper](https://arxiv.org/pdf/2603.26680v2))
+
 + **\[2026 Arxiv-2603\]** PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent. ([Paper](https://arxiv.org/pdf/2603.29318))
 
 + **\[2026 Arxiv-2603\]** Mimetic Alignment with ASPECT: Evaluation of AI-inferred Personal Profiles. ([Paper](https://arxiv.org/pdf/2603.26922))

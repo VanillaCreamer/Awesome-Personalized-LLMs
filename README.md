@@ -42,6 +42,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2605\]** Think Thrice Before You Speak: Dual knowledge-enhanced Theory-of-Mind Reasoning for Persuasive Agents. ([Paper](http://arxiv.org/pdf/2605.22602))
++ **\[2026 Arxiv-2605\]** Psy-Chronicle:A Structured Pipeline for Synthesizing Long-Horizon Campus Psychological Counseling Dialogues. ([Paper](http://arxiv.org/pdf/2605.22140))
++ **\[2026 Arxiv-2605\]** APM: Evaluating Style Personalization in LLMs with Arbitrary Preference Mappings. ([Paper](http://arxiv.org/pdf/2605.21063))
+
 + **\[2026 Arxiv-2605\]** Personalized Deep Research: A User-Centric Framework, Dataset, and Hybrid Evaluation for Knowledge Discovery. ([Paper](http://arxiv.org/pdf/2605.10530v1))
 
 + **\[2026 Arxiv-2605\]** STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?. ([Paper](http://arxiv.org/pdf/2605.06527v1))
@@ -105,6 +109,11 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2605\]** DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA. ([Paper](http://arxiv.org/pdf/2605.22411))
++ **\[2026 Arxiv-2605\]** EmoTrack: Robust Depression Tracking from Counseling Transcripts across Session Regimes. ([Paper](http://arxiv.org/pdf/2605.22286))
++ **\[2026 Arxiv-2605\]** CALMem : Application-Layer Dual Memory for Conversational AI. ([Paper](http://arxiv.org/pdf/2605.20724))
++ **\[2026 Arxiv-2605\]** Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory. ([Paper](http://arxiv.org/pdf/2605.19952))
+
 + **\[2026 Arxiv-2604\]** Response-Aware User Memory Selection for LLM Personalization. ([Paper](http://arxiv.org/pdf/2604.14473v1))
 
 
@@ -141,6 +150,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2605\]** Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy. ([Paper](http://arxiv.org/pdf/2605.21006))
 
 + **\[2026 Arxiv-2605\]** Capability Conditioned Scaffolding for Professional Human LLM Collaboration. ([Paper](http://arxiv.org/pdf/2605.15404v1))
 + **\[2026 Arxiv-2605\]** Tracing Persona Vectors Through LLM Pretraining. ([Paper](http://arxiv.org/pdf/2605.13329v1))
@@ -191,6 +202,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2605\]** Unlocking Proactivity in Task-Oriented Dialogue. ([Paper](http://arxiv.org/pdf/2605.22240))
 
 + **\[2026 Arxiv-2604\]** One Model for All: Multi-Objective Controllable Language Models. ([Paper](http://arxiv.org/pdf/2604.04497v1))
 

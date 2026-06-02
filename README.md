@@ -43,10 +43,14 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Data](https://huggingface.co/datasets/ClareNie/Persona-MME))
+
 + **\[2026 Arxiv-2605\]** ChildEval: When large language models meet children's personalities. ([Paper](http://arxiv.org/pdf/2605.27805))
 
 + **\[2026 Arxiv-2605\]** Think Thrice Before You Speak: Dual knowledge-enhanced Theory-of-Mind Reasoning for Persuasive Agents. ([Paper](http://arxiv.org/pdf/2605.22602))
+  
 + **\[2026 Arxiv-2605\]** Psy-Chronicle:A Structured Pipeline for Synthesizing Long-Horizon Campus Psychological Counseling Dialogues. ([Paper](http://arxiv.org/pdf/2605.22140))
+  
 + **\[2026 Arxiv-2605\]** APM: Evaluating Style Personalization in LLMs with Arbitrary Preference Mappings. ([Paper](http://arxiv.org/pdf/2605.21063))
 
 + **\[2026 Arxiv-2605\]** Personalized Deep Research: A User-Centric Framework, Dataset, and Hybrid Evaluation for Knowledge Discovery. ([Paper](http://arxiv.org/pdf/2605.10530v1))
@@ -118,11 +122,16 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Code](https://github.com/MiG-NJU/PersonaVLM))
+
 + **\[2026 Arxiv-2605\]** MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models. ([Paper](http://arxiv.org/pdf/2605.28009))
 
 + **\[2026 Arxiv-2605\]** DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA. ([Paper](http://arxiv.org/pdf/2605.22411))
+  
 + **\[2026 Arxiv-2605\]** EmoTrack: Robust Depression Tracking from Counseling Transcripts across Session Regimes. ([Paper](http://arxiv.org/pdf/2605.22286))
+  
 + **\[2026 Arxiv-2605\]** CALMem : Application-Layer Dual Memory for Conversational AI. ([Paper](http://arxiv.org/pdf/2605.20724))
+  
 + **\[2026 Arxiv-2605\]** Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory. ([Paper](http://arxiv.org/pdf/2605.19952))
 
 + **\[2026 Arxiv-2604\]** Response-Aware User Memory Selection for LLM Personalization. ([Paper](http://arxiv.org/pdf/2604.14473v1))
@@ -169,7 +178,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2605\]** Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy. ([Paper](http://arxiv.org/pdf/2605.21006))
 
 + **\[2026 Arxiv-2605\]** Capability Conditioned Scaffolding for Professional Human LLM Collaboration. ([Paper](http://arxiv.org/pdf/2605.15404v1))
+  
 + **\[2026 Arxiv-2605\]** Tracing Persona Vectors Through LLM Pretraining. ([Paper](http://arxiv.org/pdf/2605.13329v1))
+  
 + **\[2026 Arxiv-2605\]** Learning Transferable Latent User Preferences for Human-Aligned Decision Making. ([Paper](http://arxiv.org/pdf/2605.12682v1))
 
 + **\[2026 Arxiv-2605\]** CLIPer: Tailoring Diverse User Preference via Classifier-Guided Inference-Time Personalization. ([Paper](http://arxiv.org/pdf/2605.07162v1))

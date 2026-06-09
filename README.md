@@ -19,6 +19,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 1. Survey / Tutorial / Framework
 
++ Awesome Personalization in MLLMs. ([Website](https://clare-nie.github.io/Awesome-Personalization-in-MLLMs/))
+
 + **\[2026 Arxiv-2602\]** Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions. ([Paper](https://arxiv.org/pdf/2602.22680v1))
 
 + **\[2025 Arxiv-2503\]** Personalized Generation In Large Model Era: A Survey. ([Paper](https://arxiv.org/pdf/2503.02614))
@@ -44,6 +46,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 ### 2. Benchmark / Dataset / Evaluation
 
 + **\[2026 Arxiv-2606\]** Whose Norms? Disentangling Cultural and Personal Alignment in Large Language Models. ([Paper](http://arxiv.org/pdf/2606.07877v1))
+  
 + **\[2026 Arxiv-2606\]** Re-Centering Humans in LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.06614v1))
 
 + **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Data](https://huggingface.co/datasets/ClareNie/Persona-MME))

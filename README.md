@@ -45,8 +45,6 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
-+ **\[2026 Arxiv-2606\]** Verifiable User Simulation for Search and Recommendation Systems. ([Paper](http://arxiv.org/pdf/2606.14474v1))
-
 + **\[2026 Arxiv-2606\]** Whose Norms? Disentangling Cultural and Personal Alignment in Large Language Models. ([Paper](http://arxiv.org/pdf/2606.07877v1))
   
 + **\[2026 Arxiv-2606\]** Re-Centering Humans in LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.06614v1))
@@ -130,8 +128,6 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
-+ **\[2026 Arxiv-2606\]** TabClaw: An Interactive and Self-Evolving Agent for Spreadsheet Manipulation and Table Reasoning. ([Paper](http://arxiv.org/pdf/2606.10316v1))
-
 + **\[2026 Arxiv-2606\]** Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents. ([Paper](http://arxiv.org/pdf/2606.05828v1))
 
 + **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Code](https://github.com/MiG-NJU/PersonaVLM))
@@ -186,8 +182,6 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
-
-+ **\[2026 Arxiv-2606\]** Language-Driven Cost Optimization for Autonomous Driving. ([Paper](http://arxiv.org/pdf/2606.10974v1))
 
 + **\[2026 Arxiv-2606\]** Self-supervised User Profile Generation for Personalization. ([Paper](http://arxiv.org/pdf/2606.05336v1))
 

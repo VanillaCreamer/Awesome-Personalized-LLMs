@@ -239,6 +239,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 5. SFT / RL / Preference Optimization Methods
 
++ **\[2026 Arxiv-2606\]** CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation. ([Paper](http://arxiv.org/pdf/2606.13001v1))
++ **\[2026 Arxiv-2606\]** Mult-DPO: Multinomial Direct Preference Optimization for Recommender Systems. ([Paper](http://arxiv.org/pdf/2606.10078v1))
+
 + **\[2026 Arxiv-2606\]** PAFO: Pareto Fairness Optimization for Personalized Reward Modeling. ([Paper](http://arxiv.org/pdf/2606.07988v1))
 + **\[2026 Arxiv-2606\]** Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning. ([Paper](http://arxiv.org/pdf/2606.06178v1))
 

@@ -45,6 +45,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2606\]** PEC-Home: Interpretation of Progressively Elliptical Commands in Smart Homes. ([Paper](http://arxiv.org/pdf/2606.18636v1))
++ **\[2026 Arxiv-2606\]** Evaluating LLM Personalization via Semantic Constraint Verification. ([Paper](http://arxiv.org/pdf/2606.16368v1))
+
 + **\[2026 Arxiv-2606\]** Whose Norms? Disentangling Cultural and Personal Alignment in Large Language Models. ([Paper](http://arxiv.org/pdf/2606.07877v1))
   
 + **\[2026 Arxiv-2606\]** Re-Centering Humans in LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.06614v1))
@@ -127,6 +130,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2606\]** AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts. ([Paper](http://arxiv.org/pdf/2606.19847v1))
 
 + **\[2026 Arxiv-2606\]** Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents. ([Paper](http://arxiv.org/pdf/2606.05828v1))
 
@@ -238,6 +243,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2606\]** ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch. ([Paper](http://arxiv.org/pdf/2606.18803v1))
 
 + **\[2026 Arxiv-2606\]** CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation. ([Paper](http://arxiv.org/pdf/2606.13001v1))
 + **\[2026 Arxiv-2606\]** Mult-DPO: Multinomial Direct Preference Optimization for Recommender Systems. ([Paper](http://arxiv.org/pdf/2606.10078v1))

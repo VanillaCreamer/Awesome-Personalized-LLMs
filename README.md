@@ -45,6 +45,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2606\]** SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context. ([Paper](http://arxiv.org/pdf/2606.26654v1))
+
 + **\[2026 Arxiv-2606\]** PEC-Home: Interpretation of Progressively Elliptical Commands in Smart Homes. ([Paper](http://arxiv.org/pdf/2606.18636v1))
 + **\[2026 Arxiv-2606\]** Evaluating LLM Personalization via Semantic Constraint Verification. ([Paper](http://arxiv.org/pdf/2606.16368v1))
 
@@ -131,6 +133,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2606\]** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory. ([Paper](http://arxiv.org/pdf/2606.25161v1))
++ **\[2026 Arxiv-2606\]** Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs. ([Paper](http://arxiv.org/pdf/2606.23283v1))
++ **\[2026 Arxiv-2606\]** Wireless Personal Agent: Extending Wireless Intelligence from Networks to Terminals. ([Paper](http://arxiv.org/pdf/2606.23255v1))
+
 + **\[2026 Arxiv-2606\]** AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts. ([Paper](http://arxiv.org/pdf/2606.19847v1))
 
 + **\[2026 Arxiv-2606\]** Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents. ([Paper](http://arxiv.org/pdf/2606.05828v1))
@@ -187,6 +193,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2606\]** Continuous Behavioral Synthesis for Adaptive Health Dashboards: An LLM-Mediated Architecture Integrating Explicit Preference, Spatial Reorganization, and Attention Allocation Signals. ([Paper](http://arxiv.org/pdf/2606.26937v1))
 
 + **\[2026 Arxiv-2606\]** Self-supervised User Profile Generation for Personalization. ([Paper](http://arxiv.org/pdf/2606.05336v1))
 

@@ -45,6 +45,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2607\]** DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models. ([Paper](http://arxiv.org/pdf/2607.02374v1))
+
 + **\[2026 Arxiv-2606\]** SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context. ([Paper](http://arxiv.org/pdf/2606.26654v1))
 
 + **\[2026 Arxiv-2606\]** PEC-Home: Interpretation of Progressively Elliptical Commands in Smart Homes. ([Paper](http://arxiv.org/pdf/2606.18636v1))
@@ -133,6 +135,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2607\]** CoPersona: Collaborative Persona Graphs for Robust LLM Personalization. ([Paper](http://arxiv.org/pdf/2607.01485v1))
+
 + **\[2026 Arxiv-2606\]** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory. ([Paper](http://arxiv.org/pdf/2606.25161v1))
 + **\[2026 Arxiv-2606\]** Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs. ([Paper](http://arxiv.org/pdf/2606.23283v1))
 + **\[2026 Arxiv-2606\]** Wireless Personal Agent: Extending Wireless Intelligence from Networks to Terminals. ([Paper](http://arxiv.org/pdf/2606.23255v1))
@@ -194,6 +198,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2606\]** A Large-Language-Model Supported Personalized Driving Framework for Lane Change in Highway Scenarios. ([Paper](http://arxiv.org/pdf/2606.31483v2))
+
 + **\[2026 Arxiv-2606\]** Continuous Behavioral Synthesis for Adaptive Health Dashboards: An LLM-Mediated Architecture Integrating Explicit Preference, Spatial Reorganization, and Attention Allocation Signals. ([Paper](http://arxiv.org/pdf/2606.26937v1))
 
 + **\[2026 Arxiv-2606\]** Self-supervised User Profile Generation for Personalization. ([Paper](http://arxiv.org/pdf/2606.05336v1))
@@ -251,6 +257,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2606\]** REAR: Test-time Preference Realignment through Reward Decomposition. ([Paper](http://arxiv.org/pdf/2606.30339v1))
 
 + **\[2026 Arxiv-2606\]** ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch. ([Paper](http://arxiv.org/pdf/2606.18803v1))
 

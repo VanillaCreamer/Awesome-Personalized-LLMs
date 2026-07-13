@@ -135,6 +135,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2607\]** Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation. ([Paper](http://arxiv.org/pdf/2607.07108v1))
++ **\[2026 Arxiv-2607\]** When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents. ([Paper](http://arxiv.org/pdf/2607.06595v1))
+
 + **\[2026 Arxiv-2607\]** CoPersona: Collaborative Persona Graphs for Robust LLM Personalization. ([Paper](http://arxiv.org/pdf/2607.01485v1))
 
 + **\[2026 Arxiv-2606\]** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory. ([Paper](http://arxiv.org/pdf/2606.25161v1))
@@ -257,6 +260,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2607\]** Persona Cartography: Charting Language Model Personality Traits in Weight Space. ([Paper](http://arxiv.org/pdf/2607.07916v1))
 
 + **\[2026 Arxiv-2606\]** REAR: Test-time Preference Realignment through Reward Decomposition. ([Paper](http://arxiv.org/pdf/2606.30339v1))
 

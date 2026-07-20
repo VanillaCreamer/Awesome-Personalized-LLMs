@@ -252,6 +252,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 5. SFT / RL / Preference Optimization Methods
 
++ **\[2026 Arxiv-2607\]** Personalized Image Aesthetic Assessment via Preference-rich Sample Mining and Cohort Merging. ([Paper](http://arxiv.org/pdf/2607.15752v1))
++ **\[2026 Arxiv-2607\]** Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion. ([Paper](http://arxiv.org/pdf/2607.14371v1))
+
 + **\[2026 Arxiv-2606\]** ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch. ([Paper](http://arxiv.org/pdf/2606.18803v1))
 
 + **\[2026 Arxiv-2606\]** CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation. ([Paper](http://arxiv.org/pdf/2606.13001v1))

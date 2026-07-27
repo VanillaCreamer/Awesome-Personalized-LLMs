@@ -45,6 +45,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2607\]** Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions. ([Paper](http://arxiv.org/pdf/2607.21635v1))
++ **\[2026 Arxiv-2607\]** SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data. ([Paper](http://arxiv.org/pdf/2607.19949v2))
 + **\[2026 Arxiv-2607\]** DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models. ([Paper](http://arxiv.org/pdf/2607.02374v1))
 
 + **\[2026 Arxiv-2606\]** SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context. ([Paper](http://arxiv.org/pdf/2606.26654v1))
@@ -135,6 +137,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2607\]** Personalized Recommendation Tool Learning via Autonomous Language Agents. ([Paper](http://arxiv.org/pdf/2607.19739v1))
+
 + **\[2026 Arxiv-2607\]** Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation. ([Paper](http://arxiv.org/pdf/2607.07108v1))
 + **\[2026 Arxiv-2607\]** When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents. ([Paper](http://arxiv.org/pdf/2607.06595v1))
 
@@ -200,6 +204,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2607\]** PrefReward: Learning User Preference Matrix for Personalized Text Generation. ([Paper](http://arxiv.org/pdf/2607.21067v1))
 
 + **\[2026 Arxiv-2606\]** A Large-Language-Model Supported Personalized Driving Framework for Lane Change in Highway Scenarios. ([Paper](http://arxiv.org/pdf/2606.31483v2))
 

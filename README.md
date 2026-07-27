@@ -45,6 +45,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2607\]** SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data. ([Paper](http://arxiv.org/pdf/2607.19949v2))
++ **\[2026 Arxiv-2607\]** Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions. ([Paper](http://arxiv.org/pdf/2607.21635v1))
+
 + **\[2026 Arxiv-2606\]** SocialPersona: Benchmarking Personalized Profiling and Response with Multimodal Social-Media Context. ([Paper](http://arxiv.org/pdf/2606.26654v1))
 
 + **\[2026 Arxiv-2606\]** PEC-Home: Interpretation of Progressively Elliptical Commands in Smart Homes. ([Paper](http://arxiv.org/pdf/2606.18636v1))
@@ -133,6 +136,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2607\]** Personalized Recommendation Tool Learning via Autonomous Language Agents. ([Paper](http://arxiv.org/pdf/2607.19739v1))
+
 + **\[2026 Arxiv-2606\]** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory. ([Paper](http://arxiv.org/pdf/2606.25161v1))
 + **\[2026 Arxiv-2606\]** Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs. ([Paper](http://arxiv.org/pdf/2606.23283v1))
 + **\[2026 Arxiv-2606\]** Wireless Personal Agent: Extending Wireless Intelligence from Networks to Terminals. ([Paper](http://arxiv.org/pdf/2606.23255v1))
@@ -193,6 +198,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2607\]** PrefReward: Learning User Preference Matrix for Personalized Text Generation. ([Paper](http://arxiv.org/pdf/2607.21067v1))
 
 + **\[2026 Arxiv-2606\]** Continuous Behavioral Synthesis for Adaptive Health Dashboards: An LLM-Mediated Architecture Integrating Explicit Preference, Spatial Reorganization, and Attention Allocation Signals. ([Paper](http://arxiv.org/pdf/2606.26937v1))
 

@@ -19,6 +19,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 1. Survey / Tutorial / Framework
 
++ **\[2026 Arxiv-2605\]** Toward User Preference Alignment in LLM Recommendation via Explicit Context Feedback. ([Paper](http://arxiv.org/pdf/2605.29141v1))
+
 + Awesome Personalization in MLLMs. ([Website](https://clare-nie.github.io/Awesome-Personalization-in-MLLMs/))
 
 + **\[2026 Arxiv-2602\]** Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions. ([Paper](https://arxiv.org/pdf/2602.22680v1))
@@ -46,6 +48,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 ### 2. Benchmark / Dataset / Evaluation
 
 + **\[2026 Arxiv-2607\]** Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions. ([Paper](http://arxiv.org/pdf/2607.21635v1))
++ **\[2026 Arxiv-2607\]** PersonaTrail: Benchmarking Personalized Web Agents through Browsing Trails. ([Paper](http://arxiv.org/pdf/2607.20482v1))
 + **\[2026 Arxiv-2607\]** SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data. ([Paper](http://arxiv.org/pdf/2607.19949v2))
 + **\[2026 Arxiv-2607\]** DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models. ([Paper](http://arxiv.org/pdf/2607.02374v1))
 
@@ -58,9 +61,21 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
   
 + **\[2026 Arxiv-2606\]** Re-Centering Humans in LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.06614v1))
 
++ **\[2026 Arxiv-2606\]** SenseJudge: Human-Centric Preference-Driven Judgment Framework. ([Paper](http://arxiv.org/pdf/2606.03189v2))
++ **\[2026 Arxiv-2606\]** $Ψ$-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues. ([Paper](http://arxiv.org/pdf/2606.02754v1))
+
 + **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Data](https://huggingface.co/datasets/ClareNie/Persona-MME))
 
++ **\[2026 Arxiv-2605\]** Preference-Aware Rubric Learning for Personalized Evaluation. ([Paper](http://arxiv.org/pdf/2605.31545v1))
++ **\[2026 Arxiv-2605\]** Beyond Static Dialogues: Benchmarking Realistic, Heterogeneous, and Evolving Long-Term Memory. ([Paper](http://arxiv.org/pdf/2605.31086v2))
++ **\[2026 Arxiv-2605\]** Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents. ([Paper](http://arxiv.org/pdf/2605.28108v2))
+
 + **\[2026 Arxiv-2605\]** ChildEval: When large language models meet children's personalities. ([Paper](http://arxiv.org/pdf/2605.27805))
+
++ **\[2026 Arxiv-2605\]** VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions. ([Paper](http://arxiv.org/pdf/2605.27141v1))
++ **\[2026 Arxiv-2605\]** Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World. ([Paper](http://arxiv.org/pdf/2605.26086v1))
++ **\[2026 Arxiv-2605\]** StreamProfileBench: A Benchmark for Fine-Grained User Profile Inference in Real-World Streaming Scenarios. ([Paper](http://arxiv.org/pdf/2605.25758v3))
++ **\[2026 Arxiv-2605\]** Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents. ([Paper](http://arxiv.org/pdf/2605.25535v1))
 
 + **\[2026 Arxiv-2605\]** Think Thrice Before You Speak: Dual knowledge-enhanced Theory-of-Mind Reasoning for Persuasive Agents. ([Paper](http://arxiv.org/pdf/2605.22602))
   
@@ -144,6 +159,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2607\]** CoPersona: Collaborative Persona Graphs for Robust LLM Personalization. ([Paper](http://arxiv.org/pdf/2607.01485v1))
 
++ **\[2026 Arxiv-2607\]** Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory. ([Paper](http://arxiv.org/pdf/2607.00017v2))
+
 + **\[2026 Arxiv-2606\]** TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory. ([Paper](http://arxiv.org/pdf/2606.25161v1))
 + **\[2026 Arxiv-2606\]** Towards Root Memories: Benchmarking and Enhancing Implicit Logical Memory Retrieval for Personalized LLMs. ([Paper](http://arxiv.org/pdf/2606.23283v1))
 + **\[2026 Arxiv-2606\]** Wireless Personal Agent: Extending Wireless Intelligence from Networks to Terminals. ([Paper](http://arxiv.org/pdf/2606.23255v1))
@@ -152,9 +169,13 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2606\]** Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents. ([Paper](http://arxiv.org/pdf/2606.05828v1))
 
++ **\[2026 Arxiv-2606\]** Beyond Isolated Behaviors: Hierarchical User Modeling for LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.02300v1))
+
 + **\[2026 CVPR\]** PersonaVLM — Long-Term Personalized Multimodal LLMs. ([Paper](https://arxiv.org/pdf/2604.13074), [Code](https://github.com/MiG-NJU/PersonaVLM))
 
 + **\[2026 Arxiv-2605\]** MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models. ([Paper](http://arxiv.org/pdf/2605.28009))
+
++ **\[2026 Arxiv-2605\]** Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions. ([Paper](http://arxiv.org/pdf/2605.26256v1))
 
 + **\[2026 Arxiv-2605\]** DeferMem: Query-Time Evidence Distillation via Reinforcement Learning for Long-Term Memory QA. ([Paper](http://arxiv.org/pdf/2605.22411))
   
@@ -212,6 +233,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2606\]** Continuous Behavioral Synthesis for Adaptive Health Dashboards: An LLM-Mediated Architecture Integrating Explicit Preference, Spatial Reorganization, and Attention Allocation Signals. ([Paper](http://arxiv.org/pdf/2606.26937v1))
 
 + **\[2026 Arxiv-2606\]** Self-supervised User Profile Generation for Personalization. ([Paper](http://arxiv.org/pdf/2606.05336v1))
+
++ **\[2026 Arxiv-2605\]** LATTE: Forecasting Peer Anchored Preference Trajectories for Personalized LLM Generation. ([Paper](http://arxiv.org/pdf/2605.26612v1))
++ **\[2026 Arxiv-2605\]** MATO: Multi-objective Personalized Alignment with Test-time Optimization for Large Language Models. ([Paper](http://arxiv.org/pdf/2605.25342v1))
 
 + **\[2026 Arxiv-2605\]** Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy. ([Paper](http://arxiv.org/pdf/2605.21006))
 
@@ -282,8 +306,14 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2026 Arxiv-2606\]** PAFO: Pareto Fairness Optimization for Personalized Reward Modeling. ([Paper](http://arxiv.org/pdf/2606.07988v1))
 + **\[2026 Arxiv-2606\]** Learning to Route LLMs from Implicit Cost-Performance Preferences via Meta-Learning. ([Paper](http://arxiv.org/pdf/2606.06178v1))
 
++ **\[2026 Arxiv-2606\]** TriAlign: Towards Universal Truth Consistency in Personalized LLM Alignment. ([Paper](http://arxiv.org/pdf/2606.01755v1))
+
++ **\[2026 Arxiv-2605\]** Federated Variational Preference Alignment with Gumbel-Softmax Prior for Personalized User Preferences. ([Paper](http://arxiv.org/pdf/2605.30873v1))
+
 + **\[2026 Arxiv-2605\]** Human Label Variation as Stable Signal: Learning Annotator-Specific Explanation Behavior via Cross-Annotator Preference Optimization. ([Paper](http://arxiv.org/pdf/2605.28802))
 + **\[2026 Arxiv-2605\]** Semantic Flow Regularization: Teaching LLMs to Generate Diverse Yet Coherent Responses. ([Paper](http://arxiv.org/pdf/2605.27971))
+
++ **\[2026 Arxiv-2605\]** L2Rec: Towards Dual-View Understanding of LLMs for Personalized Recommendation. ([Paper](http://arxiv.org/pdf/2605.26717v1))
 
 + **\[2026 Arxiv-2605\]** Unlocking Proactivity in Task-Oriented Dialogue. ([Paper](http://arxiv.org/pdf/2605.22240))
 

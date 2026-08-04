@@ -47,6 +47,20 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2608\]** From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2608.02171v1))
++ **\[2026 Arxiv-2607\]** Beyond Borrowed Histories: Person-Aligned User Simulation for Interactive Role-Playing Evaluation. ([Paper](http://arxiv.org/pdf/2607.27816v2))
++ **\[2026 Arxiv-2607\]** Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data. ([Paper](http://arxiv.org/pdf/2607.27056))
++ **\[2026 Arxiv-2607\]** Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants. ([Paper](http://arxiv.org/pdf/2607.26611))
++ **\[2026 Arxiv-2607\]** ClawRec: A Claw-Native Recommender System. ([Paper](http://arxiv.org/pdf/2607.23779))
++ **\[2026 Arxiv-2607\]** APeB: Benchmarking Personalization Ability of Large Language Model Agents. ([Paper](http://arxiv.org/pdf/2607.03162v1))
++ **\[2026 Arxiv-2607\]** Benchmarking the Personalization Capabilities of Large Language Models. ([Paper](http://arxiv.org/pdf/2607.20471v1))
++ **\[2026 Arxiv-2606\]** DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings. ([Paper](http://arxiv.org/pdf/2606.22877v1))
++ **\[2026 Arxiv-2605\]** DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation. ([Paper](http://arxiv.org/pdf/2605.30090))
++ **\[2026 Arxiv-2605\]** GroupTravelBench: Benchmarking LLM Agents on Multi-Person Travel Planning. ([Paper](http://arxiv.org/pdf/2605.25200v2))
++ **\[2026 Arxiv-2605\]** MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts. ([Paper](http://arxiv.org/pdf/2605.20926v1))
++ **\[2026 Arxiv-2605\]** $π$-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows. ([Paper](http://arxiv.org/pdf/2605.14678v3))
++ **\[2026 Arxiv-2605\]** GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations. ([Paper](http://arxiv.org/pdf/2605.14498v2))
+
 + **\[2026 Arxiv-2607\]** Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions. ([Paper](http://arxiv.org/pdf/2607.21635v1))
 + **\[2026 Arxiv-2607\]** PersonaTrail: Benchmarking Personalized Web Agents through Browsing Trails. ([Paper](http://arxiv.org/pdf/2607.20482v1))
 + **\[2026 Arxiv-2607\]** SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data. ([Paper](http://arxiv.org/pdf/2607.19949v2))
@@ -152,6 +166,17 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2607\]** Know It, Act on It: Investigating Memory Utilization in LLM Personalization. ([Paper](http://arxiv.org/pdf/2607.29433v1))
++ **\[2026 Arxiv-2607\]** LoopMemGR: From Behavior Logs to Evolving Memory for Generative Recommendation. ([Paper](http://arxiv.org/pdf/2607.27647))
++ **\[2026 Arxiv-2607\]** InferScale: GPU-Native KV Injection for Personalized LLM Serving. ([Paper](http://arxiv.org/pdf/2607.27090v1))
++ **\[2026 Arxiv-2607\]** Learning Dynamic User Personas from Implicit Interaction Streams via Iterative Refinement. ([Paper](http://arxiv.org/pdf/2607.26473v1))
++ **\[2026 Arxiv-2606\]** Latent Personal Memory: Represent personal memory as dynamic soft prompts. ([Paper](http://arxiv.org/pdf/2606.20911v1))
++ **\[2026 Arxiv-2606\]** MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback. ([Paper](http://arxiv.org/pdf/2606.07909v2))
++ **\[2026 Arxiv-2605\]** Know You Before You Speak: User-State Modeling for LLM Personalization in Multi-Turn Conversation. ([Paper](http://arxiv.org/pdf/2605.24647v1))
++ **\[2026 Arxiv-2605\]** From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG. ([Paper](http://arxiv.org/pdf/2605.18271v2))
++ **\[2026 Arxiv-2605\]** Agentic Recommender System with Hierarchical Belief-State Memory. ([Paper](http://arxiv.org/pdf/2605.14401v2))
++ **\[2026 Arxiv-2605\]** AwareLLM: A Proactive Multimodal Ecosystem for Personalized Human-AI Collaboration to Enhance Productivity. ([Paper](http://arxiv.org/pdf/2605.09625v2))
+
 + **\[2026 Arxiv-2607\]** Personalized Recommendation Tool Learning via Autonomous Language Agents. ([Paper](http://arxiv.org/pdf/2607.19739v1))
 
 + **\[2026 Arxiv-2607\]** Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation. ([Paper](http://arxiv.org/pdf/2607.07108v1))
@@ -226,6 +251,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2606\]** Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.04547v2))
+
 + **\[2026 Arxiv-2607\]** PrefReward: Learning User Preference Matrix for Personalized Text Generation. ([Paper](http://arxiv.org/pdf/2607.21067v1))
 
 + **\[2026 Arxiv-2606\]** A Large-Language-Model Supported Personalized Driving Framework for Lane Change in Highway Scenarios. ([Paper](http://arxiv.org/pdf/2606.31483v2))
@@ -290,6 +317,19 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2608\]** Rethinking Personalized Reward Modeling for LLMs under Preference Heterogeneity via Group-Debiased Federated Learning. ([Paper](http://arxiv.org/pdf/2608.01556v1))
++ **\[2026 Arxiv-2608\]** Personalizing Large Language Model Agents with Small Policy Models. ([Paper](http://arxiv.org/pdf/2608.00215v1))
++ **\[2026 Arxiv-2607\]** ODYSSE: Episode-wise Policy Optimization for Personalized Agentic Reasoning. ([Paper](http://arxiv.org/pdf/2607.25369))
++ **\[2026 Arxiv-2607\]** Group Preference Collapse in Personalized Multimodal Large Language Models. ([Paper](http://arxiv.org/pdf/2607.22603v1))
++ **\[2026 Arxiv-2606\]** Personalizing MLLMs via Reinforced Multimodal Reference Game. ([Paper](http://arxiv.org/pdf/2606.28845v1))
++ **\[2026 Arxiv-2606\]** PEBS: Per-rater Empirical-Bayes Shrinkage for RLHF Reward-Model Calibration. ([Paper](http://arxiv.org/pdf/2606.27578))
++ **\[2026 Arxiv-2606\]** ChatPlanner: A Large Language Model Framework for Personalized Public Transit Routing. ([Paper](http://arxiv.org/pdf/2606.15315v1))
++ **\[2026 Arxiv-2605\]** Spectral Souping: A Unified Framework for Online Preference Alignment. ([Paper](http://arxiv.org/pdf/2605.20408v1))
++ **\[2026 Arxiv-2605\]** Personalizing LLMs with Binary Feedback: A Preference-Corrected Optimization Framework. ([Paper](http://arxiv.org/pdf/2605.10043v1))
++ **\[2026 Arxiv-2605\]** Personalized Alignment Revisited: The Necessity and Sufficiency of User Diversity. ([Paper](http://arxiv.org/pdf/2605.09119v1))
++ **\[2026 Arxiv-2605\]** Test-Time Personalization: A Diagnostic Framework and Probabilistic Fix for Scaling Failures. ([Paper](http://arxiv.org/pdf/2605.10991v1))
++ **\[2026 Arxiv-2605\]** UserGPT Technical Report. ([Paper](http://arxiv.org/pdf/2605.08766v1))
 
 + **\[2026 Arxiv-2607\]** Personalized Image Aesthetic Assessment via Preference-rich Sample Mining and Cohort Merging. ([Paper](http://arxiv.org/pdf/2607.15752v1))
 + **\[2026 Arxiv-2607\]** Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion. ([Paper](http://arxiv.org/pdf/2607.14371v1))

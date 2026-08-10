@@ -47,6 +47,13 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 2. Benchmark / Dataset / Evaluation
 
++ **\[2026 Arxiv-2608\]** Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events. ([Paper](http://arxiv.org/pdf/2608.06485v1))
++ **\[2026 Arxiv-2608\]** Evaluating Investment Logic in Large Language Models: A Real-World Benchmark Towards Personalzied Financial Agents. ([Paper](http://arxiv.org/pdf/2608.06108))
++ **\[2026 Arxiv-2608\]** LUNAR: Benchmarking Personalized Large Language Models on UNiversal User BehAvioR Logs. ([Paper](http://arxiv.org/pdf/2608.05246v1))
++ **\[2026 Arxiv-2608\]** The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads. ([Paper](http://arxiv.org/pdf/2608.04570v1))
++ **\[2026 Arxiv-2608\]** FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents. ([Paper](http://arxiv.org/pdf/2608.04095v1))
++ **\[2026 Arxiv-2608\]** PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents. ([Paper](http://arxiv.org/pdf/2608.04003))
+
 + **\[2026 Arxiv-2608\]** From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2608.02171v1))
 + **\[2026 Arxiv-2607\]** Beyond Borrowed Histories: Person-Aligned User Simulation for Interactive Role-Playing Evaluation. ([Paper](http://arxiv.org/pdf/2607.27816v2))
 + **\[2026 Arxiv-2607\]** Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data. ([Paper](http://arxiv.org/pdf/2607.27056))
@@ -165,6 +172,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2608\]** Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking. ([Paper](http://arxiv.org/pdf/2608.04768v1))
++ **\[2026 Arxiv-2608\]** DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents. ([Paper](http://arxiv.org/pdf/2608.03130))
++ **\[2026 Arxiv-2608\]** PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents. ([Paper](http://arxiv.org/pdf/2608.01708))
 
 + **\[2026 Arxiv-2607\]** Know It, Act on It: Investigating Memory Utilization in LLM Personalization. ([Paper](http://arxiv.org/pdf/2607.29433v1))
 + **\[2026 Arxiv-2607\]** LoopMemGR: From Behavior Logs to Evolving Memory for Generative Recommendation. ([Paper](http://arxiv.org/pdf/2607.27647))
@@ -317,6 +328,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2608\]** Cautious Context Steering for Language Model Personalization. ([Paper](http://arxiv.org/pdf/2608.05813v1))
++ **\[2026 Arxiv-2608\]** PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs. ([Paper](http://arxiv.org/pdf/2608.01458))
 
 + **\[2026 Arxiv-2608\]** Rethinking Personalized Reward Modeling for LLMs under Preference Heterogeneity via Group-Debiased Federated Learning. ([Paper](http://arxiv.org/pdf/2608.01556v1))
 + **\[2026 Arxiv-2608\]** Personalizing Large Language Model Agents with Small Policy Models. ([Paper](http://arxiv.org/pdf/2608.00215v1))

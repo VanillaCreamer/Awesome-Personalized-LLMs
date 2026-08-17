@@ -19,6 +19,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 1. Survey / Tutorial / Framework
 
++ **\[2026 Arxiv-2608\]** ComBodied Agents: a New Paradigm of Human-Centric Agentic AI. ([Paper](http://arxiv.org/pdf/2608.10915))
+
 + **\[2026 Arxiv-2605\]** Toward User Preference Alignment in LLM Recommendation via Explicit Context Feedback. ([Paper](http://arxiv.org/pdf/2605.29141v1))
 
 + Awesome Personalization in MLLMs. ([Website](https://clare-nie.github.io/Awesome-Personalization-in-MLLMs/))
@@ -46,6 +48,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2608\]** When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict. ([Paper](http://arxiv.org/pdf/2608.13921v1))
++ **\[2026 Arxiv-2608\]** WebRider: Persona-Conditioned Intent Controllers for Live-Web Assistance. ([Paper](http://arxiv.org/pdf/2608.06704))
 
 + **\[2026 Arxiv-2608\]** Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events. ([Paper](http://arxiv.org/pdf/2608.06485v1))
 + **\[2026 Arxiv-2608\]** Evaluating Investment Logic in Large Language Models: A Real-World Benchmark Towards Personalzied Financial Agents. ([Paper](http://arxiv.org/pdf/2608.06108))
@@ -173,6 +178,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2608\]** Hierarchical Compositionality for An Assistive AI Agent. ([Paper](http://arxiv.org/pdf/2608.10330v1))
++ **\[2026 Arxiv-2608\]** Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning. ([Paper](http://arxiv.org/pdf/2608.09507v2))
++ **\[2026 Arxiv-2608\]** Muscle Memory for Agents: Compile not Merely Retrieve. ([Paper](http://arxiv.org/pdf/2608.08995))
+
 + **\[2026 Arxiv-2608\]** Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking. ([Paper](http://arxiv.org/pdf/2608.04768v1))
 + **\[2026 Arxiv-2608\]** DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents. ([Paper](http://arxiv.org/pdf/2608.03130))
 + **\[2026 Arxiv-2608\]** PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents. ([Paper](http://arxiv.org/pdf/2608.01708))
@@ -262,6 +271,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2608\]** Locating and Controlling Implicit Personalization in Large Language Models. ([Paper](http://arxiv.org/pdf/2608.11735))
++ **\[2026 Arxiv-2608\]** Role of Personality in Conversational Information Seeking. ([Paper](http://arxiv.org/pdf/2608.11164v1))
++ **\[2026 Arxiv-2608\]** Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces. ([Paper](http://arxiv.org/pdf/2608.11354))
+
 + **\[2026 Arxiv-2606\]** Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization. ([Paper](http://arxiv.org/pdf/2606.04547v2))
 
 + **\[2026 Arxiv-2607\]** PrefReward: Learning User Preference Matrix for Personalized Text Generation. ([Paper](http://arxiv.org/pdf/2607.21067v1))
@@ -328,6 +341,11 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2608\]** Learning from Online User Feedback for Shopping Agents. ([Paper](http://arxiv.org/pdf/2608.11604))
++ **\[2026 Arxiv-2608\]** From Prompting to Behavioral Alignment: Personalized LLM Judges for Recommendation Evaluation. ([Paper](http://arxiv.org/pdf/2608.11493v1))
++ **\[2026 Arxiv-2608\]** Weightless Fine-Tuning: Personalizing LLMs via Logit-Space Transport. ([Paper](http://arxiv.org/pdf/2608.11342v1))
++ **\[2026 Arxiv-2608\]** Learning to Adapt Cross-Domain Preferences via Meta-LoRA for LLM Personalization. ([Paper](http://arxiv.org/pdf/2608.12389v1))
 
 + **\[2026 Arxiv-2608\]** Cautious Context Steering for Language Model Personalization. ([Paper](http://arxiv.org/pdf/2608.05813v1))
 + **\[2026 Arxiv-2608\]** PALMs: Using Multi Construct-Grounded Rationales for Modeling Population Preferences in LLMs. ([Paper](http://arxiv.org/pdf/2608.01458))

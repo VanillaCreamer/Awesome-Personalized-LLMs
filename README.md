@@ -19,6 +19,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 1. Survey / Tutorial / Framework
 
++ **\[2025 Arxiv-2510\]** From Adaptation to Intelligence: A Systematic Review of Data, Strategies, and Impact in Personalized VR. ([Paper](http://arxiv.org/pdf/2510.13123))
+
 + **\[2026 Arxiv-2608\]** ComBodied Agents: a New Paradigm of Human-Centric Agentic AI. ([Paper](http://arxiv.org/pdf/2608.10915))
 
 + **\[2026 Arxiv-2605\]** Toward User Preference Alignment in LLM Recommendation via Explicit Context Feedback. ([Paper](http://arxiv.org/pdf/2605.29141v1))
@@ -48,6 +50,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2608\]** PersonalBench: Measuring the Authorship Gap in LLM Personalization. ([Paper](http://arxiv.org/pdf/2608.19746v1))
++ **\[2026 Arxiv-2608\]** Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions. ([Paper](http://arxiv.org/pdf/2608.14132))
 
 + **\[2026 Arxiv-2608\]** When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict. ([Paper](http://arxiv.org/pdf/2608.13921v1))
 + **\[2026 Arxiv-2608\]** WebRider: Persona-Conditioned Intent Controllers for Live-Web Assistance. ([Paper](http://arxiv.org/pdf/2608.06704))
@@ -177,6 +182,12 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2608\]** rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation. ([Paper](http://arxiv.org/pdf/2608.18952v1))
++ **\[2026 Arxiv-2608\]** QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents. ([Paper](http://arxiv.org/pdf/2608.16168v1))
++ **\[2026 Arxiv-2608\]** CogChat: Knowledge Graph-Augmented Conversational AI with Heterogeneous Graph Transformer for Cognitive Grounding in Design Generation. ([Paper](http://arxiv.org/pdf/2608.13216))
++ **\[2026 Arxiv-2608\]** MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents. ([Paper](http://arxiv.org/pdf/2608.12428))
++ **\[2026 Arxiv-2608\]** Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarization. ([Paper](http://arxiv.org/pdf/2608.11973))
 
 + **\[2026 Arxiv-2608\]** Hierarchical Compositionality for An Assistive AI Agent. ([Paper](http://arxiv.org/pdf/2608.10330v1))
 + **\[2026 Arxiv-2608\]** Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning. ([Paper](http://arxiv.org/pdf/2608.09507v2))
@@ -341,6 +352,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2608\]** Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval. ([Paper](http://arxiv.org/pdf/2608.18855v1))
++ **\[2026 Arxiv-2608\]** Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation. ([Paper](http://arxiv.org/pdf/2608.15949v2))
 
 + **\[2026 Arxiv-2608\]** Learning from Online User Feedback for Shopping Agents. ([Paper](http://arxiv.org/pdf/2608.11604))
 + **\[2026 Arxiv-2608\]** From Prompting to Behavioral Alignment: Personalized LLM Judges for Recommendation Evaluation. ([Paper](http://arxiv.org/pdf/2608.11493v1))

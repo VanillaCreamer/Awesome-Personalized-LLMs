@@ -1,4 +1,20 @@
 # Awesome Personalized Large Language Models
+
+<!-- weekly-trend:start -->
+> [!IMPORTANT]
+> **📌 本周趋势 · 2026-08-24**
+>
+> 本周趋势分析仅反映当前周筛选语料，不代表全球引用、下载量或整体热度。共审阅 32 篇，其中接受 10 篇、候选 4 篇、拒绝 18 篇；可作为趋势信号的接受与候选论文共 14 篇。
+>
+> 1. 记忆与检索仍是最集中的方向：14 篇相关论文中有 5 篇落在 Memory / Retrieval-based Methods。QUMem、MindMemOS、rEDMRec、CogChat 和 Sci-Surf 都不满足于简单 top-k 召回，而是强调 typed memory、可编辑经验、图结构上下文、用户画像或自演化记忆，说明个性化 LLM 正从“存用户偏好”走向“按任务推断当前有效用户状态”。
+>
+> 2. 评测方向更关注真实个性化能力边界：Benchmark / Dataset / Evaluation 有 4 篇。PersonalBench 明确指出推理时个性化能够产生作者差异，但仍未跨越 human-authorship gap；Act2Intention 则把移动 Agent 的评测扩展到连续 GUI 行为中的意图理解、预测和执行。候选中的 VibeLifeBench 和 WitnessSim 也显示，长期性、主动性、行为真实感正在成为个性化 Agent 评测的重要邻近问题。
+>
+> 3. 推荐与检索场景正在把“会推理”变成训练目标：SFT / RL / Preference Optimization Methods 有 3 篇相关信号。Think-to-Personalize 用 SFT + GRPO 将用户历史推理对齐到检索收益，Ask to Be Sure 用熵下降奖励训练多轮推荐提问策略，rEDMRec 则把 LLM 推理蒸馏进可复用记忆。共同点是把用户偏好推断、主动提问、排序收益连接起来，而不是只做静态画像匹配。
+>
+> 4. 下周值得关注的观察点：继续留意“个性化 Agent 评测是否从偏好匹配扩展到长期主动行为”。Act2Intention 与候选 VibeLifeBench 都指向 proactive、persistent、intention-driven 的评测设置；如果后续出现同时覆盖长期记忆、主动决策和用户偏好适配的基准，会很适合补入仓库的 Benchmark 或 Memory 分类。
+<!-- weekly-trend:end -->
+
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
 
 🆕 GPT-5.4 is being used to maintain this repository, and weekly updates can be viewed through different branches.

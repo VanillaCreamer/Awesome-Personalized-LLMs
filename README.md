@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-08-24**
+> **📌 本周趋势 · 2026-09-07**
 >
-> 本周趋势分析仅反映当前周筛选语料，不代表全球引用、下载量或整体热度。共审阅 32 篇，其中接受 10 篇、候选 4 篇、拒绝 18 篇；可作为趋势信号的接受与候选论文共 14 篇。
+> 本分析只反映本次周筛 corpus：共审阅 37 篇，其中接受 6 篇、候选 6 篇、拒绝 25 篇；拒绝论文仅作为漏斗计数，不作为正向趋势证据。这不是全局引用、下载或流行度数据。
 >
-> 1. 记忆与检索仍是最集中的方向：14 篇相关论文中有 5 篇落在 Memory / Retrieval-based Methods。QUMem、MindMemOS、rEDMRec、CogChat 和 Sci-Surf 都不满足于简单 top-k 召回，而是强调 typed memory、可编辑经验、图结构上下文、用户画像或自演化记忆，说明个性化 LLM 正从“存用户偏好”走向“按任务推断当前有效用户状态”。
+> 1. **长期记忆与画像条件化是最集中的方向。** 12 篇相关论文中，Memory / Retrieval-based Methods 占 6 篇，是本周最大类目。接受论文里，CAPTURE、hoBIT、HiPS 都把“用户状态/画像/长期记忆”放在方法核心；候选论文 Entity-Memory Graph Retrieval、GraphMemix、CrabOS 也显示长期上下文组织正在向图结构、多模态记忆和人机共享工作状态扩展。
 >
-> 2. 评测方向更关注真实个性化能力边界：Benchmark / Dataset / Evaluation 有 4 篇。PersonalBench 明确指出推理时个性化能够产生作者差异，但仍未跨越 human-authorship gap；Act2Intention 则把移动 Agent 的评测扩展到连续 GUI 行为中的意图理解、预测和执行。候选中的 VibeLifeBench 和 WitnessSim 也显示，长期性、主动性、行为真实感正在成为个性化 Agent 评测的重要邻近问题。
+> 2. **评测正在从一般任务正确性转向反事实与行为轨迹。** Benchmark / Dataset / Evaluation 有 3 篇相关论文，其中 Behavior2Trip 和 Personalized Skill Routing 都强调同一表面任务下由用户差异导致的不同最优输出。前者用平均 39.8 条历史行为建模旅行偏好，后者用 profile-counterfactual benchmark 检验技能路由是否被用户约束改变。
 >
-> 3. 推荐与检索场景正在把“会推理”变成训练目标：SFT / RL / Preference Optimization Methods 有 3 篇相关信号。Think-to-Personalize 用 SFT + GRPO 将用户历史推理对齐到检索收益，Ask to Be Sure 用熵下降奖励训练多轮推荐提问策略，rEDMRec 则把 LLM 推理蒸馏进可复用记忆。共同点是把用户偏好推断、主动提问、排序收益连接起来，而不是只做静态画像匹配。
+> 3. **个性化方法不再只靠 RAG，开始探索参数层和策略层适配。** PersonaEdit 代表“模型编辑 + 样本选择”的路径，HiPS 代表“用户特定记忆管理策略”的路径，Behavior2Trip 则用强化学习式 agent 结合轨迹、工具和记忆。这说明本周相关工作在从检索时适配，扩展到训练、编辑和运行时策略共同参与。
 >
-> 4. 下周值得关注的观察点：继续留意“个性化 Agent 评测是否从偏好匹配扩展到长期主动行为”。Act2Intention 与候选 VibeLifeBench 都指向 proactive、persistent、intention-driven 的评测设置；如果后续出现同时覆盖长期记忆、主动决策和用户偏好适配的基准，会很适合补入仓库的 Benchmark 或 Memory 分类。
+> 4. **下周值得关注：个性化鲁棒性评测是否会成为固定组件。** CAPTURE 把偏好漂移和记忆投毒放在同一框架下评测，Personalized Skill Routing 用反事实画像暴露 task-only matching 的失败模式。后续可重点观察是否有更多论文把“同一请求、不同用户状态、不同正确行为”作为标准评测单元，并同时报告个性化收益与安全/误适配成本。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -66,6 +66,9 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2608\]** Beyond Task-Only Matching: Personalized Skill Routing with Counterfactual Evaluation. ([Paper](http://arxiv.org/pdf/2608.28241))
++ **\[2026 Arxiv-2608\]** Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory. ([Paper](http://arxiv.org/pdf/2608.26807))
 
 + **\[2026 Arxiv-2608\]** PersonalBench: Measuring the Authorship Gap in LLM Personalization. ([Paper](http://arxiv.org/pdf/2608.19746v1))
 + **\[2026 Arxiv-2608\]** Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions. ([Paper](http://arxiv.org/pdf/2608.14132))
@@ -198,6 +201,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2609\]** CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2609.02265))
++ **\[2026 Arxiv-2608\]** hoBIT: A Profile-Aware Retrieval-Augmented Chatbot for University Academic Advising. ([Paper](http://arxiv.org/pdf/2608.26604))
++ **\[2026 Arxiv-2608\]** Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory. ([Paper](http://arxiv.org/pdf/2608.25329))
 
 + **\[2026 Arxiv-2608\]** rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation. ([Paper](http://arxiv.org/pdf/2608.18952v1))
 + **\[2026 Arxiv-2608\]** QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents. ([Paper](http://arxiv.org/pdf/2608.16168v1))
@@ -368,6 +375,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2608\]** PersonaEdit: Representative Sample Selection for Personalized Model Editing. ([Paper](http://arxiv.org/pdf/2608.27816))
 
 + **\[2026 Arxiv-2608\]** Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval. ([Paper](http://arxiv.org/pdf/2608.18855v1))
 + **\[2026 Arxiv-2608\]** Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation. ([Paper](http://arxiv.org/pdf/2608.15949v2))

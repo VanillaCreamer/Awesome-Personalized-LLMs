@@ -4,15 +4,15 @@
 > [!IMPORTANT]
 > **📌 本周趋势 · 2026-09-07**
 >
-> 本分析只反映本次周筛 corpus：共审阅 37 篇，其中接受 6 篇、候选 6 篇、拒绝 25 篇；拒绝论文仅作为漏斗计数，不作为正向趋势证据。这不是全局引用、下载或流行度数据。
+> 本周趋势仅反映当前 weekly screening corpus，不代表全局引用、下载或社区热度。本轮共审阅 25 篇，其中收录 14 篇、候选 4 篇、剔除 7 篇；趋势判断基于 18 篇相关论文。
 >
-> 1. **长期记忆与画像条件化是最集中的方向。** 12 篇相关论文中，Memory / Retrieval-based Methods 占 6 篇，是本周最大类目。接受论文里，CAPTURE、hoBIT、HiPS 都把“用户状态/画像/长期记忆”放在方法核心；候选论文 Entity-Memory Graph Retrieval、GraphMemix、CrabOS 也显示长期上下文组织正在向图结构、多模态记忆和人机共享工作状态扩展。
+> 1. 记忆与检索仍是最密集主题：18 篇相关论文中有 6 篇属于 Memory / Retrieval-based Methods。代表方向包括个人聊天历史检索（LINE Conversation History Retrieval）、隐藏用户模型隐私攻击（Inferring Hidden User Models）、以及带动态偏好记忆的群组推荐代理（Enhancing Group Recommendation with Memory-Augmented Reasoning）。这说明“如何存、取、更新、保护用户记忆”仍是个性化 LLM 的核心工程与评测问题。
 >
-> 2. **评测正在从一般任务正确性转向反事实与行为轨迹。** Benchmark / Dataset / Evaluation 有 3 篇相关论文，其中 Behavior2Trip 和 Personalized Skill Routing 都强调同一表面任务下由用户差异导致的不同最优输出。前者用平均 39.8 条历史行为建模旅行偏好，后者用 profile-counterfactual benchmark 检验技能路由是否被用户约束改变。
+> 2. 评测从“是否更个性化”转向“个性化是否正确、稳健、不过度”：Benchmark / Dataset / Evaluation 有 5 篇。PersonaMem-v3 把跨平台用户理解、推荐、主动任务和个性化边界合并评测；VIBE-Bench 专门测试画像与偏好概念错位；PRISK 则评估无关个性化、偏好收窄和迎合偏差。值得注意的是，评测对象正在覆盖 failure regime 和 hidden cost，而不只是个性化准确率。
 >
-> 3. **个性化方法不再只靠 RAG，开始探索参数层和策略层适配。** PersonaEdit 代表“模型编辑 + 样本选择”的路径，HiPS 代表“用户特定记忆管理策略”的路径，Behavior2Trip 则用强化学习式 agent 结合轨迹、工具和记忆。这说明本周相关工作在从检索时适配，扩展到训练、编辑和运行时策略共同参与。
+> 3. 参数高效个性化集中在共享结构 + 每用户轻量调制：SFT / RL / Preference Optimization Methods 有 5 篇，其中 Aplaud 与 PLUME 都采用共享低秩/共享子空间，再叠加用户特定小参数的思路；Behaviorally Grounded User Profiles 则强调真实行为画像可同时支持训练时对齐和测试时推理。这个方向的共同目标是降低 per-user storage，同时保留个体差异。
 >
-> 4. **下周值得关注：个性化鲁棒性评测是否会成为固定组件。** CAPTURE 把偏好漂移和记忆投毒放在同一框架下评测，Personalized Skill Routing 用反事实画像暴露 task-only matching 的失败模式。后续可重点观察是否有更多论文把“同一请求、不同用户状态、不同正确行为”作为标准评测单元，并同时报告个性化收益与安全/误适配成本。
+> 4. 下周值得关注：提示空间和纯测试时个性化需要更严格的诊断。Prompt-Space Meta-Learning Does Not Transfer Across Users 给出的负结果提示，跨用户适配实验应加入 wrong-support、seed prompt、结构破坏等控制项。后续可以重点观察新论文是否能证明模型真正利用用户对应关系，而不是只获得更好的通用指令格式。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -66,6 +66,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2609\]** VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences. ([Paper](http://arxiv.org/pdf/2609.00921v1))
++ **\[2026 Arxiv-2608\]** Evaluating the Hidden Costs of Personalization in Large Language Models. ([Paper](http://arxiv.org/pdf/2608.28833v1))
++ **\[2026 Arxiv-2608\]** PersonaMem-v3: Toward Omni-Platform Personal Intelligence for Holistic User Understanding, Recommendation, and Agentic Tasks. ([Paper](http://arxiv.org/pdf/2608.21381v1))
 
 + **\[2026 Arxiv-2608\]** Beyond Task-Only Matching: Personalized Skill Routing with Counterfactual Evaluation. ([Paper](http://arxiv.org/pdf/2608.28241))
 + **\[2026 Arxiv-2608\]** Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory. ([Paper](http://arxiv.org/pdf/2608.26807))
@@ -202,6 +206,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2609\]** Inferring Hidden User Models from the Behavior of Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2609.03815v1))
++ **\[2026 Arxiv-2608\]** LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval. ([Paper](http://arxiv.org/pdf/2608.27809v1))
++ **\[2026 Arxiv-2608\]** Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent. ([Paper](http://arxiv.org/pdf/2608.21939v1))
+
 + **\[2026 Arxiv-2609\]** CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2609.02265))
 + **\[2026 Arxiv-2608\]** hoBIT: A Profile-Aware Retrieval-Augmented Chatbot for University Academic Advising. ([Paper](http://arxiv.org/pdf/2608.26604))
 + **\[2026 Arxiv-2608\]** Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory. ([Paper](http://arxiv.org/pdf/2608.25329))
@@ -305,6 +313,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2609\]** Prompt-Space Meta-Learning Does Not Transfer Across Users: A Frozen-LLM Negative Result. ([Paper](http://arxiv.org/pdf/2609.01615v1))
+
 + **\[2026 Arxiv-2608\]** Locating and Controlling Implicit Personalization in Large Language Models. ([Paper](http://arxiv.org/pdf/2608.11735))
 + **\[2026 Arxiv-2608\]** Role of Personality in Conversational Information Seeking. ([Paper](http://arxiv.org/pdf/2608.11164v1))
 + **\[2026 Arxiv-2608\]** Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces. ([Paper](http://arxiv.org/pdf/2608.11354))
@@ -375,6 +385,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2609\]** Aplaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM. ([Paper](http://arxiv.org/pdf/2609.04738v1))
++ **\[2026 Arxiv-2609\]** PLUME: Parameter-Efficient Personalization of Large Language Models via Low-Rank User Modulation in Shared Subspaces. ([Paper](http://arxiv.org/pdf/2609.04715v1))
++ **\[2026 Arxiv-2609\]** Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning. ([Paper](http://arxiv.org/pdf/2609.00014v1))
 
 + **\[2026 Arxiv-2608\]** PersonaEdit: Representative Sample Selection for Personalized Model Editing. ([Paper](http://arxiv.org/pdf/2608.27816))
 

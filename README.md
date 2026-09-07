@@ -17,7 +17,7 @@
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
 
-🆕 GPT-5.4 is being used to maintain this repository, and weekly updates can be viewed through different branches.
+🆕 GPT is being used to maintain this repository, and weekly updates can be viewed through different branches.
 
 For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 

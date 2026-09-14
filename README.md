@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-09-07**
+> **📌 本周趋势 · 2026-09-14**
 >
-> 本周趋势仅反映当前 weekly screening corpus，不代表全局引用、下载或社区热度。本轮共审阅 25 篇，其中收录 14 篇、候选 4 篇、剔除 7 篇；趋势判断基于 18 篇相关论文。
+> 本周分析只反映当前周筛选语料中的 accepted 与 candidate papers，不代表全球引用、下载量或整体热度。本轮共审阅 55 篇，其中接受 5 篇、候选 7 篇、拒绝 43 篇；拒绝论文仅作为漏斗计数，不作为趋势证据。
 >
-> 1. 记忆与检索仍是最密集主题：18 篇相关论文中有 6 篇属于 Memory / Retrieval-based Methods。代表方向包括个人聊天历史检索（LINE Conversation History Retrieval）、隐藏用户模型隐私攻击（Inferring Hidden User Models）、以及带动态偏好记忆的群组推荐代理（Enhancing Group Recommendation with Memory-Augmented Reasoning）。这说明“如何存、取、更新、保护用户记忆”仍是个性化 LLM 的核心工程与评测问题。
+> 1. **Prompt、persona 与行为控制仍是最密集方向。** 12 篇相关论文中，Prompt / Vector / Decoding-time Methods 占 7 篇，是本轮最集中的类别。代表性论文包括《Controlling and Assessing Appropriate Persona Use in LLM-based Dialogue Generation》《Aegix Pulse》和候选论文《Training-Free Task Vectors for LLM Behavioral Control》《Steering Interference Reflects the Model's Defaults, Not the Behavior Directions》。共同信号是：研究正在从“让模型表现出某种 persona/trait”转向“何时该使用、如何不过度使用、控制会带来哪些副作用”。
 >
-> 2. 评测从“是否更个性化”转向“个性化是否正确、稳健、不过度”：Benchmark / Dataset / Evaluation 有 5 篇。PersonaMem-v3 把跨平台用户理解、推荐、主动任务和个性化边界合并评测；VIBE-Bench 专门测试画像与偏好概念错位；PRISK 则评估无关个性化、偏好收窄和迎合偏差。值得注意的是，评测对象正在覆盖 failure regime 和 hidden cost，而不只是个性化准确率。
+> 2. **长期记忆开始更强调结构、身份边界和检索控制。** 接受论文中有 1 篇专门的 memory 方法论文和 1 篇 memory survey。《Graph-Based Personalized Memory for LLM Agents》强调图结构记忆中的关系、时间和证据链；《Personalizing LLM Agent Memory Using Biometrics》则把用户身份作为检索前置条件。这说明本轮个性化记忆信号集中在“可解释结构”和“多用户隔离”两个问题上，而不只是把历史对话放入向量库。
 >
-> 3. 参数高效个性化集中在共享结构 + 每用户轻量调制：SFT / RL / Preference Optimization Methods 有 5 篇，其中 Aplaud 与 PLUME 都采用共享低秩/共享子空间，再叠加用户特定小参数的思路；Behaviorally Grounded User Profiles 则强调真实行为画像可同时支持训练时对齐和测试时推理。这个方向的共同目标是降低 per-user storage，同时保留个体差异。
+> 3. **评估方向更关注真实使用语境，而非单轮偏好匹配。** 本轮有 2 篇 Benchmark / Dataset / Evaluation 候选论文：《ElderBench》关注老年用户的间接表达、指代歧义和欠明确请求；《xDailyBench》关注真实生活问题中的用户背景和隐式需求推断。加上《Controlling and Assessing Appropriate Persona Use》提出 PAS 指标，可以看到评估正在覆盖“上下文是否适合个性化”“用户群体语言是否真实”“隐式需求是否被正确推断”等更细问题。
 >
-> 4. 下周值得关注：提示空间和纯测试时个性化需要更严格的诊断。Prompt-Space Meta-Learning Does Not Transfer Across Users 给出的负结果提示，跨用户适配实验应加入 wrong-support、seed prompt、结构破坏等控制项。后续可以重点观察新论文是否能证明模型真正利用用户对应关系，而不是只获得更好的通用指令格式。
+> 4. **下周值得关注：个性化控制的负面效应评估。** 候选论文《The Illusion of Debiasing》和《Steering Interference Reflects the Model's Defaults》都提示 persona/activation/task-vector steering 可能带来偏见重分布、拒答倾向、sycophancy 或其他非目标行为漂移。下周可重点观察是否有论文把个性化、行为控制与安全/偏差/过度适配放在同一评测框架中。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -34,6 +34,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 
 ### 1. Survey / Tutorial / Framework
+
++ **\[2026 Arxiv-2609\]** Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation. ([Paper](http://arxiv.org/pdf/2609.08599))
 
 + **\[2025 Arxiv-2510\]** From Adaptation to Intelligence: A Systematic Review of Data, Strategies, and Impact in Personalized VR. ([Paper](http://arxiv.org/pdf/2510.13123))
 
@@ -206,6 +208,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2609\]** Personalizing LLM Agent Memory Using Biometrics. ([Paper](http://arxiv.org/pdf/2609.08558))
+
 + **\[2026 Arxiv-2609\]** Inferring Hidden User Models from the Behavior of Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2609.03815v1))
 + **\[2026 Arxiv-2608\]** LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval. ([Paper](http://arxiv.org/pdf/2608.27809v1))
 + **\[2026 Arxiv-2608\]** Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent. ([Paper](http://arxiv.org/pdf/2608.21939v1))
@@ -312,6 +316,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2609\]** Aegix Pulse: A Traceable Three-Stage Architecture for Personalized Content Generation and Context-Preserving Revision. ([Paper](http://arxiv.org/pdf/2609.07672))
++ **\[2026 Arxiv-2609\]** Controlling and Assessing Appropriate Persona Use in LLM-based Dialogue Generation. ([Paper](http://arxiv.org/pdf/2609.04676))
++ **\[2026 Arxiv-2609\]** Pack It My Way: Triadic Human-Robot Collaboration for Personalized Autonomous Packing. ([Paper](http://arxiv.org/pdf/2609.04620))
 
 + **\[2026 Arxiv-2609\]** Prompt-Space Meta-Learning Does Not Transfer Across Users: A Frozen-LLM Negative Result. ([Paper](http://arxiv.org/pdf/2609.01615v1))
 

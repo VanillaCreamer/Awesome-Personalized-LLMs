@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-09-14**
+> **📌 本周趋势 · 2026-09-21**
 >
-> 本周分析只反映当前周筛选语料中的 accepted 与 candidate papers，不代表全球引用、下载量或整体热度。本轮共审阅 55 篇，其中接受 5 篇、候选 7 篇、拒绝 43 篇；拒绝论文仅作为漏斗计数，不作为趋势证据。
+> 本节只反映本次 weekly screening corpus 的信号，不代表全球引用、下载量或真实热度排名。本轮共筛查 59 篇，其中 accept 12 篇、candidate 8 篇、reject 39 篇；趋势判断只使用 20 篇 accept/candidate，reject 仅作为漏斗数量背景。
 >
-> 1. **Prompt、persona 与行为控制仍是最密集方向。** 12 篇相关论文中，Prompt / Vector / Decoding-time Methods 占 7 篇，是本轮最集中的类别。代表性论文包括《Controlling and Assessing Appropriate Persona Use in LLM-based Dialogue Generation》《Aegix Pulse》和候选论文《Training-Free Task Vectors for LLM Behavioral Control》《Steering Interference Reflects the Model's Defaults, Not the Behavior Directions》。共同信号是：研究正在从“让模型表现出某种 persona/trait”转向“何时该使用、如何不过度使用、控制会带来哪些副作用”。
+> 1. 长期记忆仍是最集中的主题：20 篇相关论文中有 8 篇属于 Memory / Retrieval-based Methods，且新增论文里 AIM、CreaMem、HyperTrace、Less Is Personal、CORE、MeClear 都在处理“记什么、怎么取、何时更新、何时清除”。这说明本周个性化 LLM 的方法重心不是简单把历史塞进上下文，而是转向结构化、可控和低成本的记忆生命周期管理。
 >
-> 2. **长期记忆开始更强调结构、身份边界和检索控制。** 接受论文中有 1 篇专门的 memory 方法论文和 1 篇 memory survey。《Graph-Based Personalized Memory for LLM Agents》强调图结构记忆中的关系、时间和证据链；《Personalizing LLM Agent Memory Using Biometrics》则把用户身份作为检索前置条件。这说明本轮个性化记忆信号集中在“可解释结构”和“多用户隔离”两个问题上，而不只是把历史对话放入向量库。
+> 2. 多用户与边界治理开始变得突出：AIM 区分 private/shared memory 并做访问控制，When Single-User-Oriented LLM-based Assistants Involve Others 系统梳理单用户助手进入多方场景后的风险，候选论文中 PriMobiBench、Demystifying the Privacy-Utility Trade-off 也从隐私泄露和上下文清洗角度补充了风险视角。值得关注的是，个性化能力越强，越需要同时评估身份归属、权限边界和隐私-效用权衡。
 >
-> 3. **评估方向更关注真实使用语境，而非单轮偏好匹配。** 本轮有 2 篇 Benchmark / Dataset / Evaluation 候选论文：《ElderBench》关注老年用户的间接表达、指代歧义和欠明确请求；《xDailyBench》关注真实生活问题中的用户背景和隐式需求推断。加上《Controlling and Assessing Appropriate Persona Use》提出 PAS 指标，可以看到评估正在覆盖“上下文是否适合个性化”“用户群体语言是否真实”“隐式需求是否被正确推断”等更细问题。
+> 3. 评测方向从事实回忆走向动态决策与真实任务：PRAGMA 评估长期对话中的个性化 guidance，MUMBench 覆盖多用户记忆操作，PERSIST 测 persona drift 鲁棒性；网络安全助手论文还用真实用户部署验证个性化建议是否更有帮助、更可能被采纳。相比传统 recall benchmark，本周代表性工作更强调 evolving preferences、incorrect assumptions、multi-turn stress 和 human/LLM 双评估。
 >
-> 4. **下周值得关注：个性化控制的负面效应评估。** 候选论文《The Illusion of Debiasing》和《Steering Interference Reflects the Model's Defaults》都提示 persona/activation/task-vector steering 可能带来偏见重分布、拒答倾向、sycophancy 或其他非目标行为漂移。下周可重点观察是否有论文把个性化、行为控制与安全/偏差/过度适配放在同一评测框架中。
+> 4. 人格与风格个性化正在从提示层进入表征层：Atomic User Model 试图用稳定人格结构替代浅层偏好摘要，Empathy Is Steerable but Multi-Axial 和 Implicit Personality Representations in Humans and LLMs 则分析 persona、同理心和人格 trait 在模型内部的几何结构。下周可重点观察：这些表征分析能否和实际记忆系统结合，形成可解释、可更新、同时不抹平个体差异的用户模型。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -34,6 +34,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 
 ### 1. Survey / Tutorial / Framework
+
++ **\[2026 Arxiv-2609\]** When Single-User-Oriented LLM-based Assistants Involve Others: A Scoping Review of Pathways, Risks, and Responses. ([Paper](http://arxiv.org/pdf/2609.14062))
 
 + **\[2026 Arxiv-2609\]** Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation. ([Paper](http://arxiv.org/pdf/2609.08599))
 
@@ -68,6 +70,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2609\]** PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. ([Paper](http://arxiv.org/pdf/2609.09664v1))
 
 + **\[2026 Arxiv-2609\]** VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences. ([Paper](http://arxiv.org/pdf/2609.00921v1))
 + **\[2026 Arxiv-2608\]** Evaluating the Hidden Costs of Personalization in Large Language Models. ([Paper](http://arxiv.org/pdf/2608.28833v1))
@@ -208,6 +212,14 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2609\]** Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue. ([Paper](http://arxiv.org/pdf/2609.12373v1))
++ **\[2026 Arxiv-2609\]** AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems. ([Paper](http://arxiv.org/pdf/2609.12320v1))
++ **\[2026 Arxiv-2609\]** Creating an Atomic User Model for Personality-Aware Large Language Model Interaction. ([Paper](http://arxiv.org/pdf/2609.12086v2))
++ **\[2026 Arxiv-2609\]** HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization. ([Paper](http://arxiv.org/pdf/2609.09835v1))
++ **\[2026 Arxiv-2609\]** MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents. ([Paper](http://arxiv.org/pdf/2609.09115v1))
++ **\[2026 Arxiv-2609\]** CreaMem: A Scene-Aware Memory Architecture for Personalized Agents. ([Paper](http://arxiv.org/pdf/2609.08550v1))
++ **\[2026 Arxiv-2609\]** Less Is Personal: Learning Minimal Sufficient User Profiles for Personalized Language Models. ([Paper](http://arxiv.org/pdf/2609.08180v1))
+
 + **\[2026 Arxiv-2609\]** Personalizing LLM Agent Memory Using Biometrics. ([Paper](http://arxiv.org/pdf/2609.08558))
 
 + **\[2026 Arxiv-2609\]** Inferring Hidden User Models from the Behavior of Personalized LLM Agents. ([Paper](http://arxiv.org/pdf/2609.03815v1))
@@ -316,6 +328,10 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
 ### 4. Prompt / Vector / Decoding-time Methods
+
++ **\[2026 Arxiv-2609\]** Evaluating the Impact of Personalization in Conversational Cybersecurity Assistants. ([Paper](http://arxiv.org/pdf/2609.17839v1))
++ **\[2026 Arxiv-2609\]** Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs. ([Paper](http://arxiv.org/pdf/2609.15654))
++ **\[2026 Arxiv-2609\]** Implicit Personality Representations in Humans and LLMs. ([Paper](http://arxiv.org/pdf/2609.12704))
 
 + **\[2026 Arxiv-2609\]** Aegix Pulse: A Traceable Three-Stage Architecture for Personalized Content Generation and Context-Preserving Revision. ([Paper](http://arxiv.org/pdf/2609.07672))
 + **\[2026 Arxiv-2609\]** Controlling and Assessing Appropriate Persona Use in LLM-based Dialogue Generation. ([Paper](http://arxiv.org/pdf/2609.04676))

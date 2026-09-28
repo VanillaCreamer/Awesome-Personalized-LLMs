@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-09-21**
+> **📌 本周趋势 · 2026-09-28**
 >
-> 本节只反映本次 weekly screening corpus 的信号，不代表全球引用、下载量或真实热度排名。本轮共筛查 59 篇，其中 accept 12 篇、candidate 8 篇、reject 39 篇；趋势判断只使用 20 篇 accept/candidate，reject 仅作为漏斗数量背景。
+> 本周共审阅 6 篇论文，其中 3 篇接收、1 篇候选、2 篇拒绝；以下趋势仅反映本次周度筛选语料中的接收与候选论文，不代表全球引用量、下载量或整体热度。
 >
-> 1. 长期记忆仍是最集中的主题：20 篇相关论文中有 8 篇属于 Memory / Retrieval-based Methods，且新增论文里 AIM、CreaMem、HyperTrace、Less Is Personal、CORE、MeClear 都在处理“记什么、怎么取、何时更新、何时清除”。这说明本周个性化 LLM 的方法重心不是简单把历史塞进上下文，而是转向结构化、可控和低成本的记忆生命周期管理。
+> 1. **个性化正在从静态用户画像转向上下文敏感推断。** BaCVA 明确把个人价值作为先验、把具体场景中的偏好作为后验，说明“同一用户在不同情境下偏好会变化”正在成为个性化 LLM 方法中的重要建模假设。
 >
-> 2. 多用户与边界治理开始变得突出：AIM 区分 private/shared memory 并做访问控制，When Single-User-Oriented LLM-based Assistants Involve Others 系统梳理单用户助手进入多方场景后的风险，候选论文中 PriMobiBench、Demystifying the Privacy-Utility Trade-off 也从隐私泄露和上下文清洗角度补充了风险视角。值得关注的是，个性化能力越强，越需要同时评估身份归属、权限边界和隐私-效用权衡。
+> 2. **持续学习与稀疏反馈成为方法侧重点。** COPE 代表了从一次性个性化训练转向长期交互优化的方向：系统不只依赖显式反馈，而是通过自评估生成代理奖励，以维持用户偏好的持续更新。
 >
-> 3. 评测方向从事实回忆走向动态决策与真实任务：PRAGMA 评估长期对话中的个性化 guidance，MUMBench 覆盖多用户记忆操作，PERSIST 测 persona drift 鲁棒性；网络安全助手论文还用真实用户部署验证个性化建议是否更有帮助、更可能被采纳。相比传统 recall benchmark，本周代表性工作更强调 evolving preferences、incorrect assumptions、multi-turn stress 和 human/LLM 双评估。
+> 3. **评测开始关注长期记忆和现实对话中的个性化指导。** PRAGMA 将重点放在 lifelong conversations、用户特定记忆、历史证据检索和偏好随时间变化的推理上，显示评测方向正在从单轮偏好匹配扩展到长期助手场景。
 >
-> 4. 人格与风格个性化正在从提示层进入表征层：Atomic User Model 试图用稳定人格结构替代浅层偏好摘要，Empathy Is Steerable but Multi-Axial 和 Implicit Personality Representations in Humans and LLMs 则分析 persona、同理心和人格 trait 在模型内部的几何结构。下周可重点观察：这些表征分析能否和实际记忆系统结合，形成可解释、可更新、同时不抹平个体差异的用户模型。
+> 4. **本周相关论文集中在 Prompt/推理时方法。** 4 篇相关论文中，Prompt / Vector / Decoding-time Methods 有 2 篇，Benchmark / Dataset / Evaluation 和 SFT / RL / Preference Optimization Methods 各 1 篇。下周可继续观察角色扮演与 persona 一致性方向是否会进一步转向真实用户偏好、长期记忆或可验证的个性化评测；本周候选论文 AdvRole 仍更偏 RL 课程学习与困难场景生成。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -329,6 +329,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2609\]** From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs. ([Paper](http://arxiv.org/pdf/2609.28942v1))
+
 + **\[2026 Arxiv-2609\]** Evaluating the Impact of Personalization in Conversational Cybersecurity Assistants. ([Paper](http://arxiv.org/pdf/2609.17839v1))
 + **\[2026 Arxiv-2609\]** Empathy Is Steerable but Multi-Axial: Mechanism Geometry and Persona Effects in LLMs. ([Paper](http://arxiv.org/pdf/2609.15654))
 + **\[2026 Arxiv-2609\]** Implicit Personality Representations in Humans and LLMs. ([Paper](http://arxiv.org/pdf/2609.12704))
@@ -409,6 +411,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2609\]** COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. ([Paper](http://arxiv.org/pdf/2609.26853v1))
 
 + **\[2026 Arxiv-2609\]** Aplaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM. ([Paper](http://arxiv.org/pdf/2609.04738v1))
 + **\[2026 Arxiv-2609\]** PLUME: Parameter-Efficient Personalization of Large Language Models via Low-Rank User Modulation in Shared Subspaces. ([Paper](http://arxiv.org/pdf/2609.04715v1))

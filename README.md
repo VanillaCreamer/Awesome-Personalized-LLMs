@@ -412,6 +412,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 5. SFT / RL / Preference Optimization Methods
 
++ **\[2026 EMNLP\]** TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models. ([Paper](https://arxiv.org/abs/2509.23140))
+
 + **\[2026 Arxiv-2609\]** COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. ([Paper](http://arxiv.org/pdf/2609.26853v1))
 
 + **\[2026 Arxiv-2609\]** Aplaud: Adaptive Personalized Low-Rank Decomposition for User-Specific LLM. ([Paper](http://arxiv.org/pdf/2609.04738v1))

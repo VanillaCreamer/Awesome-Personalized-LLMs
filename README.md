@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-09-28**
+> **📌 本周趋势 · 2026-10-12**
 >
-> 本周共审阅 6 篇论文，其中 3 篇接收、1 篇候选、2 篇拒绝；以下趋势仅反映本次周度筛选语料中的接收与候选论文，不代表全球引用量、下载量或整体热度。
+> 本周趋势分析只反映本轮筛选语料，不代表全球引用、下载或流行度数据。本轮共筛选 40 篇，其中接收 4 篇、候选 7 篇、拒绝 29 篇；相关信号共 11 篇，类别集中在 Benchmark / Dataset / Evaluation 4 篇、Prompt / Vector / Decoding-time Methods 3 篇、SFT / RL / Preference Optimization Methods 3 篇、Memory / Retrieval-based Methods 1 篇。
 >
-> 1. **个性化正在从静态用户画像转向上下文敏感推断。** BaCVA 明确把个人价值作为先验、把具体场景中的偏好作为后验，说明“同一用户在不同情境下偏好会变化”正在成为个性化 LLM 方法中的重要建模假设。
+> 1. 个性化评测正在从“最终答案对不对”转向更细粒度的过程诊断。代表论文包括 PAIR/RePAIR 对同一移动任务在不同用户 UI 状态下的可靠性评测，以及 Personal Memory 论文对 stale、misattribution、latency 等生成前错误的拆解。候选论文 JEVal 和 Source Preference 也显示，代理替用户做选择时需要更明确地评估决策偏差与来源偏好。
 >
-> 2. **持续学习与稀疏反馈成为方法侧重点。** COPE 代表了从一次性个性化训练转向长期交互优化的方向：系统不只依赖显式反馈，而是通过自评估生成代理奖励，以维持用户偏好的持续更新。
+> 2. 测试时个性化成为本周最强方法信号之一。Rethinking Personalized Generation 将 personalized generation 建模为候选匹配问题，用轻量排序器替代昂贵 reward model；候选论文中关于糖尿病管理消息偏好的研究也提示，具体场景里的用户偏好异质性可以转化为生成时的排序、选择或风格控制问题。
 >
-> 3. **评测开始关注长期记忆和现实对话中的个性化指导。** PRAGMA 将重点放在 lifelong conversations、用户特定记忆、历史证据检索和偏好随时间变化的推理上，显示评测方向正在从单轮偏好匹配扩展到长期助手场景。
+> 3. 对齐研究从单一平均用户扩展到群体条件化与文化/场景条件化。GLHF 明确提供 group-conditioned policy 与 worst-group distortion 改善；CRISP 虽更偏文化规范而非个人偏好，但也体现 reward modeling 正在处理更细的受众差异。这个方向的关键分界是：是否真正使用用户或群体信息来改变策略，而不仅是泛化到不同地区或场景。
 >
-> 4. **本周相关论文集中在 Prompt/推理时方法。** 4 篇相关论文中，Prompt / Vector / Decoding-time Methods 有 2 篇，Benchmark / Dataset / Evaluation 和 SFT / RL / Preference Optimization Methods 各 1 篇。下周可继续观察角色扮演与 persona 一致性方向是否会进一步转向真实用户偏好、长期记忆或可验证的个性化评测；本周候选论文 AdvRole 仍更偏 RL 课程学习与困难场景生成。
+> 4. 下周值得关注的观察点：是否会出现把个人记忆、测试时排序和 agent 决策评测连接起来的工作。例如，一个系统同时维护用户记忆、在候选生成时做个性化排序，并用跨用户任务成功率或错归因率评估，将比单点优化更贴近 personalized LLM 的完整技术链路。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -70,6 +70,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2610\]** Can Agents Work for Everyone? Cross-User Reliability for Mobile GUI Agents in Personalized User Interfaces. ([Paper](http://arxiv.org/pdf/2610.07972))
 
 + **\[2026 Arxiv-2609\]** PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. ([Paper](http://arxiv.org/pdf/2609.09664v1))
 
@@ -212,6 +214,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2610\]** Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation. ([Paper](http://arxiv.org/pdf/2610.10265))
+
 + **\[2026 Arxiv-2609\]** Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue. ([Paper](http://arxiv.org/pdf/2609.12373v1))
 + **\[2026 Arxiv-2609\]** AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems. ([Paper](http://arxiv.org/pdf/2609.12320v1))
 + **\[2026 Arxiv-2609\]** Creating an Atomic User Model for Personality-Aware Large Language Model Interaction. ([Paper](http://arxiv.org/pdf/2609.12086v2))
@@ -329,6 +333,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2609\]** Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models. ([Paper](http://arxiv.org/pdf/2609.35695))
+
 + **\[2026 Arxiv-2609\]** From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs. ([Paper](http://arxiv.org/pdf/2609.28942v1))
 
 + **\[2026 Arxiv-2609\]** Evaluating the Impact of Personalization in Conversational Cybersecurity Assistants. ([Paper](http://arxiv.org/pdf/2609.17839v1))
@@ -411,6 +417,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2610\]** Groupwise Distortion Guarantees for Preference-Based Alignment. ([Paper](http://arxiv.org/pdf/2610.05450))
 
 + **\[2026 Arxiv-2609\]** COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. ([Paper](http://arxiv.org/pdf/2609.26853v1))
 

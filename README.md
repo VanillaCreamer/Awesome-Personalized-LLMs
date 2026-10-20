@@ -2,17 +2,17 @@
 
 <!-- weekly-trend:start -->
 > [!IMPORTANT]
-> **📌 本周趋势 · 2026-09-28**
+> **📌 本周趋势 · 2026-10-20**
 >
-> 本周共审阅 6 篇论文，其中 3 篇接收、1 篇候选、2 篇拒绝；以下趋势仅反映本次周度筛选语料中的接收与候选论文，不代表全球引用量、下载量或整体热度。
+> 本节仅反映本次新增审阅语料，不代表全球引用、下载或热度排名，也没有上期数据支持环比判断。筛选统计为 119 篇：接受 42 篇、候选 4 篇、拒绝 73 篇；拒绝项仅计入漏斗。另需区分口径：所附新增清单列出 46 篇，与接受数不一致，不能将两者等同。以下分类数量沿用筛选统计；未提供候选论文明细，因此具体论据主要来自明确标注接受的代表论文。
 >
-> 1. **个性化正在从静态用户画像转向上下文敏感推断。** BaCVA 明确把个人价值作为先验、把具体场景中的偏好作为后验，说明“同一用户在不同情境下偏好会变化”正在成为个性化 LLM 方法中的重要建模假设。
+> 1. **训练与记忆是最集中的两条路线，跨用户共享连接二者。** 46 篇接受及候选中，训练优化类 16 篇、记忆类 13 篇，合计 29 篇；提示与推理控制类 9 篇、评测类 8 篇。LINEUP 将个人适配压缩为八个标量，MoF 通过共享偏好因子支持未见用户，ShareMem 则共享经验但保留用户专属偏好取值。共同问题不是消除个体差异，而是划清哪些能力可共享、哪些信息必须绑定个人。
 >
-> 2. **持续学习与稀疏反馈成为方法侧重点。** COPE 代表了从一次性个性化训练转向长期交互优化的方向：系统不只依赖显式反馈，而是通过自评估生成代理奖励，以维持用户偏好的持续更新。
+> 2. **长期记忆的关注点覆盖写入、更新、选择和适用性，而不只是检索命中。** AMU 控制入库与更新，DPPM 同时保留历史证据和顺序变化，ReMind 与 APDMem 自适应决定读多少；ExpActivator 进一步区分任务相关与当下可用。PraxisMemBench 中，从单类记忆依赖转为相互依赖后，完成率由 84.6% 降至 77.9%，说明个人事实与操作经验的关系维护值得单独评测。
 >
-> 3. **评测开始关注长期记忆和现实对话中的个性化指导。** PRAGMA 将重点放在 lifelong conversations、用户特定记忆、历史证据检索和偏好随时间变化的推理上，显示评测方向正在从单轮偏好匹配扩展到长期助手场景。
+> 3. **评测把“理解用户”与“正确行动”拆开，也开始审视评价器本身。** AdaptArena 报告偏好已知的 oracle 成功率为 82.92%，历史推断框架下最高为 15.62%；PDEU-Bench 发现局部工具调用收益未必贯穿计划生命周期。PersEvalBench 的人工子集中，不足个性化错误识别率为人类 94.4%、最强报告评价器 63.9%。这些结果支持分别检查偏好推断、适用性判断、执行和评价可靠性，而非只报告最终回答分数。
 >
-> 4. **本周相关论文集中在 Prompt/推理时方法。** 4 篇相关论文中，Prompt / Vector / Decoding-time Methods 有 2 篇，Benchmark / Dataset / Evaluation 和 SFT / RL / Preference Optimization Methods 各 1 篇。下周可继续观察角色扮演与 persona 一致性方向是否会进一步转向真实用户偏好、长期记忆或可验证的个性化评测；本周候选论文 AdvRole 仍更偏 RL 课程学习与困难场景生成。
+> 4. **有限反馈下的个性化同时探索在线选择与细粒度训练。** ID-TAP 在固定十轮比较预算内选择人格；APO 用少量本地样本适配；MIRROR 与 GRASP 则把参考回答或用户准则转为逐词自蒸馏监督。它们代表不同的反馈利用方式，尚不能直接比较优劣。**下周观察项：**关注是否出现真实用户、偏好随时间变化的统一测试，在匹配反馈及推理预算下，同时报告偏好满足、错误应用和长期维护成本。
 <!-- weekly-trend:end -->
 
 This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
@@ -70,6 +70,16 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2610\]** Neither Over- nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit. ([Paper](http://arxiv.org/pdf/2610.25676v1))
++ **\[2026 Arxiv-2610\]** Memorizing Who, Knowing How: Benchmarking Personal and Procedural Memory for Persistent Assistants. ([Paper](http://arxiv.org/pdf/2610.20022))
++ **\[2026 Arxiv-2610\]** PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information?. ([Paper](http://arxiv.org/pdf/2610.19314v1))
++ **\[2026 Arxiv-2610\]** Online LLM Personalization from Pairwise Preferences Across Users. ([Paper](http://arxiv.org/pdf/2610.17203v1))
++ **\[2026 Arxiv-2610\]** Can Agents Work for Everyone? Cross-User Reliability for Mobile GUI Agents in Personalized User Interfaces. ([Paper](http://arxiv.org/pdf/2610.07972))
++ **\[2026 Arxiv-2609\]** Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents. ([Paper](http://arxiv.org/pdf/2609.36892v1))
++ **\[2026 Arxiv-2609\]** AdaptArena: Evaluating Test-Time Personalization of Web Agents. ([Paper](http://arxiv.org/pdf/2609.36488v1))
++ **\[2026 Arxiv-2609\]** PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents. ([Paper](http://arxiv.org/pdf/2609.34930v1))
++ **\[2026 Arxiv-2609\]** Privacy Personalization Trade offs in LLMs: The Impact of Stylometric Signal Reduction on User-Specific Text Generation. ([Paper](http://arxiv.org/pdf/2609.22112v1))
 
 + **\[2026 Arxiv-2609\]** PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. ([Paper](http://arxiv.org/pdf/2609.09664v1))
 
@@ -212,6 +222,18 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2610\]** CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance. ([Paper](http://arxiv.org/pdf/2610.21453))
++ **\[2026 Arxiv-2610\]** Recall Begets Recall: Recurrent Memory Ranking for Personalized LLMs. ([Paper](http://arxiv.org/pdf/2610.16137v1))
++ **\[2026 Arxiv-2610\]** AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling. ([Paper](http://arxiv.org/pdf/2610.15439v1))
++ **\[2026 Arxiv-2610\]** Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context. ([Paper](http://arxiv.org/pdf/2610.14952v1))
++ **\[2026 Arxiv-2610\]** PEAM: On-device Communication Agent for Personalized, Efficient and Autonomous Mobile Network Configuration. ([Paper](http://arxiv.org/pdf/2610.14855v1))
++ **\[2026 Arxiv-2610\]** DPPM: Dual-Path Parametric Memory for Personalized Language Models. ([Paper](http://arxiv.org/pdf/2610.11776v1))
++ **\[2026 Arxiv-2610\]** Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation. ([Paper](http://arxiv.org/pdf/2610.10265))
++ **\[2026 Arxiv-2610\]** APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory. ([Paper](http://arxiv.org/pdf/2610.02472v1))
++ **\[2026 Arxiv-2609\]** AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control. ([Paper](http://arxiv.org/pdf/2609.36976v2))
++ **\[2026 Arxiv-2609\]** Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents. ([Paper](http://arxiv.org/pdf/2609.33304v1))
++ **\[2026 Arxiv-2609\]** Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents. ([Paper](http://arxiv.org/pdf/2609.32511v1))
+
 + **\[2026 Arxiv-2609\]** Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue. ([Paper](http://arxiv.org/pdf/2609.12373v1))
 + **\[2026 Arxiv-2609\]** AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems. ([Paper](http://arxiv.org/pdf/2609.12320v1))
 + **\[2026 Arxiv-2609\]** Creating an Atomic User Model for Personality-Aware Large Language Model Interaction. ([Paper](http://arxiv.org/pdf/2609.12086v2))
@@ -329,6 +351,17 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2610\]** Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. ([Paper](http://arxiv.org/pdf/2610.26485v1))
++ **\[2026 Arxiv-2610\]** Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization. ([Paper](http://arxiv.org/pdf/2610.24385v1))
++ **\[2026 Arxiv-2610\]** Chance-Constrained Personalized LLM Routing with Online Preference Learning. ([Paper](http://arxiv.org/pdf/2610.22695v1))
++ **\[2026 Arxiv-2610\]** PREFER: From Player Experience to Personalized Game Refinement. ([Paper](http://arxiv.org/pdf/2610.19213))
++ **\[2026 Arxiv-2610\]** PersonaFactor: Preference Factors with Dynamic Selection for LLM Personalization. ([Paper](http://arxiv.org/pdf/2610.16372v1))
++ **\[2026 Arxiv-2610\]** FleetPilot: Fine-Grained Steering Empowers Real-World LLM Personalization. ([Paper](http://arxiv.org/pdf/2610.14970v1))
++ **\[2026 Arxiv-2610\]** From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery. ([Paper](http://arxiv.org/pdf/2610.09684v1))
++ **\[2026 Arxiv-2609\]** Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models. ([Paper](http://arxiv.org/pdf/2609.35695v1))
++ **\[2026 Arxiv-2609\]** PersonaManifold: Revealing and Exploiting Curved Geometry in LLM Persona Representations. ([Paper](http://arxiv.org/pdf/2609.34571v1))
++ **\[2026 Arxiv-2609\]** Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs. ([Paper](http://arxiv.org/pdf/2609.34284v2))
+
 + **\[2026 Arxiv-2609\]** From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs. ([Paper](http://arxiv.org/pdf/2609.28942v1))
 
 + **\[2026 Arxiv-2609\]** Evaluating the Impact of Personalization in Conversational Cybersecurity Assistants. ([Paper](http://arxiv.org/pdf/2609.17839v1))
@@ -411,6 +444,23 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2610\]** Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation. ([Paper](http://arxiv.org/pdf/2610.24010v1))
++ **\[2026 Arxiv-2610\]** Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization. ([Paper](http://arxiv.org/pdf/2610.22127))
++ **\[2026 Arxiv-2610\]** Learning Individual Scientific Taste with Privileged Hindsight Distillation. ([Paper](http://arxiv.org/pdf/2610.19719))
++ **\[2026 Arxiv-2610\]** Fast and Accurate: Improving Personalized LLM Performance by Semantic Concentration Inspired Workload Split between RAG and Fine-Tuning. ([Paper](http://arxiv.org/pdf/2610.15921v1))
++ **\[2026 Arxiv-2610\]** Vela: User Behavior as Supervision Sparks LLM Intelligence. ([Paper](http://arxiv.org/pdf/2610.14709v1))
++ **\[2026 Arxiv-2610\]** MIRROR: From Imitation to Internalization in LLM Personalization. ([Paper](http://arxiv.org/pdf/2610.09795v1))
++ **\[2026 Arxiv-2610\]** MoF: Preference-Aware Mixture Modeling for Black-Box LLM Personalization. ([Paper](http://arxiv.org/pdf/2610.08330v1))
++ **\[2026 Arxiv-2610\]** Personal-Agent Mediated Recommendation with Cross-Platform User History. ([Paper](http://arxiv.org/pdf/2610.07588v1))
++ **\[2026 Arxiv-2610\]** Collaborative Personalized Preference Alignment for LLMs under Data Deficiency. ([Paper](http://arxiv.org/pdf/2610.05898v1))
++ **\[2026 Arxiv-2610\]** Groupwise Distortion Guarantees for Preference-Based Alignment. ([Paper](http://arxiv.org/pdf/2610.05450))
++ **\[2026 Arxiv-2610\]** PB-GRPO: Learning Socially Adaptive LLM Agents from Persona-Driven Simulation with Preference-Batched GRPO. ([Paper](http://arxiv.org/pdf/2610.04132v1))
++ **\[2026 Arxiv-2610\]** Reasoning with Evidence, Not Merely Rationales: Verifiable Preference Proofs for LLM-Based Recommendation. ([Paper](http://arxiv.org/pdf/2610.02968v1))
++ **\[2026 Arxiv-2610\]** Does Every User Need a Private LoRA? Decoupling Personalization from Per-User Adaptation. ([Paper](http://arxiv.org/pdf/2610.02353v1))
++ **\[2026 Arxiv-2610\]** Gradient-Aligned Pair Selection for Personalized Preference Optimization. ([Paper](http://arxiv.org/pdf/2610.00061v1))
++ **\[2026 Arxiv-2609\]** Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty. ([Paper](http://arxiv.org/pdf/2609.39043v1))
++ **\[2026 Arxiv-2609\]** Rubric-Aware On-Policy Self-Distillation for LLM Personalization. ([Paper](http://arxiv.org/pdf/2609.35262v1))
 
 + **\[2026 Arxiv-2609\]** COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. ([Paper](http://arxiv.org/pdf/2609.26853v1))
 

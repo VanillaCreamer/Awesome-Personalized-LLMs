@@ -337,6 +337,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2026 Arxiv-2601\]** Inside Out: Evolving User-Centric Core Memory Trees for Long-Term Personalized Dialogue Systems. ([Paper](https://arxiv.org/pdf/2601.05171))
 
++ **\[2025 ACL Findings\]** PersonaX: A Recommendation Agent-Oriented User Modeling Framework for Long Behavior Sequence. ([Paper](https://aclanthology.org/2025.findings-acl.300/), [Code](https://github.com/Ancientshi/PersonaX))
+
 + **\[2025 Arxiv-2501\]** Personalized Graph-Based Retrieval for Large Language Models. ([Paper](https://arxiv.org/pdf/2501.02157), [Code](https://github.com/PGraphRAG-benchmark/PGraphRAG))
 
 + **\[2025 ICLR\]** SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents. ([Paper](https://openreview.net/forum?id=xKDZAW0He3))

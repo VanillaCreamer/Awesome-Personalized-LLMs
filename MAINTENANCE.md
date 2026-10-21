@@ -63,6 +63,8 @@ Follow the README contribution format:
 
 Include code links only when they are real and accessible.
 
+Keep the five paper-category headings unchanged so automatic updates can locate them. Preserve the `paper-navigation` and `weekly-trend` marker pairs; navigation counts and weekly highlights are maintained automatically. Keep paper entries as readable lists, and put detailed contribution guidance here or in the README's final contribution section rather than ahead of its navigation.
+
 ## Philosophy
 
 This repository prefers **precision over coverage**.

@@ -447,6 +447,7 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 ### 5. SFT / RL / Preference Optimization Methods
 
++ **\[2026 EMNLP\]** TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models. ([Paper](https://arxiv.org/abs/2509.23140))
 + **\[2026 Arxiv-2610\]** Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation. ([Paper](http://arxiv.org/pdf/2610.24010v1))
 + **\[2026 Arxiv-2610\]** Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization. ([Paper](http://arxiv.org/pdf/2610.22127))
 + **\[2026 Arxiv-2610\]** Learning Individual Scientific Taste with Privileged Hindsight Distillation. ([Paper](http://arxiv.org/pdf/2610.19719))

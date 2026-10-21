@@ -1,7 +1,37 @@
 # Awesome Personalized Large Language Models
 
+This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
+
+Personalization must be a paper's main task or technical contribution.
+
+<!-- paper-navigation:start -->
+## Contents
+
+[Weekly highlights](#weekly-highlights) · [All papers](#papers) · [Contributing](#contributing)
+
+**339 papers across 5 research areas.**
+
+| Research area | What you will find | Papers |
+| :--- | :--- | ---: |
+| [Surveys & overviews](#1-survey--tutorial--framework) | Start here: surveys, tutorials, and frameworks. | 16 |
+| [Benchmarks & datasets](#2-benchmark--dataset--evaluation) | Evaluate personalized capabilities and find datasets. | 93 |
+| [Memory & retrieval](#3-memory--retrieval-based-methods) | Build, update, and retrieve user-specific context. | 84 |
+| [Prompting & inference](#4-prompt--vector--decoding-time-methods) | Steer behavior with prompts, vectors, and decoding. | 54 |
+| [Training & alignment](#5-sft--rl--preference-optimization-methods) | Adapt models with SFT, RL, and preference optimization. | 92 |
+<!-- paper-navigation:end -->
+
+## Weekly highlights
+
 <!-- weekly-trend:start -->
-> [!IMPORTANT]
+**Week of 2026-10-20** · Based on this week's screened papers, not a popularity ranking.
+
+- 训练与记忆是最集中的两条路线，跨用户共享连接二者。
+- 长期记忆的关注点覆盖写入、更新、选择和适用性，而不只是检索命中。
+- 评测把“理解用户”与“正确行动”拆开，也开始审视评价器本身。
+
+<details>
+<summary>Read the full analysis / 展开完整趋势分析</summary>
+
 > **📌 本周趋势 · 2026-10-20**
 >
 > 本节仅反映本次新增审阅语料，不代表全球引用、下载或热度排名，也没有上期数据支持环比判断。筛选统计为 119 篇：接受 42 篇、候选 4 篇、拒绝 73 篇；拒绝项仅计入漏斗。另需区分口径：所附新增清单列出 46 篇，与接受数不一致，不能将两者等同。以下分类数量沿用筛选统计；未提供候选论文明细，因此具体论据主要来自明确标注接受的代表论文。
@@ -13,25 +43,11 @@
 > 3. **评测把“理解用户”与“正确行动”拆开，也开始审视评价器本身。** AdaptArena 报告偏好已知的 oracle 成功率为 82.92%，历史推断框架下最高为 15.62%；PDEU-Bench 发现局部工具调用收益未必贯穿计划生命周期。PersEvalBench 的人工子集中，不足个性化错误识别率为人类 94.4%、最强报告评价器 63.9%。这些结果支持分别检查偏好推断、适用性判断、执行和评价可靠性，而非只报告最终回答分数。
 >
 > 4. **有限反馈下的个性化同时探索在线选择与细粒度训练。** ID-TAP 在固定十轮比较预算内选择人格；APO 用少量本地样本适配；MIRROR 与 GRASP 则把参考回答或用户准则转为逐词自蒸馏监督。它们代表不同的反馈利用方式，尚不能直接比较优劣。**下周观察项：**关注是否出现真实用户、偏好随时间变化的统一测试，在匹配反馈及推理预算下，同时报告偏好满足、错误应用和长期维护成本。
+
+</details>
 <!-- weekly-trend:end -->
 
-This repository collects the latest research progress on personalized large language models (LLMs), including preference alignment and user-customized generation. Comments and contributions are welcome.
-
-🆕 GPT is being used to maintain this repository, and weekly updates can be viewed through different branches.
-
-For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
-
-> Inclusion criteria:
-> - keep papers whose main task or technical method is personalized LLMs, e.g., user preference modeling, persona/personality control, profile or user-memory personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
-> - keep benchmark/dataset papers only when personalization is a central task rather than a side setting;
-> - keep agent papers only when the agent is personalized through user preferences, profiles, personal memory, user-adaptive planning/tool use, or personalized web/GUI/mobile interaction;
-> - deprioritize generic alignment, safety, multimodal perception, recommendation, memory, or agent papers when personalization is only a loose keyword, demographic/persona audit variable, or downstream application context.
-
-> The contributions are expected to be submitted as follows:
->
-> `+ **\[Year Conference/Journal\]** Title. ([Paper](link), [Code](link))` (if accessible).
-
-
+## Papers
 
 ### 1. Survey / Tutorial / Framework
 
@@ -68,6 +84,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 Arxiv-2502\]** A Survey of Personalized Large Language Models: Progress and Future Directions. ([Paper](https://arxiv.org/pdf/2502.11528))
 
 + **\[2024 Arxiv-2503\]** A Survey on Personalized Alignment -- The Missing Piece for Large Language Models in Real-World Applications. ([Paper](https://arxiv.org/pdf/2503.17003))
+
+[Back to contents](#contents)
 
 ### 2. Benchmark / Dataset / Evaluation
 
@@ -220,6 +238,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2024 EMNLP\]** Can LLM be a Personalized Judge? ([Paper](https://arxiv.org/pdf/2406.11657), [Code](https://github.com/dong-river/Personalized-Judge))
 
+[Back to contents](#contents)
+
 ### 3. Memory / Retrieval-based Methods
 
 + **\[2026 Arxiv-2610\]** CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance. ([Paper](http://arxiv.org/pdf/2610.21453))
@@ -351,6 +371,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 
 + **\[2024 SIGIR\]** Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation. ([Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783))
 
+[Back to contents](#contents)
+
 ### 4. Prompt / Vector / Decoding-time Methods
 
 + **\[2026 Arxiv-2610\]** Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. ([Paper](http://arxiv.org/pdf/2610.26485v1))
@@ -444,6 +466,8 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 WWW\]** Learning to Rewrite Prompts for Personalized Text Generation. ([Paper](https://arxiv.org/pdf/2310.00152))
 
 + **\[2024 EMNLP\]** Guided Profile Generation Improves Personalization with LLMs. ([Paper](https://arxiv.org/pdf/2409.13093))
+
+[Back to contents](#contents)
 
 ### 5. SFT / RL / Preference Optimization Methods
 
@@ -593,3 +617,21 @@ For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
 + **\[2024 EMNLP\]** Personalized Pieces: Efficient Personalized Large Language Models through Collaborative Efforts. ([Paper](https://arxiv.org/pdf/2406.10471), [Code](https://github.com/TamSiuhin/Per-Pcs))
 
 + **\[2024 NeurIPS\]** HYDRA: Model Factorization Framework for Black-Box LLM Personalization. ([Paper](https://arxiv.org/pdf/2406.02888v1))
+
+[Back to contents](#contents)
+
+## Contributing
+
+🆕 GPT is being used to maintain this repository, and weekly updates can be viewed through different branches.
+
+For contribution and scope rules, please see [MAINTENANCE.md](./MAINTENANCE.md).
+
+> Inclusion criteria:
+> - keep papers whose main task or technical method is personalized LLMs, e.g., user preference modeling, persona/personality control, profile or user-memory personalization, personalized retrieval/generation, or evaluation of personalized capabilities;
+> - keep benchmark/dataset papers only when personalization is a central task rather than a side setting;
+> - keep agent papers only when the agent is personalized through user preferences, profiles, personal memory, user-adaptive planning/tool use, or personalized web/GUI/mobile interaction;
+> - deprioritize generic alignment, safety, multimodal perception, recommendation, memory, or agent papers when personalization is only a loose keyword, demographic/persona audit variable, or downstream application context.
+
+> The contributions are expected to be submitted as follows:
+>
+> `+ **\[Year Conference/Journal\]** Title. ([Paper](link), [Code](link))` (if accessible).

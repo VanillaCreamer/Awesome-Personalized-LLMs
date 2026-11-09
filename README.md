@@ -9,40 +9,37 @@ Personalization must be a paper's main task or technical contribution.
 
 [Weekly highlights](#weekly-highlights) · [All papers](#papers) · [Contributing](#contributing)
 
-**346 papers across 5 research areas.**
+**363 papers across 5 research areas.**
 
 | Research area | What you will find | Papers |
 | :--- | :--- | ---: |
-| [Surveys & overviews](#1-survey--tutorial--framework) | Start here: surveys, tutorials, and frameworks. | 16 |
-| [Benchmarks & datasets](#2-benchmark--dataset--evaluation) | Evaluate personalized capabilities and find datasets. | 95 |
-| [Memory & retrieval](#3-memory--retrieval-based-methods) | Build, update, and retrieve user-specific context. | 87 |
-| [Prompting & inference](#4-prompt--vector--decoding-time-methods) | Steer behavior with prompts, vectors, and decoding. | 55 |
-| [Training & alignment](#5-sft--rl--preference-optimization-methods) | Adapt models with SFT, RL, and preference optimization. | 93 |
+| [Surveys & overviews](#1-survey--tutorial--framework) | Start here: surveys, tutorials, and frameworks. | 17 |
+| [Benchmarks & datasets](#2-benchmark--dataset--evaluation) | Evaluate personalized capabilities and find datasets. | 96 |
+| [Memory & retrieval](#3-memory--retrieval-based-methods) | Build, update, and retrieve user-specific context. | 94 |
+| [Prompting & inference](#4-prompt--vector--decoding-time-methods) | Steer behavior with prompts, vectors, and decoding. | 59 |
+| [Training & alignment](#5-sft--rl--preference-optimization-methods) | Adapt models with SFT, RL, and preference optimization. | 97 |
 <!-- paper-navigation:end -->
 
 ## Weekly highlights
 
 <!-- weekly-trend:start -->
-**Week of 2026-10-26** · Based on this week's screened papers, not a popularity ranking.
+**Week of 2026-11-09** · Based on this week's screened papers, not a popularity ranking.
 
-- 评测集中于偏好落实过程和任务闭环。
-- 3 篇记忆论文共同关注记忆的更新与边界。
-- 画像能力与隐私风险需要联合衡量。
 
 <details>
 <summary>Read the full analysis / 展开完整趋势分析</summary>
 
-> **📌 本周趋势 · 2026-10-26**
+> **📌 本周趋势 · 2026-11-09**
 >
-> 本次共筛查 64 篇：接收 7 篇、候选 1 篇、拒绝 56 篇。以下观察仅依据本次接收与候选的 8 篇论文，反映当前周度筛选语料，**不代表全球引用量、下载量或热度排名**；拒绝论文仅计入筛选数量，且没有前期数据可用于判断环比变化。
+> 以下分析仅反映本轮新审阅的筛选语料，不代表全球引用、下载或热度，也不作周环比判断。本轮审阅 32 篇：接受 9 篇、候选 1 篇、拒绝 22 篇；趋势证据限于前两类共 10 篇，拒绝项仅计入筛选数量。此统计与上方 17 篇新增清单采用不同范围。
 >
-> 1. **评测集中于偏好落实过程和任务闭环。** 8 篇相关论文中，评测类占 3 篇，其中 2 篇接收、1 篇候选。PrefDiag-Bench 定位偏好证据选择与执行时机问题，LiveUIBench 揭示局部检查通过与完整工作流完成之间的差距。候选 OptionWorld 也诊断长期任务中的信息、判断、行动和结果，但其用户偏好或画像适配尚不明确，只能作为长期助手评测的补充信号。
+> - **记忆方法最集中，重点涉及动态状态、执行干预与效率。** 10 篇相关论文中，记忆方向占 4 篇，其中 3 篇接受、1 篇候选。EvoMemState 维护事实之间的关系和请求相关状态，Pulse 将记忆使用延伸至任务执行过程，Scalaris 关注检索准确率与上下文成本。三者呈现互补设计：维护什么、何时使用、以多大成本提供。候选 Trail 主要研究本地智能家居类型化决策，个性化是否属于核心贡献仍待确认。
 >
-> 2. **3 篇记忆论文共同关注记忆的更新与边界。** PreCoMem 处理何时相信新证据、何时修正旧事实；What should AI forget? 通过 FENCE 控制哪些信息进入记忆；Disclosure Begets Disclosure 则检验记忆如何在回复中放大属性披露。这组工作覆盖更新、写入和使用三个环节，提示长期个性化评测应同时考察适应变化、抗噪声和用户控制。
+> - **推理时控制形成集中信号，但可控人格不等于可验证的用户收益。** 提示、向量与解码方向占 3/10。UPSHIFT 从个体反馈中提取偏好方向，SYNC 动态决定多个人格向量的注入层；Does Personality Persuade? 则提供用户实验中的边界证据：人格匹配未显著改善说服相关结果。阅读时应分别判断表示控制、偏好对齐与真实交互效果，避免将三类指标等同。
 >
-> 3. **画像能力与隐私风险需要联合衡量。** Social-HUMINT 通过公开数据画像及互动选项排序评估暴露，Disclosure Begets Disclosure 则观察普通支持对话中的跨会话泄露。两者分别提供真实参与者选择对照与模拟对话证据，支持把“画像有多准”与“属性如何被推断和强化”一起考察，但不足以推出真实攻击发生率。
+> - **偏好学习同时关注个体差异和时间变化。** 训练与偏好优化方向占 2/10。TIGER 用匹配与非匹配策略比较检验研究品味的个体性，PEARL 用选择性遗忘应对部分偏好漂移。两篇分别提示评估中的关键问题：收益是否来自对应用户的反馈，以及用户变化后能否适应，同时保留仍有效的偏好。
 >
-> 4. **低标签成本的偏好学习出现明确方法信号。** 本次训练与偏好优化类仅有 PerSPL 1 篇，其贡献是利用跨提示分数校准，让无标签响应补充用户特定监督。它提示可关注数据利用效率，但单篇证据尚不足以判断该方向是否普遍升温。**下周观察项：**跟进这类半监督方法是否在真实用户偏好随时间变化的设置下仍然有效，尤其关注伪标签会否固化过时偏好。
+> - **持续代理框架将人工监督负担带入评价视野。** 框架类占 1/10，代表是 Avatar Intelligence。其 AOI 将价值、运行成本与监督负担联系起来，与 Pulse 的干预时机、Scalaris 的上下文效率构成值得联读的方向，但尚不能视为统一评价方案已被验证。**下周重点关注：** 是否出现同时测量长期偏好保持、偏好漂移适应和人工纠正次数的纵向实验，以检验局部指标提升能否转化为更少监督下的可靠个性化。
 
 </details>
 <!-- weekly-trend:end -->
@@ -50,6 +47,8 @@ Personalization must be a paper's main task or technical contribution.
 ## Papers
 
 ### 1. Survey / Tutorial / Framework
+
++ **\[2026 Arxiv-2611\]** Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents. ([Paper](http://arxiv.org/pdf/2611.03092))
 
 + **\[2026 Arxiv-2609\]** When Single-User-Oriented LLM-based Assistants Involve Others: A Scoping Review of Pathways, Risks, and Responses. ([Paper](http://arxiv.org/pdf/2609.14062))
 
@@ -88,6 +87,8 @@ Personalization must be a paper's main task or technical contribution.
 [Back to contents](#contents)
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2610\]** P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior. ([Paper](http://arxiv.org/pdf/2610.40959v1))
 
 + **\[2026 Arxiv-2610\]** Diagnosing Personalization Failures in Mobile GUI Agents. ([Paper](http://arxiv.org/pdf/2610.30573))
 + **\[2026 Arxiv-2610\]** LiveUIBench: Evaluating Agent as App Workflows. ([Paper](http://arxiv.org/pdf/2610.27977))
@@ -245,6 +246,14 @@ Personalization must be a paper's main task or technical contribution.
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2611\]** EvoMemState: Evolving Memory State for Personal Agents. ([Paper](http://arxiv.org/pdf/2611.03743v1))
++ **\[2026 Arxiv-2611\]** Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants. ([Paper](http://arxiv.org/pdf/2611.02612))
++ **\[2026 Arxiv-2611\]** Pulse: Long-Horizon Tasks Need Streaming Personalization. ([Paper](http://arxiv.org/pdf/2611.00988v1))
++ **\[2026 Arxiv-2610\]** From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents. ([Paper](http://arxiv.org/pdf/2610.36713))
++ **\[2026 Arxiv-2610\]** ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents. ([Paper](http://arxiv.org/pdf/2610.37443))
++ **\[2026 Arxiv-2610\]** CRIM: Composable and Reusable Item Memory for Efficient Personalized Retrieval. ([Paper](http://arxiv.org/pdf/2610.35323v1))
++ **\[2026 Arxiv-2610\]** Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents. ([Paper](http://arxiv.org/pdf/2610.31107v2))
+
 + **\[2026 Arxiv-2610\]** PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents. ([Paper](http://arxiv.org/pdf/2610.29467))
 + **\[2026 Arxiv-2610\]** Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory. ([Paper](http://arxiv.org/pdf/2610.28315))
 + **\[2026 Arxiv-2610\]** What should AI forget? A design and taxonomy for negative space governance in AI memory. ([Paper](http://arxiv.org/pdf/2610.27607))
@@ -382,6 +391,11 @@ Personalization must be a paper's main task or technical contribution.
 
 ### 4. Prompt / Vector / Decoding-time Methods
 
++ **\[2026 Arxiv-2611\]** Does Personality Persuade? Investigating Personality Trait Prompting and Persuasion in Large Language Models. ([Paper](http://arxiv.org/pdf/2611.06572v1))
++ **\[2026 Arxiv-2611\]** UPSHIFT: User Preference Steering from Human-AI Interaction Feedback Traces. ([Paper](http://arxiv.org/pdf/2611.02667v1))
++ **\[2026 Arxiv-2611\]** SYNC: A Training-Free Inference Controller for Dynamic Layer Selection in Multi-Persona Alignment. ([Paper](http://arxiv.org/pdf/2611.02636))
++ **\[2026 Arxiv-2610\]** Profile-DP: Differential Privacy for User-Controlled Profile Release in Personalized LLM Inference. ([Paper](http://arxiv.org/pdf/2610.27213v1))
+
 + **\[2026 Arxiv-2610\]** Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure. ([Paper](http://arxiv.org/pdf/2610.31573))
 
 + **\[2026 Arxiv-2610\]** Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. ([Paper](http://arxiv.org/pdf/2610.26485v1))
@@ -479,6 +493,11 @@ Personalization must be a paper's main task or technical contribution.
 [Back to contents](#contents)
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2611\]** PEARL: Prediction Error-Adaptive Regularized Learning for Selective Forgetting under Partial Preference Drift. ([Paper](http://arxiv.org/pdf/2611.05842v1))
++ **\[2026 Arxiv-2611\]** TIGER: Learning from Researcher Taste to Generate Tailored Research Ideas. ([Paper](http://arxiv.org/pdf/2611.02234))
++ **\[2026 Arxiv-2610\]** Same Verdict, Different Readers: Personalizing Fact-Checking Explanations from Relative Preferences. ([Paper](http://arxiv.org/pdf/2610.37380v1))
++ **\[2026 Arxiv-2610\]** Bezier-Guided Adaptive Flow for Cross-domain Sequential Recommendation. ([Paper](http://arxiv.org/pdf/2610.30825v1))
 
 + **\[2026 Arxiv-2610\]** PerSPL: Personalized Semi-supervised Preference Learning. ([Paper](http://arxiv.org/pdf/2610.29219))
 

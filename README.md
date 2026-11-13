@@ -246,6 +246,7 @@ Personalization must be a paper's main task or technical contribution.
 
 ### 3. Memory / Retrieval-based Methods
 
++ **\[2026 Arxiv-2611\]** Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction. ([Paper](https://arxiv.org/pdf/2611.10439))
 + **\[2026 Arxiv-2611\]** EvoMemState: Evolving Memory State for Personal Agents. ([Paper](http://arxiv.org/pdf/2611.03743v1))
 + **\[2026 Arxiv-2611\]** Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants. ([Paper](http://arxiv.org/pdf/2611.02612))
 + **\[2026 Arxiv-2611\]** Pulse: Long-Horizon Tasks Need Streaming Personalization. ([Paper](http://arxiv.org/pdf/2611.00988v1))

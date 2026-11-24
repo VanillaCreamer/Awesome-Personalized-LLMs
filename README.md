@@ -9,37 +9,40 @@ Personalization must be a paper's main task or technical contribution.
 
 [Weekly highlights](#weekly-highlights) · [All papers](#papers) · [Contributing](#contributing)
 
-**363 papers across 5 research areas.**
+**371 papers across 5 research areas.**
 
 | Research area | What you will find | Papers |
 | :--- | :--- | ---: |
 | [Surveys & overviews](#1-survey--tutorial--framework) | Start here: surveys, tutorials, and frameworks. | 17 |
-| [Benchmarks & datasets](#2-benchmark--dataset--evaluation) | Evaluate personalized capabilities and find datasets. | 96 |
-| [Memory & retrieval](#3-memory--retrieval-based-methods) | Build, update, and retrieve user-specific context. | 94 |
+| [Benchmarks & datasets](#2-benchmark--dataset--evaluation) | Evaluate personalized capabilities and find datasets. | 100 |
+| [Memory & retrieval](#3-memory--retrieval-based-methods) | Build, update, and retrieve user-specific context. | 96 |
 | [Prompting & inference](#4-prompt--vector--decoding-time-methods) | Steer behavior with prompts, vectors, and decoding. | 59 |
-| [Training & alignment](#5-sft--rl--preference-optimization-methods) | Adapt models with SFT, RL, and preference optimization. | 97 |
+| [Training & alignment](#5-sft--rl--preference-optimization-methods) | Adapt models with SFT, RL, and preference optimization. | 99 |
 <!-- paper-navigation:end -->
 
 ## Weekly highlights
 
 <!-- weekly-trend:start -->
-**Week of 2026-11-09** · Based on this week's screened papers, not a popularity ranking.
+**Week of 2026-11-24** · Based on this week's screened papers, not a popularity ranking.
 
+- 评测是最集中的主题，重点在于核验真实个体差异。
+- 记忆研究同时关注信息时效与系统成本，但个性化证据强弱不同。
+- 训练方法开始更细致地区分画像、动态状态与公共偏置。
 
 <details>
 <summary>Read the full analysis / 展开完整趋势分析</summary>
 
-> **📌 本周趋势 · 2026-11-09**
+> **📌 本周趋势 · 2026-11-24**
 >
-> 以下分析仅反映本轮新审阅的筛选语料，不代表全球引用、下载或热度，也不作周环比判断。本轮审阅 32 篇：接受 9 篇、候选 1 篇、拒绝 22 篇；趋势证据限于前两类共 10 篇，拒绝项仅计入筛选数量。此统计与上方 17 篇新增清单采用不同范围。
+> 本次共审阅 55 篇，接受 7 篇、候选 2 篇、拒绝 46 篇。以下观察仅基于本周筛选语料中的 9 篇接受与候选论文，不代表全球引用、下载或热度排名；拒绝论文仅计入筛选数量。没有前期对照数据，因此不判断环比增长。
 >
-> - **记忆方法最集中，重点涉及动态状态、执行干预与效率。** 10 篇相关论文中，记忆方向占 4 篇，其中 3 篇接受、1 篇候选。EvoMemState 维护事实之间的关系和请求相关状态，Pulse 将记忆使用延伸至任务执行过程，Scalaris 关注检索准确率与上下文成本。三者呈现互补设计：维护什么、何时使用、以多大成本提供。候选 Trail 主要研究本地智能家居类型化决策，个性化是否属于核心贡献仍待确认。
+> 1. **评测是最集中的主题，重点在于核验真实个体差异。** 9 篇相关论文中有 4 篇属于评测类，且全部新增收录。年龄情感研究展示了平均预测准确却无法还原年龄效应的落差；UXBench Pro 用元评测检验用户模拟器和奖励模型；Personal Imitation Game 将对象细化到特定个人；MedGuardBench 则要求安全结论随患者事实正确变化。共同方向是用人类对照与个体信息干预检验个性化的真实性。
 >
-> - **推理时控制形成集中信号，但可控人格不等于可验证的用户收益。** 提示、向量与解码方向占 3/10。UPSHIFT 从个体反馈中提取偏好方向，SYNC 动态决定多个人格向量的注入层；Does Personality Persuade? 则提供用户实验中的边界证据：人格匹配未显著改善说服相关结果。阅读时应分别判断表示控制、偏好对齐与真实交互效果，避免将三类指标等同。
+> 2. **记忆研究同时关注信息时效与系统成本，但个性化证据强弱不同。** 记忆类共 3 篇，其中仅 Some Memories Must Fade 已收录，其重点是用户事实的生命周期及过期弃答。候选 MemFolder 探索结构引导的记忆压缩，候选 RAG in a Trenchcoat 则在所测基准上检验复杂记忆组件是否值得其成本。这两篇提供效率方向的观察信号，但尚未明确证明特定用户记忆是核心贡献，不能与已收录工作等量看待。
 >
-> - **偏好学习同时关注个体差异和时间变化。** 训练与偏好优化方向占 2/10。TIGER 用匹配与非匹配策略比较检验研究品味的个体性，PEARL 用选择性遗忘应对部分偏好漂移。两篇分别提示评估中的关键问题：收益是否来自对应用户的反馈，以及用户变化后能否适应，同时保留仍有效的偏好。
+> 3. **训练方法开始更细致地区分画像、动态状态与公共偏置。** 2 篇训练类论文分别给出不同切入点：PsyWorld 用状态转移监督补充静态心理画像；What Gets Hacked 将奖励中跨用户共享的物品均值与用户残差分离。前者关注画像如何与当前情境共同预测行为，后者说明带有个性化来源的奖励仍可能驱动曝光坍缩。两者都提示，应检查模型实际利用了哪些个体相关信号。
 >
-> - **持续代理框架将人工监督负担带入评价视野。** 框架类占 1/10，代表是 Avatar Intelligence。其 AOI 将价值、运行成本与监督负担联系起来，与 Pulse 的干预时机、Scalaris 的上下文效率构成值得联读的方向，但尚不能视为统一评价方案已被验证。**下周重点关注：** 是否出现同时测量长期偏好保持、偏好漂移适应和人工纠正次数的纵向实验，以检验局部指标提升能否转化为更少监督下的可靠个性化。
+> **下周关注项：** 留意记忆工作是否同时报告用户状态变化后的更新、过期信息弃答，以及相对简单 RAG 的成本收益；尤其关注两篇候选能否提供明确的特定用户任务与对照实验，以判断其对个性化阅读清单的直接价值。
 
 </details>
 <!-- weekly-trend:end -->
@@ -87,6 +90,11 @@ Personalization must be a paper's main task or technical contribution.
 [Back to contents](#contents)
 
 ### 2. Benchmark / Dataset / Evaluation
+
++ **\[2026 Arxiv-2611\]** Characterizing Age-Conditioned Affective Reasoning in Vision-Language Models. ([Paper](http://arxiv.org/pdf/2611.25593))
++ **\[2026 Arxiv-2611\]** Who are you? The Personal Imitation Game. ([Paper](http://arxiv.org/pdf/2611.24888))
++ **\[2026 Arxiv-2611\]** MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development. ([Paper](http://arxiv.org/pdf/2611.22069))
++ **\[2026 Arxiv-2610\]** UXBench Pro: Benchmarking Personalized User Experience in Multi-Turn Dialogue Interactions. ([Paper](http://arxiv.org/pdf/2610.11638))
 
 + **\[2026 Arxiv-2610\]** P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior. ([Paper](http://arxiv.org/pdf/2610.40959v1))
 
@@ -245,6 +253,8 @@ Personalization must be a paper's main task or technical contribution.
 [Back to contents](#contents)
 
 ### 3. Memory / Retrieval-based Methods
+
++ **\[2026 Arxiv-2611\]** Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters. ([Paper](http://arxiv.org/pdf/2611.25235))
 
 + **\[2026 Arxiv-2611\]** Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction. ([Paper](https://arxiv.org/pdf/2611.10439))
 + **\[2026 Arxiv-2611\]** EvoMemState: Evolving Memory State for Personal Agents. ([Paper](http://arxiv.org/pdf/2611.03743v1))
@@ -494,6 +504,9 @@ Personalization must be a paper's main task or technical contribution.
 [Back to contents](#contents)
 
 ### 5. SFT / RL / Preference Optimization Methods
+
++ **\[2026 Arxiv-2611\]** PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction. ([Paper](http://arxiv.org/pdf/2611.24999))
++ **\[2026 Arxiv-2611\]** What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User. ([Paper](http://arxiv.org/pdf/2611.07588))
 
 + **\[2026 Arxiv-2611\]** PEARL: Prediction Error-Adaptive Regularized Learning for Selective Forgetting under Partial Preference Drift. ([Paper](http://arxiv.org/pdf/2611.05842v1))
 + **\[2026 Arxiv-2611\]** TIGER: Learning from Researcher Taste to Generate Tailored Research Ideas. ([Paper](http://arxiv.org/pdf/2611.02234))
